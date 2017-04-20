@@ -1,0 +1,905 @@
+﻿Log file open, 04/01/17 23:26:12
+LogInit:Display: Running engine for game: LastBullet
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1631212480) SRandInit(1631212494).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.235820
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/EpicGames/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.01-21.26.14:329][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.01-21.26.14:329][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.01-21.26.14:418][  0]LogInit: Computer: DESKTOP-1OLBMPA
+[2017.04.01-21.26.14:418][  0]LogInit: User: julio
+[2017.04.01-21.26.14:418][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.01-21.26.14:418][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2017.04.01-21.26.14:418][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.04.01-21.26.14:418][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.01-21.26.14:418][  0]LogMemory: Process Physical Memory: 262.81 MB used, 262.81 MB peak
+[2017.04.01-21.26.14:418][  0]LogMemory: Process Virtual Memory: 262.83 MB used, 262.83 MB peak
+[2017.04.01-21.26.14:418][  0]LogMemory: Physical Memory: 5653.55 MB used,  2495.19 MB free, 8148.73 MB total
+[2017.04.01-21.26.14:418][  0]LogMemory: Virtual Memory: 645.23 MB used,  2495.19 MB free, 134217728.00 MB total
+[2017.04.01-21.26.14:721][  0]LogInit: Overriding culture en with editor configuration.
+[2017.04.01-21.26.20:131][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.01-21.26.20:152][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.04.01-21.26.20:152][  0]LogD3D11RHI:       3053/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.04.01-21.26.20:154][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.01-21.26.20:154][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.01-21.26.20:154][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.01-21.26.20:163][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.01-21.26.20:163][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.01-21.26.20:163][  0]LogWindows: EnumDisplayDevices:
+[2017.04.01-21.26.20:164][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.04.01-21.26.20:164][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.04.01-21.26.20:164][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-21.26.20:165][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-21.26.20:165][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-21.26.20:165][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-21.26.20:166][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.04.01-21.26.20:166][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.04.01-21.26.20:166][  0]LogD3D11RHI:   Driver Version: Crimson 16.6 (internal:21.19.137.514, unified:21.19.137.514)
+[2017.04.01-21.26.20:166][  0]LogD3D11RHI:      Driver Date: 11-21-2016
+[2017.04.01-21.26.20:166][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.01-21.26.20:233][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.01-21.26.20:248][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.04.01-21.26.20:250][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../Projects/LastBullet/Intermediate/Shaders/WorkingDirectory/3268/).
+[2017.04.01-21.26.20:253][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/julio/AppData/Local/Temp/UnrealShaderWorkingDir/D00A1D364B1021BCBAB7E3BE5F28ACE9/'.
+[2017.04.01-21.26.20:253][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.01-21.26.23:499][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.01-21.26.23:583][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.01-21.26.23:659][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.01-21.26.23:749][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.01-21.26.23:872][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.01-21.26.23:986][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.01-21.26.24:108][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.01-21.26.24:197][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.01-21.26.24:275][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.01-21.26.24:354][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.01-21.26.24:439][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.01-21.26.24:507][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.01-21.26.24:592][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.01-21.26.24:674][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.01-21.26.24:757][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.01-21.26.24:932][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.01-21.26.24:932][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.01-21.26.24:980][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.01-21.26.25:181][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.01-21.26.25:245][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.01-21.26.25:322][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.01-21.26.25:405][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.01-21.26.25:472][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.01-21.26.25:558][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.01-21.26.25:558][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.01-21.26.26:548][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.01-21.26.26:911][  0]LogDerivedDataCache: Loaded boot cache 0.36s 50MB C:/Users/julio/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.01-21.26.26:911][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/julio/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.01-21.26.26:911][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/LastBullet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.01-21.26.26:911][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.01-21.26.26:911][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/LastBullet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.01-21.26.26:911][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.01-21.26.26:953][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.01-21.26.26:967][  0]LogDerivedDataCache: Using Local data cache path C:/Users/julio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.01-21.26.26:981][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.01-21.26.26:982][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.01-21.26.26:982][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.01-21.26.31:950][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.01-21.26.31:954][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.01-21.26.32:245][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.01-21.26.32:327][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.01-21.26.32:400][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.01-21.26.32:400][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.01-21.26.32:400][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.01-21.26.33:368][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lastbullet, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1522868599
+[2017.04.01-21.26.33:463][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.04.01-21.26.33:736][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.248295 seconds
+[2017.04.01-21.26.33:742][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.01-21.26.33:742][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.01-21.26.33:742][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.01-21.26.33:876][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.01-21.27.18:124][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.01-21.27.18:181][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.01-21.27.18:941][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.01-21.27.19:554][  0]SourceControl: Info Source control is disabled
+[2017.04.01-21.27.19:557][  0]SourceControl: Info Source control is disabled
+[2017.04.01-21.27.19:656][  0]SourceControl: Info Source control is disabled
+[2017.04.01-21.27.19:750][  0]SourceControl: Info Source control is disabled
+[2017.04.01-21.27.20:340][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.04.01-21.27.20:340][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.04.01-21.27.20:340][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2017.04.01-21.27.22:382][  0]LogEngine: Initializing Engine...
+[2017.04.01-21.27.22:383][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.01-21.27.23:779][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.01-21.27.24:021][  0]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.01-21.27.24:038][  0]LogInit: FAudioDevice initialized.
+[2017.04.01-21.27.24:082][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/julio/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.01-21.27.24:134][  0]LogInit: Texture streaming: Enabled
+[2017.04.01-21.27.24:420][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.01-21.27.24:433][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={4DB3E696-4715-DCC8-F4FA-E6B324E64054}
+[2017.04.01-21.27.24:808][  0]LogInit: Transaction tracking system initialized
+[2017.04.01-21.27.25:675][  0]BlueprintLog: New page: Editor Load
+[2017.04.01-21.27.28:415][  0]LocalizationService: Info Localization service is disabled
+[2017.04.01-21.27.30:375][  0]LogConsoleResponse:Display: 
+[2017.04.01-21.27.34:581][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.01-21.27.34:622][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.01-21.27.35:815][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Projects/LastBullet/Content/' took 1.20s
+[2017.04.01-21.27.39:401][  0]SourceControl: Info Source control is disabled
+[2017.04.01-21.27.39:454][  0]Cmd: MAP LOAD FILE="../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.01-21.27.39:528][  0]LightingResults: New page: Lighting Build
+[2017.04.01-21.27.39:854][  0]MapCheck: New page: Map Check
+[2017.04.01-21.27.39:854][  0]LightingResults: New page: Lighting Build
+[2017.04.01-21.27.40:438][  0]LogLinker:Warning: Asset '../../../../Projects/LastBullet/Content/Blueprints/modul_transporttransport_16_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.01-21.27.41:198][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_0.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.01-21.27.41:609][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_1.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.01-21.27.41:716][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_2.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.01-21.27.44:663][  0]LogLinker:Warning: Asset '../../../../Projects/LastBullet/Content/Meshes/Space/StarMap_Nebula_1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.01-21.27.44:685][  0]LogLinker:Warning: Asset '../../../../Projects/LastBullet/Content/Meshes/Space/StarMap_Nebula_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.01-21.27.44:831][  0]LogLinker:Warning: Asset '../../../../Projects/LastBullet/Content/Meshes/Space/FX_Map_7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.01-21.27.44:860][  0]LogLinker:Warning: Asset '../../../../Projects/LastBullet/Content/Meshes/Space/StarMap_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.01-21.27.54:047][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:UserConstructionScript.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.01-21.27.54:643][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.01-21.27.55:497][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.01-21.27.55:607][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.01-21.27.55:697][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.604ms to complete.
+[2017.04.01-21.27.55:697][  0]LogFileHelpers: Loading map 'Minimal_Default' took 16.268
+[2017.04.01-21.28.01:568][  0]LogCollectionManager: Loaded 0 collections in 0.024606 seconds
+[2017.04.01-21.28.02:017][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Projects/LastBullet/Saved/Collections/' took 0.01s
+[2017.04.01-21.28.02:017][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Projects/LastBullet/Content/Developers/julio/Collections/' took 0.01s
+[2017.04.01-21.28.02:017][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/Projects/LastBullet/Content/Collections/' took 0.01s
+[2017.04.01-21.28.02:017][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.04.01-21.28.02:035][  0]LogContentBrowser: Native class hierarchy populated in 0.0155 seconds. Added 2245 classes and 453 folders.
+[2017.04.01-21.28.02:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.01-21.28.02:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.016 s
+[2017.04.01-21.28.02:587][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.04.01-21.28.05:872][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.04.01-21.28.06:265][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.01-21.28.10:063][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.01-21.28.11:326][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.01-21.28.11:885][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.01-21.28.11:885][  0]LogLoad: (Engine Initialization) Total time: 125.95 seconds
+[2017.04.01-21.28.11:885][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.69 seconds
+[2017.04.01-21.28.11:885][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.01-21.28.11:885][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.01-21.28.12:413][  0]LogOcInput: OculusInput pre-init called
+[2017.04.01-21.28.13:720][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.01-21.28.14:247][  0]LogSlate: Took 0.018677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.01-21.28.14:279][  0]LogSlate: Took 0.010692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.01-21.28.14:321][  0]LogSlate: Took 0.010979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.01-21.28.16:931][  0]LogRenderer: Reallocating scene render targets to support 1264x632 NumSamples 1 (Frame:2).
+[2017.04.01-21.28.19:096][  1]LogSlate: Took 0.048291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.01-21.28.19:767][  2]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.01-21.28.19:979][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000020 seconds (found 0 objects)
+[2017.04.01-21.28.20:283][  4]LogAssetRegistry: Asset discovery search completed in 106.8411 seconds
+[2017.04.01-21.28.20:283][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2017.04.01-21.28.27:817][453]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.01-21.30.31:635][422]Cmd: TRANSACTION UNDO
+[2017.04.01-21.30.31:635][422]LogEditorTransaction: Undo Delete Keys
+[2017.04.01-21.30.38:660][803]LogSlate: Took 0.030527 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.01-21.31.11:507][970]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.04.01-21.31.11:747][970]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.31.40:119][523]LogSlate: Took 0.011552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.01-21.32.50:379][548]Cmd: TRANSACTION UNDO
+[2017.04.01-21.32.50:379][548]LogEditorTransaction: Undo Add Keys at Current Time
+[2017.04.01-21.32.53:282][730]Cmd: TRANSACTION REDO
+[2017.04.01-21.32.53:282][730]LogEditorTransaction: Redo Add Keys at Current Time
+[2017.04.01-21.33.16:893][312]Cmd: TRANSACTION UNDO
+[2017.04.01-21.33.16:893][312]LogEditorTransaction: Undo Set Interpolation and Tangent Mode
+[2017.04.01-21.33.18:072][372]Cmd: TRANSACTION UNDO
+[2017.04.01-21.33.18:072][372]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.33.18:934][417]Cmd: TRANSACTION UNDO
+[2017.04.01-21.33.18:934][417]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.33.19:704][457]Cmd: TRANSACTION UNDO
+[2017.04.01-21.33.19:704][457]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.33.20:911][527]Cmd: TRANSACTION UNDO
+[2017.04.01-21.33.20:911][527]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.33.22:123][598]Cmd: TRANSACTION UNDO
+[2017.04.01-21.33.22:123][598]LogEditorTransaction: Undo Set Interpolation and Tangent Mode
+[2017.04.01-21.33.23:034][643]Cmd: TRANSACTION UNDO
+[2017.04.01-21.33.23:035][643]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.33.23:580][667]Cmd: TRANSACTION UNDO
+[2017.04.01-21.33.23:580][667]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.35.54:054][908]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.04.01-21.35.54:515][930]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.35.55:736][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_mid_31)
+[2017.04.01-21.35.56:687][ 51]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.01-21.36.26:806][869]Cmd: TRANSACTION UNDO
+[2017.04.01-21.36.26:806][869]LogEditorTransaction: Undo Add Keys at Current Time
+[2017.04.01-21.36.55:498][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_TanqueGas_3)
+[2017.04.01-21.36.55:893][568]Cmd: TRANSACTION UNDO
+[2017.04.01-21.36.55:893][568]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.01-21.36.56:160][571]Cmd: TRANSACTION UNDO
+[2017.04.01-21.36.56:160][571]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.01-21.36.56:642][585]Cmd: TRANSACTION UNDO
+[2017.04.01-21.36.56:642][585]LogEditorTransaction: Undo Set actor location
+[2017.04.01-21.37.21:724][575]Cmd: TRANSACTION UNDO
+[2017.04.01-21.37.21:724][575]LogEditorTransaction: Undo Set Float Key Value
+[2017.04.01-21.37.24:055][679]Cmd: TRANSACTION UNDO
+[2017.04.01-21.37.24:055][679]LogEditorTransaction: Undo Set Float Key Value
+[2017.04.01-21.39.30:210][855]Cmd: TRANSACTION UNDO
+[2017.04.01-21.39.30:210][855]LogEditorTransaction: Undo Set Float Key Value
+[2017.04.01-21.40.33:206][956]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.33:206][956]LogEditorTransaction: Undo Add Keys at Current Time
+[2017.04.01-21.40.33:840][976]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.33:840][976]LogEditorTransaction: Undo Set Float Key Value
+[2017.04.01-21.40.34:350][995]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.34:350][995]LogEditorTransaction: Undo Delete Keys
+[2017.04.01-21.40.35:008][ 22]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.35:008][ 22]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.35:455][ 38]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.35:455][ 38]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.35:943][ 56]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.35:943][ 56]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.36:348][ 70]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.36:348][ 70]LogEditorTransaction: Undo Delete Keys
+[2017.04.01-21.40.36:653][ 80]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.36:653][ 80]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.36:913][ 82]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.36:913][ 82]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.37:216][ 90]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.37:216][ 90]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.37:508][ 97]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.37:508][ 97]LogEditorTransaction: Undo Delete Keys
+[2017.04.01-21.40.37:801][104]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.37:801][104]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.38:089][111]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.38:089][111]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.38:327][117]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.38:328][117]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.40.38:544][119]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.38:544][119]LogEditorTransaction: Undo Set Float Key Value
+[2017.04.01-21.40.39:329][155]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.39:329][155]LogEditorTransaction: Undo Delete Keys
+[2017.04.01-21.40.39:747][169]Cmd: TRANSACTION UNDO
+[2017.04.01-21.40.39:748][169]LogEditorTransaction: Undo Select Actors/Components
+[2017.04.01-21.41.47:127][551]Cmd: TRANSACTION UNDO
+[2017.04.01-21.41.47:127][551]LogEditorTransaction: Undo Create Camera Here
+[2017.04.01-21.41.50:006][606]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 11 classes and 0 folders.
+[2017.04.01-21.41.50:009][606]LogLinker: Can't find file '/Engine/Transient'
+[2017.04.01-21.42.16:180][727]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.01-21.42.16:636][727]LogSavePackage: Save=1377.63ms
+[2017.04.01-21.42.16:636][727]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_Auto1A08EC0374338B24723B4D6B13CB560B2.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.04.01-21.42.16:705][727]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.04.01-21.42.16:860][727]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 3.498
+[2017.04.01-21.42.16:860][727]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.498
+[2017.04.01-21.42.16:862][727]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Maps/MatineeActorLevelSequence] ([1] browsable assets)...
+[2017.04.01-21.42.16:862][727]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/MatineeActorLevelSequence]
+[2017.04.01-21.42.16:907][727]LogSavePackage: Save=36.96ms
+[2017.04.01-21.42.16:907][727]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/MatineeActorLevelSequence_Auto1A3424EF443B82D6DB95B3D8AFB84DE61.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/MatineeActorLevelSequence_Auto1.uasset'
+[2017.04.01-21.42.16:909][727]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/MatineeActorLevelSequence_Auto1.uasset
+[2017.04.01-21.42.16:909][727]LogFileHelpers: Auto-saving content packages took 0.049
+[2017.04.01-21.42.27:362][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/MatineeActorLevelSequence" FILE="../../../../Projects/LastBullet/Content/StarterContent/Maps/MatineeActorLevelSequence.uasset" SILENT=true
+[2017.04.01-21.42.27:390][ 24]LogSavePackage: Save=20.72ms
+[2017.04.01-21.42.27:390][ 24]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/MatineeActorLevelSequence1169D131496E3428CDE320A6E49D1176.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/MatineeActorLevelSequence.uasset'
+[2017.04.01-21.42.27:486][ 24]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/MatineeActorLevelSequence.uasset
+[2017.04.01-21.42.27:919][ 24]LogSavePackage: Save=322.92ms
+[2017.04.01-21.42.27:919][ 24]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default1E64DABE4D868F2746F03A90D4BDF3E4.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.04.01-21.42.27:923][ 24]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.04.01-21.42.27:947][ 24]LogFileHelpers: Saving map 'Minimal_Default' took 0.455
+[2017.04.01-21.42.28:106][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.01-21.42.28:127][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.01-21.42.28:453][ 24]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 1:42:28 AM)
+[2017.04.01-21.42.28:557][ 24]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.04.01-21.42.28:948][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.391363s)
+[2017.04.01-21.42.28:950][ 24]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.01-21.42.28:950][ 24]LogPlayLevel: PIE: World Init took: (0.001386s)
+[2017.04.01-21.42.28:973][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.426090s)
+[2017.04.01-21.42.29:122][ 24]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.01-21.42.29:132][ 24]LogInit: FAudioDevice initialized.
+[2017.04.01-21.42.29:828][ 24]LogLoad: Game class is 'GameModeBase'
+[2017.04.01-21.42.30:165][ 24]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.01-23.42.30
+[2017.04.01-21.42.30:354][ 24]LogWorld: Bringing up level for play took: 0.196689
+[2017.04.01-21.42.30:498][ 24]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.01-21.42.31:067][ 24]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 3.809
+[2017.04.01-21.42.31:076][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.01-21.42.31:226][ 24]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2017.04.01-21.42.31:387][ 25]LogRenderer: Reallocating scene render targets to support 1264x632 NumSamples 1 (Frame:58295).
+[2017.04.01-21.42.31:633][ 25]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:58297).
+[2017.04.01-21.42.31:978][ 26]LogContentStreaming: Texture pool size now 827 MB
+[2017.04.01-21.43.19:797][628]LogContentStreaming: Texture pool size now 817 MB
+[2017.04.01-21.44.25:146][442]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2017.04.01-21.44.25:321][442]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '1000'
+[2017.04.01-21.44.25:321][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.01-21.44.25:410][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.01-21.44.25:695][444]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:59715).
+[2017.04.01-21.44.25:893][447]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.01-21.45.08:253][615]Cmd: SELECT NONE
+[2017.04.01-21.45.08:396][615]Cmd: SELECT NONE
+[2017.04.01-21.54.26:730][850]LogSavePackage: Save=353.83ms
+[2017.04.01-21.54.26:731][850]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_Auto285C696D042B24139CE482E8ADC951A9C.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.04.01-21.54.26:759][850]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.04.01-21.54.26:764][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.472
+[2017.04.01-21.54.26:764][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.472
+[2017.04.02-00.37.34:367][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_3)
+[2017.04.02-00.37.40:731][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_15)
+[2017.04.02-00.37.43:256][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_23)
+[2017.04.02-00.39.25:779][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Luz2)
+[2017.04.02-00.39.42:490][  6]Cmd: TRANSACTION UNDO
+[2017.04.02-00.39.42:490][  6]LogEditorTransaction: Undo Move Actors
+[2017.04.02-00.39.44:532][111]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight6)
+[2017.04.02-00.39.45:626][174]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight2)
+[2017.04.02-00.40.44:710][933]LogSavePackage: Save=352.55ms
+[2017.04.02-00.40.44:710][933]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_Auto367B5A6724DBFCD79B84F5997DB6327F7.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.04.02-00.40.44:733][933]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.04.02-00.40.44:738][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.902
+[2017.04.02-00.40.44:738][933]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.902
+[2017.04.02-00.40.44:740][933]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Maps/MatineeActorLevelSequence] ([1] browsable assets)...
+[2017.04.02-00.40.44:740][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/MatineeActorLevelSequence]
+[2017.04.02-00.40.44:819][933]LogSavePackage: Save=28.03ms
+[2017.04.02-00.40.44:819][933]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/MatineeActorLevelSequence_Auto36642DD3A4D258285551860867B691C4B.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/MatineeActorLevelSequence_Auto3.uasset'
+[2017.04.02-00.40.44:821][933]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/MatineeActorLevelSequence_Auto3.uasset
+[2017.04.02-00.40.44:821][933]LogFileHelpers: Auto-saving content packages took 0.082
+[2017.04.02-00.43.05:266][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/MatineeActorLevelSequence" FILE="../../../../Projects/LastBullet/Content/StarterContent/Maps/MatineeActorLevelSequence.uasset" SILENT=true
+[2017.04.02-00.43.05:316][122]LogSavePackage: Save=27.36ms
+[2017.04.02-00.43.05:316][122]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/MatineeActorLevelSequence72D962BA479CC37976D122842BB4F058.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/MatineeActorLevelSequence.uasset'
+[2017.04.02-00.43.05:319][122]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/MatineeActorLevelSequence.uasset
+[2017.04.02-00.43.05:957][122]LogSavePackage: Save=291.10ms
+[2017.04.02-00.43.05:957][122]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_DefaultDA4BDDEE443EF7B710409A8F98720624.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.04.02-00.43.05:960][122]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.04.02-00.43.05:988][122]LogFileHelpers: Saving map 'Minimal_Default' took 0.666
+[2017.04.02-00.43.06:014][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.43.06:014][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.02-00.43.06:014][122]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:43:06 AM)
+[2017.04.02-00.43.06:014][122]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.04.02-00.43.06:055][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039863s)
+[2017.04.02-00.43.06:056][122]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.02-00.43.06:056][122]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2017.04.02-00.43.06:057][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.042132s)
+[2017.04.02-00.43.06:088][122]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.02-00.43.06:100][122]LogInit: FAudioDevice initialized.
+[2017.04.02-00.43.06:241][122]LogLoad: Game class is 'GameModeBase'
+[2017.04.02-00.43.06:255][122]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-02.43.06
+[2017.04.02-00.43.06:256][122]LogWorld: Bringing up level for play took: 0.012230
+[2017.04.02-00.43.06:256][122]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.02-00.43.06:269][122]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.011
+[2017.04.02-00.43.06:285][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.43.06:286][122]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2017.04.02-00.43.06:321][123]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:87799).
+[2017.04.02-00.43.06:659][127]LogContentStreaming: Texture pool size now 752 MB
+[2017.04.02-00.43.48:376][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.43.48:377][700]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '1000'
+[2017.04.02-00.43.48:718][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.43.48:770][701]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.02-00.43.48:799][703]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:88344).
+[2017.04.02-00.43.50:845][816]LogEditorViewport: Clicking on Actor (LMB): Emitter (Part_Spark2)
+[2017.04.02-00.44.47:262][755]LogSavePackage: Save=294.65ms
+[2017.04.02-00.44.47:262][755]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default9AFF30C7460F96CEBF395496F739EE05.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.04.02-00.44.47:266][755]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.04.02-00.44.47:289][755]LogFileHelpers: Saving map 'Minimal_Default' took 0.440
+[2017.04.02-00.44.47:312][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.44.47:312][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.02-00.44.47:313][755]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:44:47 AM)
+[2017.04.02-00.44.47:313][755]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.04.02-00.44.47:336][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023091s)
+[2017.04.02-00.44.47:337][755]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.02-00.44.47:337][755]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2017.04.02-00.44.47:337][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.024587s)
+[2017.04.02-00.44.47:492][755]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.02-00.44.47:502][755]LogInit: FAudioDevice initialized.
+[2017.04.02-00.44.47:700][755]LogLoad: Game class is 'GameModeBase'
+[2017.04.02-00.44.47:710][755]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-02.44.47
+[2017.04.02-00.44.47:710][755]LogWorld: Bringing up level for play took: 0.006838
+[2017.04.02-00.44.47:711][755]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.02-00.44.47:721][755]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.463
+[2017.04.02-00.44.47:721][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.44.47:722][755]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2017.04.02-00.44.47:759][756]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:90498).
+[2017.04.02-00.44.47:886][759]LogContentStreaming: Texture pool size now 745 MB
+[2017.04.02-00.45.31:660][361]LogContentStreaming: Texture pool size now 665 MB
+[2017.04.02-00.46.08:428][804]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2017.04.02-00.46.08:609][804]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '1000'
+[2017.04.02-00.46.08:610][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.46.08:654][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.46.08:751][806]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:91510).
+[2017.04.02-00.46.08:871][809]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.02-00.54.18:927][557]MapCheck: New page: Map Check
+[2017.04.02-00.54.19:208][557]LightingResults: New page: Lighting Build - Apr 2, 2017, 4:54:19 AM
+[2017.04.02-00.54.19:867][557]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.02-00.54.20:011][557]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.02-00.54.20:081][557]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.02-00.54.21:131][557]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.02-00.54.21:131][557]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3268
+[2017.04.02-00.54.24:315][557]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.02-00.54.24:315][557]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.02-00.54.24:315][557]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.02-00.54.24:315][557]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.02-00.54.24:315][557]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.02-00.54.24:646][557]LogEditorBuildUtils: Build time 0:05
+[2017.04.02-00.55.10:535][489]LightingResults:Warning: Warning Camera1 Object has overlapping UVs.
+[2017.04.02-00.55.10:535][489]LightingResults: Info Camera1 Lightmap UV are overlapping by 48.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.02-00.55.11:378][526]LightingResults:Warning: Warning ventilation Object has overlapping UVs.
+[2017.04.02-00.55.11:378][526]LightingResults: Info ventilation Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.02-00.56.06:812][937]LightingResults:Warning: Warning planet Object has wrapping UVs.
+[2017.04.02-00.56.06:812][937]LightingResults:Warning: Warning planet Object has overlapping UVs.
+[2017.04.02-00.56.06:812][937]LightingResults: Info planet Lightmap UV are overlapping by 66.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.02-00.56.07:280][958]LightingResults:Warning: Warning planet Object has wrapping UVs.
+[2017.04.02-00.56.07:280][958]LightingResults:Warning: Warning planet Object has overlapping UVs.
+[2017.04.02-00.56.07:280][958]LightingResults: Info planet Lightmap UV are overlapping by 66.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.02-00.56.07:750][978]LightingResults:Warning: Warning planet Object has wrapping UVs.
+[2017.04.02-00.56.07:750][978]LightingResults:Warning: Warning planet Object has overlapping UVs.
+[2017.04.02-00.56.07:750][978]LightingResults: Info planet Lightmap UV are overlapping by 66.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.02-00.56.09:414][ 48]Job is a success!
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 512X256) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 512X512) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 512X512) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 64X32) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64) - 393 MB total VRAM
+[2017.04.02-00.56.11:281][ 49]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64) - 393 MB total VRAM
+[2017.04.02-00.56.11:352][ 49]Lightmass on DESKTOP-1OLBMPA: 1:45 min total, 407 ms importing, 116 ms setup, 2.31 sec photons, 1:42 min processing, 0 ms extra exporting [147/147 mappings]. Threads: 12:00 min total, 9:58 min processing.
+[2017.04.02-00.56.11:444][ 49]LogStaticLightingSystem: Illumination: 1:52 min (1.52 sec encoding lightmaps, 16 ms encoding shadowmaps)
+[2017.04.02-00.56.11:444][ 49]LogStaticLightingSystem: Lightmap texture memory:  3.5 MB (3.5 MB streaming, 0.0 MB non-streaming), 8 textures
+[2017.04.02-00.56.11:444][ 49]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.04.02-00.56.12:327][ 49]DumpUnbuiltLightIteractions
+[2017.04.02-00.56.12:327][ 49]Lights with unbuilt interactions: 0
+[2017.04.02-00.56.12:327][ 49]
+[2017.04.02-00.56.12:327][ 49]Primitives with unbuilt interactions: 0
+[2017.04.02-00.56.12:394][ 50]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.02-00.56.12:395][ 50]MapCheck: New page: Minimal_Default - Apr 2, 2017, 4:56:12 AM
+[2017.04.02-00.56.12:518][ 50]MapCheck:Warning: Warning cajasJuliyo_407 Static mesh actor has NULL StaticMesh property 
+[2017.04.02-00.56.12:518][ 50]MapCheck:Warning: Warning cajasJuliyo_407 Static mesh actor has NULL StaticMesh property 
+[2017.04.02-00.56.12:541][ 50]MapCheck:Warning: Warning SkyDomeFullSphere_399 Collision enabled but StaticMesh (SkyDomeFullSphere) has no simple or complex collision. 
+[2017.04.02-00.56.12:627][ 50]MapCheck: Info Map check complete: 0 Error(s), 3 Warning(s), took 231.85ms to complete.
+[2017.04.02-00.56.20:601][449]LogSavePackage: Save=485.79ms
+[2017.04.02-00.56.20:601][449]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_Auto431CEC8BC4681E8BA734D118FF9BF0993.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2017.04.02-00.56.20:604][449]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2017.04.02-00.56.20:608][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.523
+[2017.04.02-00.56.20:609][449]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.523
+[2017.04.02-00.56.20:611][449]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Maps/Minimal_Default_BuiltData] ([1] browsable assets)...
+[2017.04.02-00.56.20:611][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/Minimal_Default_BuiltData]
+[2017.04.02-00.56.20:732][449]LogSavePackage: Save=21.99ms
+[2017.04.02-00.56.20:732][449]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_BuiltData_Auto443C7034E419F8785ED0B5DA27FC538B5.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_BuiltData_Auto4.uasset'
+[2017.04.02-00.56.20:775][449]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_BuiltData_Auto4.uasset
+[2017.04.02-00.56.20:775][449]LogFileHelpers: Auto-saving content packages took 0.165
+[2017.04.02-00.58.13:511][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_Pipe_3)
+[2017.04.02-00.58.16:679][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_33)
+[2017.04.02-00.58.18:206][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_roof_luck)
+[2017.04.02-00.58.23:044][893]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Part_Spark)
+[2017.04.02-00.58.25:027][  6]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Part_Spark3)
+[2017.04.02-00.58.27:443][146]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Part_Spark2)
+[2017.04.02-00.58.29:515][269]Cmd: DELETE
+[2017.04.02-00.58.29:515][269]Cmd: ACTOR DELETE
+[2017.04.02-00.58.29:554][269]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.02-00.58.29:554][269]LogEditorActor: Deleted Actor: Emitter
+[2017.04.02-00.58.29:554][269]LogEditorActor: Deleted Actor: Emitter
+[2017.04.02-00.58.29:555][269]LogEditorActor: Deleted Actor: Emitter
+[2017.04.02-00.58.29:571][269]LogEditorActor: Deleted 4 Actors (0.018 secs)
+[2017.04.02-00.58.34:688][622]Cmd: TRANSACTION UNDO
+[2017.04.02-00.58.34:689][622]LogEditorTransaction: Undo Delete Actors
+[2017.04.02-00.58.55:819][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_33)
+[2017.04.02-00.59.10:765][612]LogEditorViewport: Clicking on Actor (LMB): Emitter (Part_Spark2)
+[2017.04.02-00.59.11:953][672]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Part_Spark3)
+[2017.04.02-00.59.13:346][748]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Part_Spark)
+[2017.04.02-00.59.23:159][293]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.02-00.59.23:207][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.59.23:207][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.02-00.59.23:207][293]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:59:23 AM)
+[2017.04.02-00.59.23:207][293]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.04.02-00.59.23:267][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059700s)
+[2017.04.02-00.59.23:268][293]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.02-00.59.23:269][293]LogPlayLevel: PIE: World Init took: (0.001751s)
+[2017.04.02-00.59.23:269][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.062093s)
+[2017.04.02-00.59.23:369][293]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.02-00.59.23:380][293]LogInit: FAudioDevice initialized.
+[2017.04.02-00.59.23:473][293]LogLoad: Game class is 'GameModeBase'
+[2017.04.02-00.59.23:486][293]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-02.59.23
+[2017.04.02-00.59.23:486][293]LogWorld: Bringing up level for play took: 0.009871
+[2017.04.02-00.59.23:495][293]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.238
+[2017.04.02-00.59.23:496][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.59.30:193][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.59.30:268][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-00.59.32:249][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_roof_luck)
+[2017.04.02-00.59.43:093][371]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.43:093][371]LogEditorTransaction: Undo Edit Visible
+[2017.04.02-00.59.45:581][502]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.45:581][502]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-00.59.46:350][524]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.46:350][524]LogEditorTransaction: Undo Edit Visible
+[2017.04.02-00.59.46:357][524]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Part_Spark2.Sprite) Component already registered.
+[2017.04.02-00.59.46:357][524]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Part_Spark2.ArrowComponent0) Component already registered.
+[2017.04.02-00.59.46:357][524]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Part_Spark3.Sprite) Component already registered.
+[2017.04.02-00.59.46:357][524]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Part_Spark3.ArrowComponent0) Component already registered.
+[2017.04.02-00.59.47:149][558]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.47:149][558]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.02-00.59.47:760][571]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.47:760][571]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-00.59.48:146][577]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.48:146][577]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.02-00.59.48:636][592]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.48:636][592]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-00.59.49:172][608]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.49:172][608]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.02-00.59.49:662][624]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.49:662][624]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-00.59.50:232][634]Cmd: TRANSACTION UNDO
+[2017.04.02-00.59.50:232][634]LogEditorTransaction: Undo Edit Visible
+[2017.04.02-00.59.51:653][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_roof_luck)
+[2017.04.02-00.59.56:710][957]LogEditorViewport: Clicking on Actor (LMB): Emitter (Part_Spark)
+[2017.04.02-00.59.57:706][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Part_Spark3)
+[2017.04.02-00.59.58:781][ 67]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (Part_Spark2)
+[2017.04.02-01.01.59:697][311]LogSavePackage: Save=442.84ms
+[2017.04.02-01.01.59:697][311]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default7146B7C44FA93C7A8B1B3E8A78E0814E.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.04.02-01.01.59:701][311]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.04.02-01.01.59:725][311]LogFileHelpers: Saving map 'Minimal_Default' took 0.580
+[2017.04.02-01.01.59:727][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2017.04.02-01.02.00:019][311]LogSavePackage: Save=273.10ms
+[2017.04.02-01.02.00:019][311]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_BuiltData778940694C63EA3F1ACEE5ADAC06BBE3.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.04.02-01.02.00:024][311]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.04.02-01.02.00:049][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-01.02.00:049][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.02-01.02.00:049][311]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 5:02:00 AM)
+[2017.04.02-01.02.00:049][311]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.04.02-01.02.00:070][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020506s)
+[2017.04.02-01.02.00:071][311]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.02-01.02.00:071][311]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2017.04.02-01.02.00:071][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022251s)
+[2017.04.02-01.02.00:238][311]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.02-01.02.00:248][311]LogInit: FAudioDevice initialized.
+[2017.04.02-01.02.00:369][311]LogLoad: Game class is 'GameModeBase'
+[2017.04.02-01.02.00:378][311]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-03.02.00
+[2017.04.02-01.02.00:378][311]LogWorld: Bringing up level for play took: 0.007013
+[2017.04.02-01.02.00:379][311]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.02-01.02.00:391][311]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.133
+[2017.04.02-01.02.00:391][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-01.02.00:392][311]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '-1'
+[2017.04.02-01.02.00:427][312]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:121780).
+[2017.04.02-01.02.00:548][314]LogContentStreaming: Texture pool size now 806 MB
+[2017.04.02-01.02.40:773][916]LogContentStreaming: Texture pool size now 749 MB
+[2017.04.02-01.02.41:250][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-01.02.41:250][927]LogConsoleManager:Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '1000'
+[2017.04.02-01.02.41:588][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.02-01.02.41:710][930]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:122350).
+[2017.04.02-01.02.41:802][930]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.02-01.11.15:124][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_9)
+[2017.04.02-01.11.15:536][913]Cmd: TRANSACTION UNDO
+[2017.04.02-01.11.15:536][913]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-01.11.26:068][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_33)
+[2017.04.02-01.11.36:697][125]Cmd: TRANSACTION UNDO
+[2017.04.02-01.11.36:697][125]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-01.11.36:922][126]Cmd: TRANSACTION UNDO
+[2017.04.02-01.11.36:922][126]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-01.11.37:159][128]Cmd: TRANSACTION UNDO
+[2017.04.02-01.11.37:159][128]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-01.11.37:353][129]Cmd: TRANSACTION UNDO
+[2017.04.02-01.11.37:353][129]LogEditorTransaction: Undo Edit Visible
+[2017.04.02-01.11.37:355][129]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Part_Spark_6.Sprite) Component already registered.
+[2017.04.02-01.11.37:355][129]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Part_Spark_6.ArrowComponent0) Component already registered.
+[2017.04.02-01.11.37:356][129]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Part_Spark3.Sprite) Component already registered.
+[2017.04.02-01.11.37:356][129]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Part_Spark3.ArrowComponent0) Component already registered.
+[2017.04.02-01.12.15:243][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_23)
+[2017.04.02-01.12.44:289][590]LogSavePackage: Save=616.98ms
+[2017.04.02-01.12.44:289][590]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_Auto51007678B4F3E395035EBED994E72CB44.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap'
+[2017.04.02-01.12.44:327][590]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap
+[2017.04.02-01.12.44:335][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.794
+[2017.04.02-01.12.44:335][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.794
+[2017.04.02-01.44.26:692][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_15)
+[2017.04.02-01.44.39:474][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_15)
+[2017.04.02-01.45.05:582][911]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.45.05:603][911]LogTemp:Display: Added material ShaderMap 0x0000018D0330A400 with Material 0x0000018D0A25D900 to ShaderMapsBeingCompiled
+[2017.04.02-01.45.05:752][911]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D0330A400
+[2017.04.02-01.45.09:868][979]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.45.09:869][979]LogTemp:Display: Added material ShaderMap 0x0000018CBE9DD600 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.45.09:881][979]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CBE9DD600
+[2017.04.02-01.45.11:344][979]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.45.11:346][979]LogTemp:Display: Added material ShaderMap 0x0000018D0B8EEE80 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.45.11:360][979]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D0B8EEE80
+[2017.04.02-01.45.11:361][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.45.11:401][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.02-01.45.11:402][979]LogTemp:Display: Added material ShaderMap 0x0000018C9ADE7580 with Material 0x0000018C8BE9E200 to ShaderMapsBeingCompiled
+[2017.04.02-01.45.11:406][979]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x0000018C9ADE7580
+[2017.04.02-01.45.11:475][979]LogTemp:Display: Finished compile of shader map 0x0000018D0330A400
+[2017.04.02-01.45.11:475][979]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D0330A400, marking material green as finished
+[2017.04.02-01.45.11:475][979]LogTemp:Display: Marking material as finished 0x0000018D0A25D900
+[2017.04.02-01.45.12:429][980]LogTemp:Display: Finished compile of shader map 0x0000018D0B8EEE80
+[2017.04.02-01.45.12:430][980]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D0B8EEE80, marking material green as finished
+[2017.04.02-01.45.12:430][980]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.45.12:451][980]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 86 instructions
+[2017.04.02-01.45.12:451][980]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.02-01.45.12:451][980]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.02-01.45.12:528][981]LogTemp:Display: Finished compile of shader map 0x0000018C9ADE7580
+[2017.04.02-01.45.12:528][981]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x0000018C9ADE7580, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.04.02-01.45.12:528][981]LogTemp:Display: Marking material as finished 0x0000018C8BE9E200
+[2017.04.02-01.45.23:363][478]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.45.23:364][478]LogTemp:Display: Added material ShaderMap 0x0000018CC60B6400 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.45.23:375][478]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CC60B6400
+[2017.04.02-01.45.23:375][478]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2017.04.02-01.45.23:375][478]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.45.24:407][515]LogTemp:Display: Finished compile of shader map 0x0000018CC60B6400
+[2017.04.02-01.45.24:407][515]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018CC60B6400, marking material green as finished
+[2017.04.02-01.45.24:407][515]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.45.24:428][516]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.02-01.45.24:428][516]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.02-01.45.24:428][516]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.02-01.45.30:813][838]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.45.30:814][838]LogTemp:Display: Added material ShaderMap 0x0000018D25195600 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.45.30:825][838]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D25195600
+[2017.04.02-01.45.30:825][838]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.45.31:895][881]LogTemp:Display: Finished compile of shader map 0x0000018D25195600
+[2017.04.02-01.45.31:895][881]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D25195600, marking material green as finished
+[2017.04.02-01.45.31:895][881]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.45.32:120][894]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.02-01.45.32:120][894]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.02-01.45.32:120][894]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.02-01.45.33:709][978]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.45.33:710][978]LogMaterial:Warning: Failed to compile Material /Engine/Transient.green for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.02-01.45.33:710][978]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
+[2017.04.02-01.45.33:710][978]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.45.33:712][978]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
+[2017.04.02-01.45.38:818][213]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.45.38:819][213]LogTemp:Display: Added material ShaderMap 0x0000018D25197C80 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.45.38:833][213]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D25197C80
+[2017.04.02-01.45.38:834][213]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.45.40:021][255]LogTemp:Display: Finished compile of shader map 0x0000018D25197C80
+[2017.04.02-01.45.40:021][255]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D25197C80, marking material green as finished
+[2017.04.02-01.45.40:021][255]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.45.40:042][256]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.02-01.45.40:042][256]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.02-01.45.40:042][256]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.02-01.46.07:919][763]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.07:920][763]LogTemp:Display: Added material ShaderMap 0x0000018CBEEF2B00 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.07:931][763]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CBEEF2B00
+[2017.04.02-01.46.07:932][763]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.07:934][763]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.07:935][763]LogTemp:Display: Added material ShaderMap 0x0000018D13836400 with Material 0x0000018C9A9F7100 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.07:937][763]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018D13836400
+[2017.04.02-01.46.07:942][763]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.07:942][763]LogTemp:Display: Added material ShaderMap 0x0000018D13836B00 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.07:957][763]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D13836B00
+[2017.04.02-01.46.07:957][763]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.07:961][763]LogTemp:Display: Removed shader map 0x0000018D13836400 from material 0x0000018C9A9F7100
+[2017.04.02-01.46.07:986][763]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.07:988][763]LogTemp:Display: Added material ShaderMap 0x0000018CC60B4B80 with Material 0x0000018D24A3EE00 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.07:991][763]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018CC60B4B80
+[2017.04.02-01.46.08:605][786]LogTemp:Display: Finished compile of shader map 0x0000018D13836400
+[2017.04.02-01.46.09:540][820]LogTemp:Display: Finished compile of shader map 0x0000018D13836B00
+[2017.04.02-01.46.09:540][820]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D13836B00, marking material green as finished
+[2017.04.02-01.46.09:541][820]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.09:649][825]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.02-01.46.09:649][825]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.02-01.46.09:649][825]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.02-01.46.09:651][825]LogTemp:Display: Finished compile of shader map 0x0000018CC60B4B80
+[2017.04.02-01.46.09:651][825]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018CC60B4B80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.04.02-01.46.09:651][825]LogTemp:Display: Marking material as finished 0x0000018D24A3EE00
+[2017.04.02-01.46.12:834][982]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.12:835][982]LogTemp:Display: Added material ShaderMap 0x0000018D249FC480 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.12:847][982]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D249FC480
+[2017.04.02-01.46.12:847][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.12:873][982]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.12:874][982]LogTemp:Display: Added material ShaderMap 0x0000018D06885D00 with Material 0x0000018D34EBA500 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.12:876][982]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018D06885D00
+[2017.04.02-01.46.13:944][ 24]LogTemp:Display: Finished compile of shader map 0x0000018D249FC480
+[2017.04.02-01.46.13:944][ 24]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D249FC480, marking material green as finished
+[2017.04.02-01.46.13:944][ 24]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.14:027][ 28]LogTemp:Display: Finished compile of shader map 0x0000018D06885D00
+[2017.04.02-01.46.14:027][ 28]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018D06885D00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.04.02-01.46.14:027][ 28]LogTemp:Display: Marking material as finished 0x0000018D34EBA500
+[2017.04.02-01.46.14:205][ 38]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.14:206][ 38]LogTemp:Display: Added material ShaderMap 0x0000018CC60B5280 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.14:217][ 38]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CC60B5280
+[2017.04.02-01.46.14:217][ 38]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.14:250][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.14:251][ 38]LogTemp:Display: Added material ShaderMap 0x0000018D248C2E80 with Material 0x0000018D34EBA500 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.14:255][ 38]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018D248C2E80
+[2017.04.02-01.46.15:365][ 79]LogTemp:Display: Finished compile of shader map 0x0000018CC60B5280
+[2017.04.02-01.46.15:365][ 79]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018CC60B5280, marking material green as finished
+[2017.04.02-01.46.15:365][ 79]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.15:454][ 83]LogTemp:Display: Finished compile of shader map 0x0000018D248C2E80
+[2017.04.02-01.46.15:454][ 83]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018D248C2E80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.04.02-01.46.15:454][ 83]LogTemp:Display: Marking material as finished 0x0000018D34EBA500
+[2017.04.02-01.46.15:946][108]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.15:947][108]LogTemp:Display: Added material ShaderMap 0x0000018CC60B5600 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.15:958][108]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CC60B5600
+[2017.04.02-01.46.15:958][108]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.15:988][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.15:989][108]LogTemp:Display: Added material ShaderMap 0x0000018D24911600 with Material 0x0000018D16919000 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.15:992][108]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018D24911600
+[2017.04.02-01.46.17:111][149]LogTemp:Display: Finished compile of shader map 0x0000018CC60B5600
+[2017.04.02-01.46.17:111][149]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018CC60B5600, marking material green as finished
+[2017.04.02-01.46.17:111][149]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.17:138][150]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.02-01.46.17:138][150]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.02-01.46.17:138][150]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.02-01.46.17:248][155]LogTemp:Display: Finished compile of shader map 0x0000018D24911600
+[2017.04.02-01.46.17:248][155]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018D24911600, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.04.02-01.46.17:248][155]LogTemp:Display: Marking material as finished 0x0000018D16919000
+[2017.04.02-01.46.17:936][189]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.17:937][189]LogTemp:Display: Added material ShaderMap 0x0000018CC60B6B00 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.17:948][189]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CC60B6B00
+[2017.04.02-01.46.17:948][189]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.17:980][189]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.17:981][189]LogTemp:Display: Added material ShaderMap 0x0000018D13778100 with Material 0x0000018C9A9F6500 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.17:985][189]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018D13778100
+[2017.04.02-01.46.19:090][232]LogTemp:Display: Finished compile of shader map 0x0000018CC60B6B00
+[2017.04.02-01.46.19:090][232]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018CC60B6B00, marking material green as finished
+[2017.04.02-01.46.19:090][232]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.19:163][235]LogTemp:Display: Finished compile of shader map 0x0000018D13778100
+[2017.04.02-01.46.19:164][235]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018D13778100, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.04.02-01.46.19:164][235]LogTemp:Display: Marking material as finished 0x0000018C9A9F6500
+[2017.04.02-01.46.19:226][238]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.19:227][238]LogTemp:Display: Added material ShaderMap 0x0000018D13778800 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.19:238][238]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D13778800
+[2017.04.02-01.46.19:238][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.19:266][238]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.19:267][238]LogTemp:Display: Added material ShaderMap 0x0000018CC60B6B00 with Material 0x0000018D24A3E200 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.19:271][238]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018CC60B6B00
+[2017.04.02-01.46.20:213][274]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.20:214][274]LogTemp:Display: Added material ShaderMap 0x0000018D06884480 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.20:228][274]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D06884480
+[2017.04.02-01.46.20:228][274]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.20:233][274]LogTemp:Display: Removed shader map 0x0000018CC60B6B00 from material 0x0000018D24A3E200
+[2017.04.02-01.46.20:258][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.20:260][274]LogTemp:Display: Added material ShaderMap 0x0000018D2528D600 with Material 0x0000018D1691BD00 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.20:263][274]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018D2528D600
+[2017.04.02-01.46.20:330][276]LogTemp:Display: Finished compile of shader map 0x0000018D13778800
+[2017.04.02-01.46.20:330][276]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D13778800, marking material green as finished
+[2017.04.02-01.46.20:330][276]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.20:504][283]LogTemp:Display: Finished compile of shader map 0x0000018CC60B6B00
+[2017.04.02-01.46.21:426][319]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.21:427][319]LogTemp:Display: Added material ShaderMap 0x0000018D2479F580 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.21:440][319]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D2479F580
+[2017.04.02-01.46.21:440][319]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.21:444][319]LogTemp:Display: Removed shader map 0x0000018D2528D600 from material 0x0000018D1691BD00
+[2017.04.02-01.46.21:470][319]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.02-01.46.21:471][319]LogTemp:Display: Added material ShaderMap 0x0000018D24913C80 with Material 0x0000018D247B8100 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.21:474][319]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x0000018D24913C80
+[2017.04.02-01.46.21:479][319]LogTemp:Display: Finished compile of shader map 0x0000018D06884480
+[2017.04.02-01.46.21:479][319]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D06884480, marking material green as finished
+[2017.04.02-01.46.21:479][319]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.21:577][321]LogTemp:Display: Finished compile of shader map 0x0000018D2528D600
+[2017.04.02-01.46.22:671][361]LogTemp:Display: Finished compile of shader map 0x0000018D2479F580
+[2017.04.02-01.46.22:671][361]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D2479F580, marking material green as finished
+[2017.04.02-01.46.22:671][361]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.22:699][362]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.02-01.46.22:699][362]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.02-01.46.22:699][362]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.02-01.46.22:772][365]LogTemp:Display: Finished compile of shader map 0x0000018D24913C80
+[2017.04.02-01.46.22:772][365]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x0000018D24913C80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.04.02-01.46.22:772][365]LogTemp:Display: Marking material as finished 0x0000018D247B8100
+[2017.04.02-01.46.30:091][733]LogMaterialEditor: Saving and Compiling material green
+[2017.04.02-01.46.32:346][733]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.32:347][733]LogTemp:Display: Added material ShaderMap 0x0000018D03308800 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.32:369][733]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D03308800
+[2017.04.02-01.46.32:369][733]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.32:414][733]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.32:415][733]LogTemp:Display: Added material ShaderMap 0x0000018CBEEF2E80 with Material 0x0000018D09F0EE00 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.32:442][733]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CBEEF2E80
+[2017.04.02-01.46.32:446][733]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.32:447][733]LogTemp:Display: Added material ShaderMap 0x0000018CC60B7C80 with Material 0x0000018D09F0EE00 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.32:468][733]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CC60B7C80
+[2017.04.02-01.46.32:472][733]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.32:546][733]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy green, compiling. 
+[2017.04.02-01.46.32:548][733]LogTemp:Display: Added material ShaderMap 0x0000018D10E43C80 with Material 0x0000018D24A3D000 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.33:251][733]LogTemp:Display: Finished compile of shader map 0x0000018D10E43C80
+[2017.04.02-01.46.33:251][733]LogTemp:Display: Shader map FDebugViewModeMaterialProxy green complete, GameThreadShaderMap 0x0000018D10E43C80, marking material FDebugViewModeMaterialProxy green as finished
+[2017.04.02-01.46.33:251][733]LogTemp:Display: Marking material as finished 0x0000018D24A3D000
+[2017.04.02-01.46.33:267][733]TextureStreamingBuild:Display: Compiling optional shaders took 0.737 seconds.
+[2017.04.02-01.46.34:933][733]LogTemp:Display: Finished compile of shader map 0x0000018CC60B7C80
+[2017.04.02-01.46.34:933][733]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018CC60B7C80, marking material green as finished
+[2017.04.02-01.46.34:933][733]LogTemp:Display: Marking material as finished 0x0000018D09F0EE00
+[2017.04.02-01.46.34:940][733]LogTemp:Display: Finished compile of shader map 0x0000018D03308800
+[2017.04.02-01.46.34:940][733]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D03308800, marking material green as finished
+[2017.04.02-01.46.34:940][733]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.35:048][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/Materials/green" FILE="../../../../Projects/LastBullet/Content/Scene/Materials/green.uasset" SILENT=true
+[2017.04.02-01.46.35:089][733]LogSavePackage: Save=39.01ms
+[2017.04.02-01.46.35:089][733]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/green6B671E1E4C825082F2650EAB164B25D6.tmp' to '../../../../Projects/LastBullet/Content/Scene/Materials/green.uasset'
+[2017.04.02-01.46.35:092][733]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/Scene/Materials/green.uasset
+[2017.04.02-01.46.35:098][733]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.02-01.46.35:098][733]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.02-01.46.35:098][733]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.02-01.46.37:288][813]LogMaterial:Warning: Material /Game/Scene/Materials/green.green needed to have new flag set bUsedWithStaticLighting !
+[2017.04.02-01.46.37:314][813]LogMaterial:Warning: Material /Engine/Transient.green needed to have new flag set bUsedWithStaticLighting !
+[2017.04.02-01.46.37:319][813]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.37:320][813]LogTemp:Display: Added material ShaderMap 0x0000018CBEEB4100 with Material 0x0000018CF14C7D80 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.37:336][813]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018CBEEB4100
+[2017.04.02-01.46.37:337][813]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.37:340][813]LogMaterial: Missing cached shader map for material green, compiling. 
+[2017.04.02-01.46.37:341][813]LogTemp:Display: Added material ShaderMap 0x0000018D03308800 with Material 0x0000018D09F0EE00 to ShaderMapsBeingCompiled
+[2017.04.02-01.46.37:376][813]LogTemp:Display: Kicking off shader compilation for green, GameThreadShaderMap 0x0000018D03308800
+[2017.04.02-01.46.37:377][813]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.02-01.46.38:642][860]LogTemp:Display: Finished compile of shader map 0x0000018CBEEB4100
+[2017.04.02-01.46.38:642][860]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018CBEEB4100, marking material green as finished
+[2017.04.02-01.46.38:642][860]LogTemp:Display: Marking material as finished 0x0000018CF14C7D80
+[2017.04.02-01.46.39:543][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_15)
+[2017.04.02-01.46.41:056][964]LogTemp:Display: Finished compile of shader map 0x0000018D03308800
+[2017.04.02-01.46.41:056][964]LogTemp:Display: Shader map green complete, GameThreadShaderMap 0x0000018D03308800, marking material green as finished
+[2017.04.02-01.46.41:056][964]LogTemp:Display: Marking material as finished 0x0000018D09F0EE00
+[2017.04.02-01.46.41:077][965]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2017.04.02-01.46.41:077][965]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.04.02-01.46.41:078][965]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.04.02-01.46.41:078][965]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.02-01.47.04:046][ 73]Cmd: TRANSACTION UNDO
+[2017.04.02-01.47.04:046][ 73]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.47.05:575][146]Cmd: TRANSACTION UNDO
+[2017.04.02-01.47.05:575][146]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.02-01.47.06:837][209]Cmd: TRANSACTION UNDO
+[2017.04.02-01.47.06:837][209]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.47.08:280][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_window_9)
+[2017.04.02-01.47.54:230][237]Cmd: TRANSACTION UNDO
+[2017.04.02-01.47.54:230][237]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.47.54:659][245]Cmd: TRANSACTION UNDO
+[2017.04.02-01.47.54:659][245]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.47.58:698][490]Cmd: TRANSACTION UNDO
+[2017.04.02-01.47.58:699][490]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.47.59:461][517]Cmd: TRANSACTION UNDO
+[2017.04.02-01.47.59:461][517]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.47.59:851][529]Cmd: TRANSACTION UNDO
+[2017.04.02-01.47.59:851][529]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.48.00:497][557]Cmd: TRANSACTION UNDO
+[2017.04.02-01.48.00:498][557]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.48.01:144][584]Cmd: TRANSACTION UNDO
+[2017.04.02-01.48.01:144][584]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.48.01:654][603]Cmd: TRANSACTION UNDO
+[2017.04.02-01.48.01:654][603]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.48.05:574][802]Cmd: TRANSACTION UNDO
+[2017.04.02-01.48.05:574][802]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.48.09:440][ 27]Cmd: TRANSACTION UNDO
+[2017.04.02-01.48.09:440][ 27]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.48.13:162][229]Cmd: TRANSACTION UNDO
+[2017.04.02-01.48.13:162][229]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.48.24:112][691]Cmd: TRANSACTION UNDO
+[2017.04.02-01.48.24:113][691]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.02-01.48.25:608][763]Cmd: TRANSACTION UNDO
+[2017.04.02-01.48.25:608][763]LogEditorTransaction: Undo Create Actors
+[2017.04.02-01.48.53:897][  5]LogSavePackage: Save=518.77ms
+[2017.04.02-01.48.53:897][  5]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_Auto6B830EF2445335A5D05DE23BFEB659955.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto6.umap'
+[2017.04.02-01.48.53:899][  5]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto6.umap
+[2017.04.02-01.48.53:903][  5]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.766
+[2017.04.02-01.48.53:903][  5]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.766
+[2017.04.02-01.48.53:946][  5]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scene/Materials/green] ([1] browsable assets)...
+[2017.04.02-01.48.53:946][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scene/Materials/green]
+[2017.04.02-01.48.53:946][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/Materials/green" FILE="../../../../Projects/LastBullet/Saved/Autosaves/Game/Scene/Materials/green_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.04.02-01.48.53:960][  5]LogSavePackage: Save=2.66ms
+[2017.04.02-01.48.53:960][  5]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/green_Auto6EC30E5ED4A260F8FF79EADBEED10C1E4.tmp' to '../../../../Projects/LastBullet/Saved/Autosaves/Game/Scene/Materials/green_Auto6.uasset'
+[2017.04.02-01.48.53:984][  5]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Saved/Autosaves/Game/Scene/Materials/green_Auto6.uasset
+[2017.04.02-01.48.53:984][  5]LogFileHelpers: Auto-saving content packages took 0.080
+[2017.04.02-02.49.44:183][ 30]LogSavePackage: Save=536.94ms
+[2017.04.02-02.49.44:183][ 30]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_DefaultE83ECCF34E47D4A6157D9593C2D838F7.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.04.02-02.49.44:188][ 30]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.04.02-02.49.44:415][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2017.04.02-02.49.47:262][ 30]LogSavePackage: Save=359.52ms
+[2017.04.02-02.49.47:263][ 30]LogSavePackage: Moving '../../../../Projects/LastBullet/Saved/Minimal_Default_BuiltData6B4620C847C4D7602A99E1B7DE862465.tmp' to '../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.04.02-02.49.47:266][ 30]LogSavePackage:Display: Finished SavePackage ../../../../Projects/LastBullet/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
