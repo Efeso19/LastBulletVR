@@ -1,0 +1,669 @@
+﻿Log file open, 04/21/17 11:53:36
+LogInit:Display: Running engine for game: LastBullet
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(210630927) SRandInit(210630927).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075667
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.21-09.53.37:115][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.21-09.53.37:115][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.21-09.53.37:142][  0]LogInit: Computer: ENRIQUEPC
+[2017.04.21-09.53.37:142][  0]LogInit: User: Enrique
+[2017.04.21-09.53.37:142][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.21-09.53.37:142][  0]LogInit: High frequency timer resolution =3.513591 MHz
+[2017.04.21-09.53.37:142][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.21-09.53.37:142][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.21-09.53.37:142][  0]LogMemory: Process Physical Memory: 262.68 MB used, 262.68 MB peak
+[2017.04.21-09.53.37:142][  0]LogMemory: Process Virtual Memory: 262.68 MB used, 262.68 MB peak
+[2017.04.21-09.53.37:142][  0]LogMemory: Physical Memory: 6017.18 MB used,  10309.52 MB free, 16326.70 MB total
+[2017.04.21-09.53.37:142][  0]LogMemory: Virtual Memory: 631.06 MB used,  10309.52 MB free, 134217728.00 MB total
+[2017.04.21-09.53.37:213][  0]LogTextLocalizationManager: No specific translations for ('es-ES') exist, so ('es') translations will be used.
+[2017.04.21-09.53.37:637][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.21-09.53.37:665][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.04.21-09.53.37:665][  0]LogD3D11RHI:       4058/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.21-09.53.37:666][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.21-09.53.37:666][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.21-09.53.37:666][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.21-09.53.37:669][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.21-09.53.37:669][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.21-09.53.37:669][  0]LogWindows: EnumDisplayDevices:
+[2017.04.21-09.53.37:669][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.04.21-09.53.37:670][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.04.21-09.53.37:670][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.04.21-09.53.37:670][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.04.21-09.53.37:670][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.21-09.53.37:670][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.04.21-09.53.37:670][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.04.21-09.53.37:670][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.04.21-09.53.37:670][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.21-09.53.37:684][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.21-09.53.37:693][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.21-09.53.37:694][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2017.04.21-09.53.37:695][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/Github/LastBulletVR/LastBullet/Intermediate/Shaders/WorkingDirectory/11644/).
+[2017.04.21-09.53.37:695][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/'.
+[2017.04.21-09.53.37:695][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.21-09.53.41:738][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.21-09.53.41:791][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.21-09.53.41:845][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.21-09.53.41:897][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.21-09.53.41:951][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.21-09.53.42:004][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.21-09.53.42:057][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.21-09.53.42:110][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.21-09.53.42:156][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.21-09.53.42:206][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.21-09.53.42:258][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.21-09.53.42:309][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.21-09.53.42:362][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.21-09.53.42:414][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.21-09.53.42:465][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.21-09.53.42:571][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.21-09.53.42:571][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.21-09.53.42:609][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.21-09.53.42:703][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.21-09.53.42:733][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.21-09.53.42:784][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.21-09.53.42:835][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.21-09.53.42:887][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.21-09.53.42:939][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.21-09.53.42:939][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.21-09.53.43:341][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.21-09.53.43:381][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.21-09.53.43:381][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Enrique/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.21-09.53.43:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Github/LastBulletVR/LastBullet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.21-09.53.43:381][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.21-09.53.43:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Github/LastBulletVR/LastBullet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.21-09.53.43:381][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.21-09.53.43:396][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.21-09.53.43:408][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.21-09.53.43:415][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.21-09.53.43:416][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.21-09.53.43:416][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.21-09.53.43:654][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.21-09.53.43:656][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.21-09.53.43:849][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.21-09.53.43:893][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.21-09.53.43:943][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.21-09.53.43:943][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.21-09.53.43:943][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.21-09.53.44:416][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lastbullet, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1522868599
+[2017.04.21-09.53.44:459][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.04.21-09.53.44:494][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.014728 seconds
+[2017.04.21-09.53.44:498][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.21-09.53.44:498][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.21-09.53.44:498][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.21-09.53.44:554][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.21-09.53.46:350][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.21-09.53.46:388][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.21-09.53.46:873][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.21-09.53.47:264][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.04.21-09.53.47:265][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.04.21-09.53.47:316][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.04.21-09.53.47:365][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.04.21-09.53.48:695][  0]LogEngine: Initializing Engine...
+[2017.04.21-09.53.48:696][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.21-09.53.48:920][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.21-09.53.48:931][  0]LogInit: XAudio2 using '22M45-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.21-09.53.48:945][  0]LogInit: FAudioDevice initialized.
+[2017.04.21-09.53.48:967][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.21-09.53.48:972][  0]LogInit: Texture streaming: Enabled
+[2017.04.21-09.53.49:055][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.21-09.53.49:146][  0]LogInit: Transaction tracking system initialized
+[2017.04.21-09.53.49:506][  0]BlueprintLog: New page: Cargar el editor
+[2017.04.21-09.53.50:389][  0]LocalizationService: Información Localization service is disabled
+[2017.04.21-09.53.54:835][  0]LogConsoleResponse:Display: 
+[2017.04.21-09.53.55:087][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.21-09.53.55:087][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.21-09.53.55:828][  0]LogFileCache: Scanning file cache for directory 'D:/Github/LastBulletVR/LastBullet/Content/' took 0.01s
+[2017.04.21-09.53.56:134][  0]SourceControl: Información El control de código fuente está desactivado
+[2017.04.21-09.53.56:134][  0]Cmd: MAP LOAD FILE="D:/Github/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.21-09.53.56:135][  0]LightingResults: New page: Diseñar la iluminación
+[2017.04.21-09.53.56:177][  0]MapCheck: New page: Revisión del mapa
+[2017.04.21-09.53.56:177][  0]LightingResults: New page: Diseñar la iluminación
+[2017.04.21-09.53.56:190][  0]LogLinker:Warning: Asset 'D:/Github/LastBulletVR/LastBullet/Content/Blueprints/modul_transporttransport_16_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.21-09.53.56:274][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_0.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.21-09.53.56:278][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_1.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.21-09.53.56:280][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_2.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.21-09.53.56:282][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.21-09.53.56:283][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Maps/Minimal_Default_BuiltData' mientras carga D:/Github/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.04.21-09.53.56:283][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : No puede encontrar el archivo para el activo. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.04.21-09.53.57:058][  0]LogLinker:Warning: Asset 'D:/Github/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.21-09.53.57:059][  0]LogLinker:Warning: Asset 'D:/Github/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.21-09.53.57:093][  0]LogLinker:Warning: Asset 'D:/Github/LastBulletVR/LastBullet/Content/Meshes/Space/FX_Map_7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.21-09.53.57:095][  0]LogLinker:Warning: Asset 'D:/Github/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.21-09.53.57:474][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.21-09.53.57:474][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Maps/Minimal_Default_BuiltData' mientras carga D:/Github/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.04.21-09.53.57:475][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : No puede encontrar el archivo para el activo. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.04.21-09.53.57:480][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.21-09.53.57:480][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Maps/Minimal_Default_BuiltData' mientras carga NULL.
+[2017.04.21-09.53.57:480][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.21-09.53.57:480][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Maps/Minimal_Default_BuiltData' mientras carga NULL.
+[2017.04.21-09.53.57:497][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.21-09.53.57:497][  0]LoadErrors: Información Error al cargar /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenciado por PersistentLevel
+[2017.04.21-09.53.57:497][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Maps/Minimal_Default_BuiltData' mientras carga NULL.
+[2017.04.21-09.53.57:497][  0]LoadErrors: Información Error al cargar /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenciado por PersistentLevel
+[2017.04.21-09.53.57:674][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:UserConstructionScript.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.21-09.53.57:677][  0]LogStaticMesh: Generando la malla estática modul_transporttransport...
+[2017.04.21-09.53.57:681][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/modul_transporttransport.modul_transporttransport
+[2017.04.21-09.53.57:689][  0]LogStaticMesh: Generando la malla estática sun_battery...
+[2017.04.21-09.53.57:769][  0]LogStaticMesh: Built static mesh [0.08s] /Game/Meshes/sun_battery.sun_battery
+[2017.04.21-09.53.57:780][  0]LogStaticMesh: Generando la malla estática construktion...
+[2017.04.21-09.53.57:844][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Meshes/construktion.construktion
+[2017.04.21-09.53.57:855][  0]LogStaticMesh: Generando la malla estática modul_2...
+[2017.04.21-09.53.57:903][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Meshes/modul_2.modul_2
+[2017.04.21-09.53.57:931][  0]LogTexture:Display: Building textures: FX_Spark_1 (AutoDXT, 512X512) - 45 MB total VRAM
+[2017.04.21-09.53.57:965][  0]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2017.04.21-09.53.57:968][  0]LogTemp:Display: Added material ShaderMap 0x00000272E2F4F580 with Material 0x00000272CBEEAC80 to ShaderMapsBeingCompiled
+[2017.04.21-09.53.57:987][  0]LogTemp:Display: Kicking off shader compilation for M_Spark, GameThreadShaderMap 0x00000272E2F4F580
+[2017.04.21-09.53.57:988][  0]LogTexture:Display: Building textures: Part_LightStreak1 (AutoDXT, 256X256) - 45 MB total VRAM
+[2017.04.21-09.53.57:998][  0]LogMaterial: Missing cached shader map for material Part_Iskra, compiling. 
+[2017.04.21-09.53.57:999][  0]LogTemp:Display: Added material ShaderMap 0x00000272E3E1B580 with Material 0x00000272CBEE8D00 to ShaderMapsBeingCompiled
+[2017.04.21-09.53.58:016][  0]LogTemp:Display: Kicking off shader compilation for Part_Iskra, GameThreadShaderMap 0x00000272E3E1B580
+[2017.04.21-09.53.58:047][  0]LogStaticMesh: Generando la malla estática cajasJuliyo1...
+[2017.04.21-09.53.58:047][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.53.58:050][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/cajasJuliyo1.cajasJuliyo1
+[2017.04.21-09.53.58:052][  0]LogStaticMesh: Generando la malla estática cajasJuliyo2...
+[2017.04.21-09.53.58:052][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.53.58:055][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/cajasJuliyo2.cajasJuliyo2
+[2017.04.21-09.53.58:056][  0]LogStaticMesh: Generando la malla estática Camera1...
+[2017.04.21-09.53.58:083][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/MeshesV1_1/Camera1.Camera1
+[2017.04.21-09.53.58:086][  0]LogStaticMesh: Generando la malla estática Camera...
+[2017.04.21-09.53.58:346][  0]LogStaticMesh: Built static mesh [0.26s] /Game/Meshes/MeshesV1_1/Camera.Camera
+[2017.04.21-09.53.58:371][  0]LogStaticMesh: Generando la malla estática CT19...
+[2017.04.21-09.53.58:371][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.53.58:373][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/CT19.CT19
+[2017.04.21-09.53.58:374][  0]LogStaticMesh: Generando la malla estática Luz...
+[2017.04.21-09.53.58:395][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.53.58:581][  0]LogStaticMesh: Built static mesh [0.21s] /Game/Props/Luz.Luz
+[2017.04.21-09.53.58:586][  0]LogStaticMesh: Generando la malla estática mesh_roof_luck...
+[2017.04.21-09.53.58:674][  0]LogStaticMesh: Built static mesh [0.09s] /Game/Meshes/mesh_roof_luck.mesh_roof_luck
+[2017.04.21-09.53.58:681][  0]LogStaticMesh: Generando la malla estática mesh_steirs...
+[2017.04.21-09.53.58:757][  0]LogStaticMesh: Built static mesh [0.08s] /Game/Meshes/mesh_steirs.mesh_steirs
+[2017.04.21-09.53.58:774][  0]LogStaticMesh: Generando la malla estática mesh_steirs_reils...
+[2017.04.21-09.53.58:786][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/mesh_steirs_reils.mesh_steirs_reils
+[2017.04.21-09.53.58:792][  0]LogStaticMesh: Generando la malla estática planet...
+[2017.04.21-09.53.58:871][  0]LogStaticMesh: Built static mesh [0.08s] /Game/Meshes/Space/planet.planet
+[2017.04.21-09.53.58:894][  0]LogStaticMesh: Generando la malla estática pplu_Brazos...
+[2017.04.21-09.53.59:081][  0]LogStaticMesh: Built static mesh [0.19s] /Game/pplu_Brazos.pplu_Brazos
+[2017.04.21-09.53.59:101][  0]LogStaticMesh: Generando la malla estática pplu_Cabeza...
+[2017.04.21-09.53.59:343][  0]LogStaticMesh: Built static mesh [0.24s] /Game/pplu_Cabeza.pplu_Cabeza
+[2017.04.21-09.53.59:367][  0]LogStaticMesh: Generando la malla estática pplu_Line0010_group2_group1...
+[2017.04.21-09.53.59:586][  0]LogStaticMesh: Built static mesh [0.22s] /Game/pplu_Line0010_group2_group1.pplu_Line0010_group2_group1
+[2017.04.21-09.53.59:591][  0]LogStaticMesh: Generando la malla estática pplu_Line018...
+[2017.04.21-09.53.59:709][  0]LogStaticMesh: Built static mesh [0.12s] /Game/pplu_Line018.pplu_Line018
+[2017.04.21-09.53.59:714][  0]LogStaticMesh: Generando la malla estática pplu_Object001...
+[2017.04.21-09.53.59:745][  0]LogStaticMesh: Built static mesh [0.03s] /Game/pplu_Object001.pplu_Object001
+[2017.04.21-09.53.59:749][  0]LogStaticMesh: Generando la malla estática pplu_Piernas...
+[2017.04.21-09.54.02:553][  0]LogStaticMesh: Built static mesh [2.80s] /Game/pplu_Piernas.pplu_Piernas
+[2017.04.21-09.54.02:894][  0]LogStaticMesh: Generando la malla estática scene_Barrera_1...
+[2017.04.21-09.54.02:894][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.02:908][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_Barrera_1.scene_Barrera_1
+[2017.04.21-09.54.02:910][  0]LogStaticMesh: Generando la malla estática scene_Barrera_3...
+[2017.04.21-09.54.02:910][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.02:928][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_Barrera_3.scene_Barrera_3
+[2017.04.21-09.54.02:930][  0]LogStaticMesh: Generando la malla estática scene_Barrera_5...
+[2017.04.21-09.54.02:931][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.02:945][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_Barrera_5.scene_Barrera_5
+[2017.04.21-09.54.02:947][  0]LogStaticMesh: Generando la malla estática scene_Barrera_7...
+[2017.04.21-09.54.02:947][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.02:962][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_Barrera_7.scene_Barrera_7
+[2017.04.21-09.54.02:964][  0]LogStaticMesh: Generando la malla estática scene_Barril_1...
+[2017.04.21-09.54.02:966][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:007][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Scene/scene_Barril_1.scene_Barril_1
+[2017.04.21-09.54.03:010][  0]LogStaticMesh: Generando la malla estática scene_Barril_3...
+[2017.04.21-09.54.03:011][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:056][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Scene/scene_Barril_3.scene_Barril_3
+[2017.04.21-09.54.03:059][  0]LogStaticMesh: Generando la malla estática scene_Barril_5...
+[2017.04.21-09.54.03:060][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:102][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Scene/scene_Barril_5.scene_Barril_5
+[2017.04.21-09.54.03:105][  0]LogStaticMesh: Generando la malla estática scene_Barril_7...
+[2017.04.21-09.54.03:107][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:149][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Scene/scene_Barril_7.scene_Barril_7
+[2017.04.21-09.54.03:151][  0]LogStaticMesh: Generando la malla estática scene_Barril_9...
+[2017.04.21-09.54.03:153][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:195][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Scene/scene_Barril_9.scene_Barril_9
+[2017.04.21-09.54.03:198][  0]LogStaticMesh: Generando la malla estática scene_Barril_11...
+[2017.04.21-09.54.03:199][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:240][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Scene/scene_Barril_11.scene_Barril_11
+[2017.04.21-09.54.03:243][  0]LogStaticMesh: Generando la malla estática scene_Barril_13...
+[2017.04.21-09.54.03:245][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:291][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Scene/scene_Barril_13.scene_Barril_13
+[2017.04.21-09.54.03:294][  0]LogStaticMesh: Generando la malla estática scene_Barril_15...
+[2017.04.21-09.54.03:296][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:346][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Scene/scene_Barril_15.scene_Barril_15
+[2017.04.21-09.54.03:349][  0]LogStaticMesh: Generando la malla estática scene_Barril_17...
+[2017.04.21-09.54.03:350][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:394][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Scene/scene_Barril_17.scene_Barril_17
+[2017.04.21-09.54.03:396][  0]LogStaticMesh: Generando la malla estática scene_Barril_19...
+[2017.04.21-09.54.03:398][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:444][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Scene/scene_Barril_19.scene_Barril_19
+[2017.04.21-09.54.03:447][  0]LogStaticMesh: Generando la malla estática scene_Box...
+[2017.04.21-09.54.03:447][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:457][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Box.scene_Box
+[2017.04.21-09.54.03:458][  0]LogStaticMesh: Generando la malla estática scene_Box_1...
+[2017.04.21-09.54.03:458][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:466][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Box_1.scene_Box_1
+[2017.04.21-09.54.03:468][  0]LogStaticMesh: Generando la malla estática scene_Box_2...
+[2017.04.21-09.54.03:468][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:478][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Box_2.scene_Box_2
+[2017.04.21-09.54.03:479][  0]LogStaticMesh: Generando la malla estática scene_Box_3...
+[2017.04.21-09.54.03:480][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:487][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Box_3.scene_Box_3
+[2017.04.21-09.54.03:488][  0]LogStaticMesh: Generando la malla estática scene_Box_4...
+[2017.04.21-09.54.03:488][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:496][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Box_4.scene_Box_4
+[2017.04.21-09.54.03:498][  0]LogStaticMesh: Generando la malla estática scene_Box_5...
+[2017.04.21-09.54.03:499][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:506][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Box_5.scene_Box_5
+[2017.04.21-09.54.03:508][  0]LogStaticMesh: Generando la malla estática scene_Box_6...
+[2017.04.21-09.54.03:508][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:516][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Box_6.scene_Box_6
+[2017.04.21-09.54.03:518][  0]LogStaticMesh: Generando la malla estática scene_Box_7...
+[2017.04.21-09.54.03:518][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:526][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Box_7.scene_Box_7
+[2017.04.21-09.54.03:527][  0]LogStaticMesh: Generando la malla estática scene_Conector_1...
+[2017.04.21-09.54.03:527][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:529][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_Conector_1.scene_Conector_1
+[2017.04.21-09.54.03:531][  0]LogStaticMesh: Generando la malla estática scene_Conector_3...
+[2017.04.21-09.54.03:531][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:533][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_Conector_3.scene_Conector_3
+[2017.04.21-09.54.03:535][  0]LogStaticMesh: Generando la malla estática scene_Conector_5...
+[2017.04.21-09.54.03:535][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:537][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_Conector_5.scene_Conector_5
+[2017.04.21-09.54.03:539][  0]LogStaticMesh: Generando la malla estática scene_Conector_7...
+[2017.04.21-09.54.03:539][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:541][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_Conector_7.scene_Conector_7
+[2017.04.21-09.54.03:543][  0]LogStaticMesh: Generando la malla estática scene_Conector_9...
+[2017.04.21-09.54.03:543][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:546][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_Conector_9.scene_Conector_9
+[2017.04.21-09.54.03:548][  0]LogStaticMesh: Generando la malla estática scene_Contenedor...
+[2017.04.21-09.54.03:548][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:557][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Contenedor.scene_Contenedor
+[2017.04.21-09.54.03:559][  0]LogStaticMesh: Generando la malla estática scene_Contenedor_1...
+[2017.04.21-09.54.03:560][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:573][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_Contenedor_1.scene_Contenedor_1
+[2017.04.21-09.54.03:575][  0]LogStaticMesh: Generando la malla estática scene_CT_1...
+[2017.04.21-09.54.03:575][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:577][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_1.scene_CT_1
+[2017.04.21-09.54.03:579][  0]LogStaticMesh: Generando la malla estática scene_CT_3...
+[2017.04.21-09.54.03:579][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:581][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_3.scene_CT_3
+[2017.04.21-09.54.03:582][  0]LogStaticMesh: Generando la malla estática scene_CT_5...
+[2017.04.21-09.54.03:582][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:583][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_5.scene_CT_5
+[2017.04.21-09.54.03:584][  0]LogStaticMesh: Generando la malla estática scene_CT_7...
+[2017.04.21-09.54.03:585][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:587][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_7.scene_CT_7
+[2017.04.21-09.54.03:587][  0]LogStaticMesh: Generando la malla estática scene_CT_9...
+[2017.04.21-09.54.03:587][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:589][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_9.scene_CT_9
+[2017.04.21-09.54.03:591][  0]LogStaticMesh: Generando la malla estática scene_CT_13...
+[2017.04.21-09.54.03:591][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:593][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_13.scene_CT_13
+[2017.04.21-09.54.03:594][  0]LogStaticMesh: Generando la malla estática scene_CT_15...
+[2017.04.21-09.54.03:594][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:596][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_15.scene_CT_15
+[2017.04.21-09.54.03:596][  0]LogStaticMesh: Generando la malla estática scene_CT_17...
+[2017.04.21-09.54.03:597][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:598][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_17.scene_CT_17
+[2017.04.21-09.54.03:600][  0]LogStaticMesh: Generando la malla estática scene_CT_19...
+[2017.04.21-09.54.03:600][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:602][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_19.scene_CT_19
+[2017.04.21-09.54.03:603][  0]LogStaticMesh: Generando la malla estática scene_CT_21...
+[2017.04.21-09.54.03:603][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:604][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_21.scene_CT_21
+[2017.04.21-09.54.03:605][  0]LogStaticMesh: Generando la malla estática scene_CT_23...
+[2017.04.21-09.54.03:605][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:607][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_23.scene_CT_23
+[2017.04.21-09.54.03:609][  0]LogStaticMesh: Generando la malla estática scene_CT_25...
+[2017.04.21-09.54.03:609][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:610][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_25.scene_CT_25
+[2017.04.21-09.54.03:611][  0]LogStaticMesh: Generando la malla estática scene_CT_27...
+[2017.04.21-09.54.03:611][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:613][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_27.scene_CT_27
+[2017.04.21-09.54.03:613][  0]LogStaticMesh: Generando la malla estática scene_CT_29...
+[2017.04.21-09.54.03:613][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:614][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_29.scene_CT_29
+[2017.04.21-09.54.03:616][  0]LogStaticMesh: Generando la malla estática scene_CT_31...
+[2017.04.21-09.54.03:616][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:617][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_31.scene_CT_31
+[2017.04.21-09.54.03:618][  0]LogStaticMesh: Generando la malla estática scene_CT_33...
+[2017.04.21-09.54.03:618][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:621][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_33.scene_CT_33
+[2017.04.21-09.54.03:622][  0]LogStaticMesh: Generando la malla estática scene_CT_35...
+[2017.04.21-09.54.03:623][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:627][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_35.scene_CT_35
+[2017.04.21-09.54.03:629][  0]LogStaticMesh: Generando la malla estática scene_CT_37...
+[2017.04.21-09.54.03:629][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:630][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_37.scene_CT_37
+[2017.04.21-09.54.03:631][  0]LogStaticMesh: Generando la malla estática scene_CT_39...
+[2017.04.21-09.54.03:631][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:631][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_39.scene_CT_39
+[2017.04.21-09.54.03:632][  0]LogStaticMesh: Generando la malla estática scene_CT_41...
+[2017.04.21-09.54.03:632][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:633][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_41.scene_CT_41
+[2017.04.21-09.54.03:634][  0]LogStaticMesh: Generando la malla estática scene_CT_43...
+[2017.04.21-09.54.03:634][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:635][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_43.scene_CT_43
+[2017.04.21-09.54.03:637][  0]LogStaticMesh: Generando la malla estática scene_CT_45...
+[2017.04.21-09.54.03:637][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:638][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_CT_45.scene_CT_45
+[2017.04.21-09.54.03:641][  0]LogStaticMesh: Generando la malla estática scene_Extintor_1...
+[2017.04.21-09.54.03:642][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:677][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Scene/scene_Extintor_1.scene_Extintor_1
+[2017.04.21-09.54.03:681][  0]LogStaticMesh: Generando la malla estática scene_mid_1...
+[2017.04.21-09.54.03:681][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:683][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_1.scene_mid_1
+[2017.04.21-09.54.03:684][  0]LogStaticMesh: Generando la malla estática scene_mid_3...
+[2017.04.21-09.54.03:685][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:686][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_3.scene_mid_3
+[2017.04.21-09.54.03:687][  0]LogStaticMesh: Generando la malla estática scene_mid_5...
+[2017.04.21-09.54.03:687][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:689][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_5.scene_mid_5
+[2017.04.21-09.54.03:690][  0]LogStaticMesh: Generando la malla estática scene_mid_9...
+[2017.04.21-09.54.03:690][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:692][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_9.scene_mid_9
+[2017.04.21-09.54.03:694][  0]LogStaticMesh: Generando la malla estática scene_mid_11...
+[2017.04.21-09.54.03:694][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:695][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_11.scene_mid_11
+[2017.04.21-09.54.03:696][  0]LogStaticMesh: Generando la malla estática scene_mid_13...
+[2017.04.21-09.54.03:696][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:697][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_13.scene_mid_13
+[2017.04.21-09.54.03:698][  0]LogStaticMesh: Generando la malla estática scene_mid_15...
+[2017.04.21-09.54.03:698][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:699][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_15.scene_mid_15
+[2017.04.21-09.54.03:701][  0]LogStaticMesh: Generando la malla estática scene_mid_17...
+[2017.04.21-09.54.03:701][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:703][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_17.scene_mid_17
+[2017.04.21-09.54.03:704][  0]LogStaticMesh: Generando la malla estática scene_mid_19...
+[2017.04.21-09.54.03:704][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:712][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_mid_19.scene_mid_19
+[2017.04.21-09.54.03:714][  0]LogStaticMesh: Generando la malla estática scene_mid_21...
+[2017.04.21-09.54.03:714][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:716][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_21.scene_mid_21
+[2017.04.21-09.54.03:716][  0]LogStaticMesh: Generando la malla estática scene_mid_23...
+[2017.04.21-09.54.03:716][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:718][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_23.scene_mid_23
+[2017.04.21-09.54.03:720][  0]LogStaticMesh: Generando la malla estática scene_mid_25...
+[2017.04.21-09.54.03:720][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:721][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_25.scene_mid_25
+[2017.04.21-09.54.03:723][  0]LogStaticMesh: Generando la malla estática scene_mid_27...
+[2017.04.21-09.54.03:723][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:724][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_27.scene_mid_27
+[2017.04.21-09.54.03:725][  0]LogStaticMesh: Generando la malla estática scene_mid_29...
+[2017.04.21-09.54.03:725][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:727][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_29.scene_mid_29
+[2017.04.21-09.54.03:728][  0]LogStaticMesh: Generando la malla estática scene_mid_31...
+[2017.04.21-09.54.03:729][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:730][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_31.scene_mid_31
+[2017.04.21-09.54.03:731][  0]LogStaticMesh: Generando la malla estática scene_mid_33...
+[2017.04.21-09.54.03:731][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:733][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_mid_33.scene_mid_33
+[2017.04.21-09.54.03:734][  0]LogStaticMesh: Generando la malla estática scene_Pipe_3...
+[2017.04.21-09.54.03:753][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:805][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Scene/scene_Pipe_3.scene_Pipe_3
+[2017.04.21-09.54.03:811][  0]LogStaticMesh: Generando la malla estática scene_Pipe_5...
+[2017.04.21-09.54.03:814][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:878][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Scene/scene_Pipe_5.scene_Pipe_5
+[2017.04.21-09.54.03:883][  0]LogStaticMesh: Generando la malla estática scene_Pipe_7...
+[2017.04.21-09.54.03:886][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.03:942][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Scene/scene_Pipe_7.scene_Pipe_7
+[2017.04.21-09.54.03:949][  0]LogStaticMesh: Generando la malla estática scene_Pipe_11...
+[2017.04.21-09.54.03:960][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:023][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Scene/scene_Pipe_11.scene_Pipe_11
+[2017.04.21-09.54.04:029][  0]LogStaticMesh: Generando la malla estática scene_ptoA_11_1...
+[2017.04.21-09.54.04:029][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:030][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_11_1.scene_ptoA_11_1
+[2017.04.21-09.54.04:031][  0]LogStaticMesh: Generando la malla estática scene_ptoA_13_1...
+[2017.04.21-09.54.04:031][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:033][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_13_1.scene_ptoA_13_1
+[2017.04.21-09.54.04:034][  0]LogStaticMesh: Generando la malla estática scene_ptoA_15_1...
+[2017.04.21-09.54.04:034][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:036][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_15_1.scene_ptoA_15_1
+[2017.04.21-09.54.04:038][  0]LogStaticMesh: Generando la malla estática scene_PtoA_17_1...
+[2017.04.21-09.54.04:038][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:039][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_17_1.scene_PtoA_17_1
+[2017.04.21-09.54.04:041][  0]LogStaticMesh: Generando la malla estática scene_PtoA_1_1...
+[2017.04.21-09.54.04:041][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:043][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_1_1.scene_PtoA_1_1
+[2017.04.21-09.54.04:044][  0]LogStaticMesh: Generando la malla estática scene_ptoA_1...
+[2017.04.21-09.54.04:044][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:045][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_1.scene_ptoA_1
+[2017.04.21-09.54.04:046][  0]LogStaticMesh: Generando la malla estática scene_PtoA_3...
+[2017.04.21-09.54.04:046][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:049][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_3.scene_PtoA_3
+[2017.04.21-09.54.04:050][  0]LogStaticMesh: Generando la malla estática scene_ptoA_5...
+[2017.04.21-09.54.04:050][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:052][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_5.scene_ptoA_5
+[2017.04.21-09.54.04:053][  0]LogStaticMesh: Generando la malla estática scene_ptoA_7...
+[2017.04.21-09.54.04:053][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:054][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_7.scene_ptoA_7
+[2017.04.21-09.54.04:055][  0]LogStaticMesh: Generando la malla estática scene_ptoA_9...
+[2017.04.21-09.54.04:055][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:059][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_9.scene_ptoA_9
+[2017.04.21-09.54.04:060][  0]LogStaticMesh: Generando la malla estática scene_PtoA_11...
+[2017.04.21-09.54.04:060][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:061][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_11.scene_PtoA_11
+[2017.04.21-09.54.04:063][  0]LogStaticMesh: Generando la malla estática scene_PtoA_13...
+[2017.04.21-09.54.04:063][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:065][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_13.scene_PtoA_13
+[2017.04.21-09.54.04:066][  0]LogStaticMesh: Generando la malla estática scene_PtoA_15...
+[2017.04.21-09.54.04:066][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:067][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_15.scene_PtoA_15
+[2017.04.21-09.54.04:069][  0]LogStaticMesh: Generando la malla estática scene_ptoA_17...
+[2017.04.21-09.54.04:069][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:070][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_17.scene_ptoA_17
+[2017.04.21-09.54.04:071][  0]LogStaticMesh: Generando la malla estática scene_ptoA_3_1...
+[2017.04.21-09.54.04:071][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:072][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_ptoA_3_1.scene_ptoA_3_1
+[2017.04.21-09.54.04:073][  0]LogStaticMesh: Generando la malla estática scene_PtoA_5_1...
+[2017.04.21-09.54.04:073][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:074][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_5_1.scene_PtoA_5_1
+[2017.04.21-09.54.04:075][  0]LogStaticMesh: Generando la malla estática scene_PtoA_7_1...
+[2017.04.21-09.54.04:075][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:077][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_7_1.scene_PtoA_7_1
+[2017.04.21-09.54.04:078][  0]LogStaticMesh: Generando la malla estática scene_PtoA_9_1...
+[2017.04.21-09.54.04:078][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:080][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_PtoA_9_1.scene_PtoA_9_1
+[2017.04.21-09.54.04:080][  0]LogStaticMesh: Generando la malla estática scene_TanqueGas_1...
+[2017.04.21-09.54.04:082][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:133][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Scene/scene_TanqueGas_1.scene_TanqueGas_1
+[2017.04.21-09.54.04:136][  0]LogStaticMesh: Generando la malla estática scene_TanqueGas_3...
+[2017.04.21-09.54.04:139][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:208][  0]LogStaticMesh: Built static mesh [0.07s] /Game/Scene/scene_TanqueGas_3.scene_TanqueGas_3
+[2017.04.21-09.54.04:214][  0]LogStaticMesh: Generando la malla estática scene_TanqueGas_5...
+[2017.04.21-09.54.04:215][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:269][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Scene/scene_TanqueGas_5.scene_TanqueGas_5
+[2017.04.21-09.54.04:273][  0]LogStaticMesh: Generando la malla estática scene_Torito_1...
+[2017.04.21-09.54.04:276][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:405][  0]LogStaticMesh: Built static mesh [0.13s] /Game/Scene/scene_Torito_1.scene_Torito_1
+[2017.04.21-09.54.04:412][  0]LogStaticMesh: Generando la malla estática scene_valla_1...
+[2017.04.21-09.54.04:412][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:424][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_1.scene_valla_1
+[2017.04.21-09.54.04:426][  0]LogStaticMesh: Generando la malla estática scene_valla_3...
+[2017.04.21-09.54.04:426][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:441][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_valla_3.scene_valla_3
+[2017.04.21-09.54.04:442][  0]LogStaticMesh: Generando la malla estática scene_valla_5...
+[2017.04.21-09.54.04:442][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:454][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_5.scene_valla_5
+[2017.04.21-09.54.04:458][  0]LogStaticMesh: Generando la malla estática scene_valla_7...
+[2017.04.21-09.54.04:459][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:471][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_7.scene_valla_7
+[2017.04.21-09.54.04:473][  0]LogStaticMesh: Generando la malla estática scene_valla_9...
+[2017.04.21-09.54.04:473][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:486][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_9.scene_valla_9
+[2017.04.21-09.54.04:488][  0]LogStaticMesh: Generando la malla estática scene_valla_11...
+[2017.04.21-09.54.04:488][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:503][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_valla_11.scene_valla_11
+[2017.04.21-09.54.04:505][  0]LogStaticMesh: Generando la malla estática scene_valla_13...
+[2017.04.21-09.54.04:505][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:518][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_13.scene_valla_13
+[2017.04.21-09.54.04:519][  0]LogStaticMesh: Generando la malla estática scene_valla_15...
+[2017.04.21-09.54.04:520][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:531][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_15.scene_valla_15
+[2017.04.21-09.54.04:532][  0]LogStaticMesh: Generando la malla estática scene_valla_17...
+[2017.04.21-09.54.04:532][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:548][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_valla_17.scene_valla_17
+[2017.04.21-09.54.04:549][  0]LogStaticMesh: Generando la malla estática scene_valla_19...
+[2017.04.21-09.54.04:550][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:562][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_19.scene_valla_19
+[2017.04.21-09.54.04:563][  0]LogStaticMesh: Generando la malla estática scene_valla_21...
+[2017.04.21-09.54.04:563][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:582][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_valla_21.scene_valla_21
+[2017.04.21-09.54.04:584][  0]LogStaticMesh: Generando la malla estática scene_valla_23...
+[2017.04.21-09.54.04:584][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:598][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_23.scene_valla_23
+[2017.04.21-09.54.04:600][  0]LogStaticMesh: Generando la malla estática scene_valla_25...
+[2017.04.21-09.54.04:600][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:613][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_25.scene_valla_25
+[2017.04.21-09.54.04:615][  0]LogStaticMesh: Generando la malla estática scene_valla_27...
+[2017.04.21-09.54.04:616][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:628][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_27.scene_valla_27
+[2017.04.21-09.54.04:629][  0]LogStaticMesh: Generando la malla estática scene_valla_29...
+[2017.04.21-09.54.04:629][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:646][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_valla_29.scene_valla_29
+[2017.04.21-09.54.04:648][  0]LogStaticMesh: Generando la malla estática scene_valla_31...
+[2017.04.21-09.54.04:648][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:668][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_valla_31.scene_valla_31
+[2017.04.21-09.54.04:669][  0]LogStaticMesh: Generando la malla estática scene_valla_33...
+[2017.04.21-09.54.04:669][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:682][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_valla_33.scene_valla_33
+[2017.04.21-09.54.04:683][  0]LogStaticMesh: Generando la malla estática scene_window_1...
+[2017.04.21-09.54.04:683][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:685][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_1.scene_window_1
+[2017.04.21-09.54.04:686][  0]LogStaticMesh: Generando la malla estática scene_window_3...
+[2017.04.21-09.54.04:686][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:688][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_3.scene_window_3
+[2017.04.21-09.54.04:689][  0]LogStaticMesh: Generando la malla estática scene_window_5...
+[2017.04.21-09.54.04:689][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:692][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_5.scene_window_5
+[2017.04.21-09.54.04:693][  0]LogStaticMesh: Generando la malla estática scene_window_7...
+[2017.04.21-09.54.04:693][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:695][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_7.scene_window_7
+[2017.04.21-09.54.04:697][  0]LogStaticMesh: Generando la malla estática scene_window_9...
+[2017.04.21-09.54.04:697][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:700][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_9.scene_window_9
+[2017.04.21-09.54.04:701][  0]LogStaticMesh: Generando la malla estática scene_window_11...
+[2017.04.21-09.54.04:702][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:706][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_11.scene_window_11
+[2017.04.21-09.54.04:708][  0]LogStaticMesh: Generando la malla estática scene_window_13...
+[2017.04.21-09.54.04:708][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:711][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_13.scene_window_13
+[2017.04.21-09.54.04:712][  0]LogStaticMesh: Generando la malla estática scene_window_15...
+[2017.04.21-09.54.04:712][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:714][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_15.scene_window_15
+[2017.04.21-09.54.04:716][  0]LogStaticMesh: Generando la malla estática scene_window_17...
+[2017.04.21-09.54.04:716][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:719][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_17.scene_window_17
+[2017.04.21-09.54.04:720][  0]LogStaticMesh: Generando la malla estática scene_window_19...
+[2017.04.21-09.54.04:721][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:738][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Scene/scene_window_19.scene_window_19
+[2017.04.21-09.54.04:739][  0]LogStaticMesh: Generando la malla estática scene_window_23...
+[2017.04.21-09.54.04:740][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:743][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_23.scene_window_23
+[2017.04.21-09.54.04:744][  0]LogStaticMesh: Generando la malla estática scene_window_25...
+[2017.04.21-09.54.04:744][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:750][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_window_25.scene_window_25
+[2017.04.21-09.54.04:752][  0]LogStaticMesh: Generando la malla estática scene_window_27...
+[2017.04.21-09.54.04:752][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:754][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_27.scene_window_27
+[2017.04.21-09.54.04:755][  0]LogStaticMesh: Generando la malla estática scene_window_29...
+[2017.04.21-09.54.04:755][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:757][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_29.scene_window_29
+[2017.04.21-09.54.04:758][  0]LogStaticMesh: Generando la malla estática scene_window_31...
+[2017.04.21-09.54.04:758][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:760][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Scene/scene_window_31.scene_window_31
+[2017.04.21-09.54.04:761][  0]LogStaticMesh: Generando la malla estática scene_window_33...
+[2017.04.21-09.54.04:761][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-09.54.04:773][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Scene/scene_window_33.scene_window_33
+[2017.04.21-09.54.04:774][  0]LogStaticMesh: Generando la malla estática SkyDomeFullSphere...
+[2017.04.21-09.54.04:822][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Meshes/Space/SkyDomeFullSphere.SkyDomeFullSphere
+[2017.04.21-09.54.04:822][  0]LogStaticMesh: Generando la malla estática ventilation...
+[2017.04.21-09.54.05:457][  0]LogStaticMesh: Built static mesh [0.64s] /Game/Meshes/MeshesV1_1/ventilation.ventilation
+[2017.04.21-09.54.05:567][  0]LogTexture:Display: Building textures: sun_buttery_normal (BC5, 1024X1024) - 46 MB total VRAM
+[2017.04.21-09.54.05:725][  0]LogTexture:Display: Building textures: ChannelCT2ANormal (BC5, 2048X2048) - 46 MB total VRAM
+[2017.04.21-09.54.06:484][  0]LogTexture:Display: Building textures: ChannelCT2ADiffuse2 (AutoDXT, 4096X4096) - 46 MB total VRAM
+[2017.04.21-09.54.12:687][  0]LogTexture:Display: Building textures: ChannelCT2ASpecular (AutoDXT, 2048X2048) - 46 MB total VRAM
+[2017.04.21-09.54.14:407][  0]LogMaterial: Missing cached shader map for material ChannelCT2ADiffuse, compiling. 
+[2017.04.21-09.54.14:408][  0]LogTemp:Display: Added material ShaderMap 0x00000272EB52B200 with Material 0x00000272CBAB0880 to ShaderMapsBeingCompiled
+[2017.04.21-09.54.14:447][  0]LogTemp:Display: Kicking off shader compilation for ChannelCT2ADiffuse, GameThreadShaderMap 0x00000272EB52B200
+[2017.04.21-09.54.14:483][  0]LogTexture:Display: Building textures: Channel_Default_Material_Specular (AutoDXT, 1024X1024) - 46 MB total VRAM
+[2017.04.21-09.54.14:730][  0]LogTexture:Display: Building textures: Channel_Default_Material_Diffuse (AutoDXT, 1024X1024) - 46 MB total VRAM
+[2017.04.21-09.54.14:943][  0]LogMaterial: Missing cached shader map for material CajasConector, compiling. 
+[2017.04.21-09.54.14:944][  0]LogTemp:Display: Added material ShaderMap 0x0000027280324800 with Material 0x00000272CBAB2F80 to ShaderMapsBeingCompiled
+[2017.04.21-09.54.14:967][  0]LogTemp:Display: Kicking off shader compilation for CajasConector, GameThreadShaderMap 0x0000027280324800
+[2017.04.21-09.54.15:088][  0]LogTexture:Display: Building textures: Luz_Specular (AutoDXT, 2048X2048) - 46 MB total VRAM
+[2017.04.21-09.54.16:197][  0]LogTexture:Display: Building textures: Luz_Normal (BC5, 2048X2048) - 46 MB total VRAM
+[2017.04.21-09.54.16:779][  0]LogTexture:Display: Building textures: Luz_Emisiva (AutoDXT, 2048X2048) - 46 MB total VRAM
+[2017.04.21-09.54.17:382][  0]LogTexture:Display: Building textures: Luz_Diffuse (AutoDXT, 2048X2048) - 46 MB total VRAM
+[2017.04.21-09.54.19:045][  0]LogMaterial: Missing cached shader map for material LuzMat, compiling. 
+[2017.04.21-09.54.19:046][  0]LogTemp:Display: Added material ShaderMap 0x0000027280E7E080 with Material 0x00000272CBABA200 to ShaderMapsBeingCompiled
+[2017.04.21-09.54.19:062][  0]LogTemp:Display: Kicking off shader compilation for LuzMat, GameThreadShaderMap 0x0000027280E7E080
+[2017.04.21-09.54.19:234][  0]LogTexture:Display: Building textures: Channel_wire_027177148_Diffuse (AutoDXT, 4096X4096) - 46 MB total VRAM
+[2017.04.21-09.54.21:102][  0]LogMaterial: Missing cached shader map for material Channel_wire_027177148_Mat, compiling. 
+[2017.04.21-09.54.21:103][  0]LogTemp:Display: Added material ShaderMap 0x000002728479EE80 with Material 0x00000272CBAD0E80 to ShaderMapsBeingCompiled
+[2017.04.21-09.54.21:119][  0]LogTemp:Display: Kicking off shader compilation for Channel_wire_027177148_Mat, GameThreadShaderMap 0x000002728479EE80
+[2017.04.21-09.54.21:432][  0]LogTexture:Display: Building textures: Channel_Cabeza_Diffuse (AutoDXT, 4096X4096) - 46 MB total VRAM
+[2017.04.21-09.54.24:982][  0]LogMaterial: Missing cached shader map for material CabezaSG, compiling. 
+[2017.04.21-09.54.24:984][  0]LogTemp:Display: Added material ShaderMap 0x0000027281FB7C80 with Material 0x00000272CBAD2C80 to ShaderMapsBeingCompiled
+[2017.04.21-09.54.25:002][  0]LogFileManager:Error: Error writing to file: C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/2/temp.EA8341BD44E7443CBE7A6183524BBA92 (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:002][  0]LogDerivedDataCache:Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/2/temp.EA8341BD44E7443CBE7A6183524BBA92!
+[2017.04.21-09.54.25:002][  0]LogFileManager:Error: Error writing to file: C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/2/temp.C231651B4D15A171BD892BA03BD2A57D (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:002][  0]LogDerivedDataCache:Warning: FFileSystemDerivedDataBackend: Temp file is short C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/2/temp.C231651B4D15A171BD892BA03BD2A57D!
+[2017.04.21-09.54.25:002][  0]LogTemp:Display: Kicking off shader compilation for CabezaSG, GameThreadShaderMap 0x0000027281FB7C80
+[2017.04.21-09.54.25:012][  0]LogDerivedDataCache:Warning: FDerivedDataBackendAsyncPutWrapper: Put failed, keeping in memory copy TEXTURE_814DCC3DC72143F49509781513CB9855_AutoDXT_308AFB5C4C23F33473803DA4B5ABF__70E6BB6F13B3D28B84775FC80BCE474CD0CFE001.
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error writing to file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error writing to file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error writing to file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error flushing file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error writing to file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error flushing file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error flushing file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error writing to file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error flushing file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error writing to file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:012][  0]LogFileManager:Error: Error flushing file: C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/85B92CED4AC78D762237D791BFC28057/0971FAFD14326A9792F9B0A8DC559C1CC (Espacio en disco insuficiente.)
+[2017.04.21-09.54.25:023][  0]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
