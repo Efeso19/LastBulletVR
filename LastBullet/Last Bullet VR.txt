@@ -1,0 +1,31 @@
+Last Bullet VR
+******MECANICAS*******
+-Nos movemos sobre railes (el jugador no tiene la capacidad de moverse).
+-Podemos apuntar con el mando (mover la mirilla solo).
+-El movimiento de la camara sera unicamente con la cabeza.
+-Podemos cambiar entre las diferentes armas que tengamos.
+-Habran drops de armas como en el juego original.
+-Granadas (en caso de que de tiempo).
+-No podras coger vida.
+
+******CONTROLES*******
+-Movimieto de camara con el casco de realidad virtual.
+-Cambiar de arma con triangulo.
+-Recargar con el cuadrado.
+-Mover mirilla con el jostyck derecho.
+-Disparar con R2.
+-Apuntar L2.
+
+
+******JUGABILIDAD*******
+-Nos movemos sobre railes (el jugador no tiene la capacidad de moverse).
+-Solo 1 tipo de enemigos.
+-Los enemigos aparecen estaticos en el sitio e intentan matarte.
+-Los enemigos aparecen cuando llegas a un sitio concreto del mapa.
+-Los enemigos te dispararan para intentar matarte.
+
+
+******PARTIDA*******
+El juego sera de tipo survival, el jugador se movera automaticamente hasta ciertos puntos donde se parara y tendra que matar a los enemigos.
+Una vez los haya matado se pasara a la siguiente zona y mientras tengas vida iras avanzando a la siguiente zona despues de matar a todos los enemigos de esa zona.
+El objetivo es aguantar todo el tiempo posible sin que te maten puesto que no podras coger vida y solo tendras 1 vida (con 100 puntos).
