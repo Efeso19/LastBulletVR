@@ -1,0 +1,1223 @@
+﻿Log file open, 04/22/17 18:26:34
+LogInit:Display: Running engine for game: LastBullet
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-895597602) SRandInit(-895597602).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.094151
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.22-16.26.35:746][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.22-16.26.35:746][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.22-16.26.35:755][  0]LogInit: Computer: DESKTOP-Q2F06UF
+[2017.04.22-16.26.35:755][  0]LogInit: User: jose
+[2017.04.22-16.26.35:755][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.22-16.26.35:755][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2017.04.22-16.26.35:755][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.22-16.26.35:755][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.22-16.26.35:755][  0]LogMemory: Process Physical Memory: 262.47 MB used, 262.47 MB peak
+[2017.04.22-16.26.35:755][  0]LogMemory: Process Virtual Memory: 262.75 MB used, 262.75 MB peak
+[2017.04.22-16.26.35:755][  0]LogMemory: Physical Memory: 4939.80 MB used,  3128.71 MB free, 8068.52 MB total
+[2017.04.22-16.26.35:755][  0]LogMemory: Virtual Memory: 631.06 MB used,  3128.71 MB free, 134217728.00 MB total
+[2017.04.22-16.26.35:842][  0]LogInit: Overriding culture en with editor configuration.
+[2017.04.22-16.26.36:529][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.22-16.26.37:106][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.04.22-16.26.37:106][  0]LogD3D11RHI:       2018/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.22-16.26.37:116][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.22-16.26.37:116][  0]LogD3D11RHI:       128/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.22-16.26.37:117][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.22-16.26.37:117][  0]LogD3D11RHI:       0/0/4034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.22-16.26.37:117][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.22-16.26.37:122][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.22-16.26.37:122][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.04.22-16.26.37:122][  0]LogWindows: EnumDisplayDevices:
+[2017.04.22-16.26.37:122][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.04.22-16.26.37:122][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-16.26.37:122][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-16.26.37:122][  0]LogWindows:    3. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-16.26.37:123][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-16.26.37:123][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-16.26.37:123][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-16.26.37:123][  0]LogWindows:    7. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-16.26.37:123][  0]LogWindows:    8. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.22-16.26.37:124][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.22-16.26.37:124][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.04.22-16.26.37:124][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.22-16.26.37:124][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.22-16.26.37:124][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.22-16.26.37:621][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.22-16.26.37:693][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.22-16.26.37:694][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Intermediate/Shaders/WorkingDirectory/8420/).
+[2017.04.22-16.26.37:695][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jose_/AppData/Local/Temp/UnrealShaderWorkingDir/93266F594048AEABD97E17BECEABE144/'.
+[2017.04.22-16.26.37:695][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.22-16.26.38:821][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.22-16.26.38:896][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.22-16.26.38:975][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.22-16.26.39:047][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.22-16.26.39:114][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.22-16.26.39:180][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.22-16.26.39:246][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.22-16.26.39:311][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.22-16.26.39:369][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.22-16.26.39:433][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.22-16.26.39:498][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.22-16.26.39:563][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.22-16.26.39:627][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.22-16.26.39:691][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.22-16.26.39:757][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.22-16.26.39:889][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.22-16.26.39:889][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.22-16.26.39:938][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.22-16.26.40:051][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.22-16.26.40:089][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.22-16.26.40:154][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.22-16.26.40:219][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.22-16.26.40:282][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.22-16.26.40:347][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.22-16.26.40:347][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.22-16.26.40:853][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.22-16.26.40:907][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/jose_/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.22-16.26.40:907][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jose_/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.22-16.26.40:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.22-16.26.40:907][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.22-16.26.40:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.22-16.26.40:907][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.22-16.26.40:926][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.22-16.26.40:938][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jose_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.22-16.26.40:947][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.22-16.26.40:948][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.22-16.26.40:948][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.22-16.26.41:275][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.22-16.26.41:277][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.22-16.26.41:505][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.22-16.26.41:560][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.22-16.26.41:620][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.22-16.26.41:620][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.22-16.26.41:620][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.22-16.26.42:211][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lastbullet, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1522868599
+[2017.04.22-16.26.42:260][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2017.04.22-16.26.42:302][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.016892 seconds
+[2017.04.22-16.26.42:307][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.22-16.26.42:307][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.22-16.26.42:307][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.22-16.26.42:376][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.22-16.26.44:367][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.22-16.26.44:411][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.22-16.26.44:958][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.22-16.26.45:432][  0]SourceControl: Info Source control is disabled
+[2017.04.22-16.26.45:433][  0]SourceControl: Info Source control is disabled
+[2017.04.22-16.26.45:496][  0]SourceControl: Info Source control is disabled
+[2017.04.22-16.26.45:556][  0]SourceControl: Info Source control is disabled
+[2017.04.22-16.26.47:141][  0]LogEngine: Initializing Engine...
+[2017.04.22-16.26.47:142][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.22-16.26.47:407][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.22-16.26.47:414][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.22-16.26.47:529][  0]LogInit: FAudioDevice initialized.
+[2017.04.22-16.26.47:558][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/jose_/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.22-16.26.47:562][  0]LogInit: Texture streaming: Enabled
+[2017.04.22-16.26.47:665][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.22-16.26.47:777][  0]LogInit: Transaction tracking system initialized
+[2017.04.22-16.26.48:260][  0]BlueprintLog: New page: Editor Load
+[2017.04.22-16.26.49:386][  0]LocalizationService: Info Localization service is disabled
+[2017.04.22-16.26.50:337][  0]LogConsoleResponse:Display: 
+[2017.04.22-16.26.50:482][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.22-16.26.50:482][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.22-16.26.51:328][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/' took 0.02s
+[2017.04.22-16.26.52:116][  0]SourceControl: Info Source control is disabled
+[2017.04.22-16.26.52:116][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.22-16.26.52:117][  0]LightingResults: New page: Lighting Build
+[2017.04.22-16.26.52:236][  0]MapCheck: New page: Map Check
+[2017.04.22-16.26.52:236][  0]LightingResults: New page: Lighting Build
+[2017.04.22-16.26.52:268][  0]LogLinker:Warning: Asset '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Blueprints/modul_transporttransport_16_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.22-16.26.52:300][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_0.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.22-16.26.52:303][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_1.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.22-16.26.52:306][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_2.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.22-16.26.52:666][  0]LogLinker:Warning: Asset '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.22-16.26.52:667][  0]LogLinker:Warning: Asset '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.22-16.26.52:673][  0]LogLinker:Warning: Asset '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Meshes/Space/FX_Map_7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.22-16.26.52:673][  0]LogLinker:Warning: Asset '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.22-16.26.53:393][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:UserConstructionScript.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.22-16.26.53:512][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.22-16.26.53:555][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.22-16.26.53:555][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.22-16.26.53:714][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 158.739ms to complete.
+[2017.04.22-16.26.53:714][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.598
+[2017.04.22-16.26.53:896][  0]LogCollectionManager: Loaded 0 collections in 0.002457 seconds
+[2017.04.22-16.26.54:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Collections/' took 0.01s
+[2017.04.22-16.26.54:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Developers/jose/Collections/' took 0.01s
+[2017.04.22-16.26.54:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Collections/' took 0.01s
+[2017.04.22-16.26.54:002][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.22-16.26.54:011][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2245 classes and 453 folders.
+[2017.04.22-16.26.54:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.22-16.26.54:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.22-16.26.54:102][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.22-16.26.54:164][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.22-16.26.54:223][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.22-16.26.54:277][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.22-16.26.54:285][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.22-16.26.54:369][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.22-16.26.54:369][  0]LogLoad: (Engine Initialization) Total time: 20.86 seconds
+[2017.04.22-16.26.54:369][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.04.22-16.26.54:369][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.22-16.26.54:370][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.22-16.26.54:709][  0]LogOcInput: OculusInput pre-init called
+[2017.04.22-16.26.54:731][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.22-16.26.54:733][  0]LogSlate: Took 0.000563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.22-16.26.54:739][  0]LogSlate: Took 0.000561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.22-16.26.54:748][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.22-16.26.54:910][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-16.26.54:945][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.22-16.26.55:061][  1]LogAssetRegistry: Asset discovery search completed in 12.8233 seconds
+[2017.04.22-16.26.55:061][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.04.22-16.26.55:061][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.04.22-16.28.56:460][677]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-16.29.17:287][403]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.04.22-16.29.17:973][403]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-16.29.17:974][403]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_0:CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_0:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_1:CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_1:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_0.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_1.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_2.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_3.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.01:103][842]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.01:104][842]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2017.04.22-16.30.01:104][842]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_2''
+[2017.04.22-16.30.02:273][900]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.22-16.30.16:580][611]LogEditorTransaction: Undo Add Widget
+[2017.04.22-16.30.22:181][873]LogEditorTransaction: Undo Add Widget
+[2017.04.22-16.30.43:681][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_0:CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_0:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_1:CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_1:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_0.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_1.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_2.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_3.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_5.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_6.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_7.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_8.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_9.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_10.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_11.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_12.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_13.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_14.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_15.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_16.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_6.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_8.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_9.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_10.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_11.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_12.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_13.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_14.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_15.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2017.04.22-16.30.43:682][336]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Button_0).  Import failed...
+[2017.04.22-16.30.43:682][336]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_2''
+[2017.04.22-16.30.45:715][426]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_0:CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_0:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_1:CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_1:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_0.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_1.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_2.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_3.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_5.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_6.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_7.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:363][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_8.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_9.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_10.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_11.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_12.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_13.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_14.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_15.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_16.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_17.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_18.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_3.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_6.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_8.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_9.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_10.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_11.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_12.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_13.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_14.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_15.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_17.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_18.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.49:364][607]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0).  Import failed...
+[2017.04.22-16.30.49:364][607]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.04.22-16.30.52:348][746]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be WidgetSlotPair /Engine/UMG/Editor/Transient.WidgetSlotPair_0 or WidgetSlotPair /Engine/UMG/Editor/Transient.WidgetSlotPair_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_0:CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_0:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_1:CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_1:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_0.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_1.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_2.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_3.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_5.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:307][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_6.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_7.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_8.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_9.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_10.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_11.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_12.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_13.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_14.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_15.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_16.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_17.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_18.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_19.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_20.WidgetTree.CanvasPanel_0
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_3.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_6.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_8.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_9.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_10.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_11.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_12.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_13.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_14.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_15.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_17.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_18.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_19.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_20.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.30.56:308][935]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0).  Import failed...
+[2017.04.22-16.30.56:308][935]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.04.22-16.31.23:562][248]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.22-16.31.28:390][505]LogSlate: Took 0.002366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.22-16.31.47:887][282]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0 or VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0
+[2017.04.22-16.31.47:887][282]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0 or VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0
+[2017.04.22-16.31.47:888][282]LogUObjectHash:Warning: Ambiguous search, could be EditableTextBox /Engine/UMG/Editor/Transient.EditableTextBox_0 or EditableTextBox /Engine/UMG/Editor/Transient.EditableTextBox_0
+[2017.04.22-16.31.47:888][282]LogUObjectHash:Warning: Ambiguous search, could be EditableTextBox /Engine/UMG/Editor/Transient.EditableTextBox_0 or EditableTextBox /Engine/UMG/Editor/Transient.EditableTextBox_0
+[2017.04.22-16.31.47:888][282]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/UMG/Editor/Transient.Button_0 or Button /Engine/UMG/Editor/Transient.Button_0
+[2017.04.22-16.31.47:888][282]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/UMG/Editor/Transient.Button_0 or Button /Engine/UMG/Editor/Transient.Button_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_0:CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_0:WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.WidgetTree_1:CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_1:WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_0.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_1.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_2.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_3.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_5.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_6.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_7.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_8.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_9.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_10.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_11.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_12.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_13.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_14.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_15.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_16.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_17.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_18.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_19.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_20.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_21.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_22.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_23.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_24.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Maps/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:MainMenu_C_25.WidgetTree.CanvasPanel_0
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_3.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_4.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_6.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_8.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_9.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_10.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_11.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_12.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_13.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_14.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_15.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_17.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_18.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_19.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_20.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_21.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_22.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_23.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_24.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_1:MainMenu_C_25.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.04.22-16.31.47:889][282]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0).  Import failed...
+[2017.04.22-16.31.47:889][282]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.04.22-16.31.58:902][806]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.VerticalBox_3 or VerticalBox /Engine/Transient.World_1:MainMenu_C_26.WidgetTree.VerticalBox_3
+[2017.04.22-16.31.58:903][806]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/FirstPersonBP/Maps/MainMenu.MainMenu:WidgetTree.VerticalBox_3.VerticalBoxSlot_5) from referencer (Button /Engine/UMG/Editor/Transient.Button_7).  Import failed...
+[2017.04.22-16.31.58:903][806]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_3.VerticalBoxSlot_5''
+[2017.04.22-16.37.03:142][509]Cmd: TRANSACTION UNDO
+[2017.04.22-16.37.03:142][509]LogEditorTransaction: Undo Rename Widget
+[2017.04.22-16.38.51:745][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.046
+[2017.04.22-16.38.51:748][600]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/MainMenu] ([1] browsable assets)...
+[2017.04.22-16.38.51:748][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/MainMenu]
+[2017.04.22-16.38.51:761][600]LogSavePackage: Save=11.82ms
+[2017.04.22-16.38.51:761][600]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/MainMenu_Auto141CFB4704D3D9D67C3CFFF8CDF73A49E.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/MainMenu_Auto1.uasset'
+[2017.04.22-16.38.51:763][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/MainMenu_Auto1.uasset
+[2017.04.22-16.38.51:763][600]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.04.22-17.09.39:465][980]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\jose_\Desktop\prueba.png)
+[2017.04.22-17.09.39:517][980]LogTexture:Display: Building textures: prueba (AutoDXT, 1280X720) - 620 MB total VRAM
+[2017.04.22-17.10.30:240][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.044
+[2017.04.22-17.10.30:242][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/MainMenu] ([1] browsable assets)...
+[2017.04.22-17.10.30:242][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/MainMenu]
+[2017.04.22-17.10.30:260][304]LogSavePackage: Save=15.79ms
+[2017.04.22-17.10.30:260][304]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/MainMenu_Auto23FA91B8B46E125FC64300CBC6ED4DE94.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/MainMenu_Auto2.uasset'
+[2017.04.22-17.10.30:262][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/MainMenu_Auto2.uasset
+[2017.04.22-17.10.30:263][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Maps/prueba] ([1] browsable assets)...
+[2017.04.22-17.10.30:269][304]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPersonBP/Maps/prueba.prueba]
+[2017.04.22-17.10.30:269][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/prueba]
+[2017.04.22-17.10.30:279][304]LogSavePackage: Save=9.01ms
+[2017.04.22-17.10.30:279][304]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/prueba_Auto2FB7C90F148A0B9296CCA358A89B5B28D.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/prueba_Auto2.uasset'
+[2017.04.22-17.10.30:281][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/prueba_Auto2.uasset
+[2017.04.22-17.10.30:281][304]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.04.22-17.14.42:152][800]BlueprintLog: New page: Compile MainMenu
+[2017.04.22-17.14.43:144][831]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.22-17.14.43:166][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.22-17.14.43:166][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.22-17.14.43:173][831]PIE: New page: PIE session: Minimal_Default (Apr 22, 2017, 9:14:43 PM)
+[2017.04.22-17.14.43:173][831]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.04.22-17.14.43:195][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022594s)
+[2017.04.22-17.14.43:197][831]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.22-17.14.43:197][831]LogPlayLevel: PIE: World Init took: (0.001613s)
+[2017.04.22-17.14.43:197][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.024599s)
+[2017.04.22-17.14.43:220][831]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.22-17.14.43:287][831]LogInit: FAudioDevice initialized.
+[2017.04.22-17.14.43:379][831]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.22-17.14.43:388][831]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.04.22-19.14.43
+[2017.04.22-17.14.43:406][831]LogWorld: Bringing up level for play took: 0.025016
+[2017.04.22-17.14.43:466][831]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.04.22-17.14.43:472][831]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.597
+[2017.04.22-17.14.43:472][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.22-17.14.47:193][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.22-17.14.47:243][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.22-17.18.25:129][994]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.22-17.18.25:143][994]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.22-17.18.25:151][994]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.22-17.18.25:154][994]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:159][994]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:167][994]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.22-17.18.25:185][994]LogSlate:Warning: SlateFontCache - Setting the threshold to trigger a flush to 2 atlas pages as there is a lot of font data being cached.
+[2017.04.22-17.18.25:256][996]LogSlate: Took 0.000405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.22-17.18.25:265][996]LogSlate:Warning: SlateFontCache - Setting the threshold to trigger a flush to 2 atlas pages as there is a lot of font data being cached.
+[2017.04.22-17.18.25:271][996]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.22-17.18.25:278][996]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.22-17.18.25:282][996]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:288][996]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:296][996]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.22-17.18.25:316][996]LogSlate:Warning: SlateFontCache - Setting the threshold to trigger a flush to 3 atlas pages as there is a lot of font data being cached.
+[2017.04.22-17.18.25:381][998]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.22-17.18.25:389][998]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.22-17.18.25:395][998]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.22-17.18.25:400][998]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:404][998]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:412][998]LogSlate:Warning: SlateFontCache - Setting the threshold to trigger a flush to 2 atlas pages as there is a lot of font data being cached.
+[2017.04.22-17.18.25:419][998]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.22-17.18.25:441][998]LogSlate:Warning: SlateFontCache - Setting the threshold to trigger a flush to 3 atlas pages as there is a lot of font data being cached.
+[2017.04.22-17.18.25:655][  7]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.22-17.18.25:667][  7]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.22-17.18.25:675][  7]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.22-17.18.25:679][  7]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:684][  7]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:692][  7]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.22-17.18.25:709][  7]LogSlate:Warning: SlateFontCache - Setting the threshold to trigger a flush to 2 atlas pages as there is a lot of font data being cached.
+[2017.04.22-17.18.25:762][  9]LogSlate: Took 0.000500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.22-17.18.25:770][  9]LogSlate: Took 0.000736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.22-17.18.25:777][  9]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.22-17.18.25:780][  9]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:785][  9]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.18.25:797][  9]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.22-17.18.25:815][  9]LogSlate:Warning: SlateFontCache - Setting the threshold to trigger a flush to 2 atlas pages as there is a lot of font data being cached.
+[2017.04.22-17.18.40:117][652]LogSlate: Took 0.003736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.22-17.18.54:522][258]BlueprintLog: New page: Compile MainMenu
+[2017.04.22-17.20.34:379][730]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.22-17.20.34:448][730]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.018
+[2017.04.22-17.20.34:451][730]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/MainMenu] ([1] browsable assets)...
+[2017.04.22-17.20.34:452][730]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/MainMenu]
+[2017.04.22-17.20.34:478][730]LogSavePackage: Save=24.08ms
+[2017.04.22-17.20.34:478][730]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/MainMenu_Auto3B8D033CE44E90074E693648F70E7CD24.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/MainMenu_Auto3.uasset'
+[2017.04.22-17.20.34:481][730]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/MainMenu_Auto3.uasset
+[2017.04.22-17.20.34:481][730]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.04.23-17.36.43:201][203]LogHttp:Warning: 0000027A00198100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.04.23-17.36.43:201][203]LogHttp:Warning: 0000027A00198100: libcurl info message cache 0 (Connection 31 seems to be dead!)
+[2017.04.23-17.36.43:201][203]LogHttp:Warning: 0000027A00198100: libcurl info message cache 1 (Closing connection 31)
+[2017.04.23-17.36.43:201][203]LogHttp:Warning: 0000027A00198100: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.04.23-17.36.43:201][203]LogHttp:Warning: 0000027A00198100: libcurl info message cache 3 (Closing connection 32)
+[2017.04.23-17.40.06:693][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/MainMenu" FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/MainMenu.uasset" SILENT=true
+[2017.04.23-17.40.06:727][910]LogSavePackage: Save=30.84ms
+[2017.04.23-17.40.06:727][910]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/MainMenu1C636DE4491672D73E4BF896915DADC2.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/MainMenu.uasset'
+[2017.04.23-17.40.06:732][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/MainMenu.uasset
+[2017.04.23-17.41.35:739][300]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.41.37:860][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/prueba" FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/prueba.uasset" SILENT=true
+[2017.04.23-17.41.37:963][300]LogSavePackage: Save=102.53ms
+[2017.04.23-17.41.37:963][300]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/pruebaAE710BC7496A6969B6551583F0A8BE43.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/prueba.uasset'
+[2017.04.23-17.41.37:969][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/prueba.uasset
+[2017.04.23-17.41.37:975][300]Cmd: MAP LOAD FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Pepelu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.23-17.41.37:975][300]LightingResults: New page: Lighting Build
+[2017.04.23-17.41.37:983][300]LoadErrors: New page: Loading map: Pepelu.umap
+[2017.04.23-17.41.37:989][300]MapCheck: New page: Map Check
+[2017.04.23-17.41.37:989][300]LightingResults: New page: Lighting Build
+[2017.04.23-17.41.38:046][300]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.23-17.41.38:078][300]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.23-17.41.38:340][300]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 262.06ms to complete.
+[2017.04.23-17.41.38:342][300]LogSlate: Took 0.001750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.23-17.41.38:350][300]LogFileHelpers: Loading map 'Pepelu' took 0.382
+[2017.04.23-17.41.56:982][265]LogAIModule: Creating AISystem for world Molto
+[2017.04.23-17.41.57:007][265]Cmd: MAP LOAD FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Molto.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.23-17.41.57:008][265]LightingResults: New page: Lighting Build
+[2017.04.23-17.41.57:009][265]LoadErrors: New page: Loading map: Molto.umap
+[2017.04.23-17.41.57:010][265]MapCheck: New page: Map Check
+[2017.04.23-17.41.57:011][265]LightingResults: New page: Lighting Build
+[2017.04.23-17.41.57:032][265]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.23-17.41.57:058][265]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.23-17.41.57:252][265]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 193.251ms to complete.
+[2017.04.23-17.41.57:252][265]LogFileHelpers: Loading map 'Molto' took 0.246
+[2017.04.23-17.41.58:758][395]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.41.58:791][395]Cmd: MAP LOAD FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Pepelu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.23-17.41.58:791][395]LightingResults: New page: Lighting Build
+[2017.04.23-17.41.58:792][395]LoadErrors: New page: Loading map: Pepelu.umap
+[2017.04.23-17.41.58:793][395]MapCheck: New page: Map Check
+[2017.04.23-17.41.58:793][395]LightingResults: New page: Lighting Build
+[2017.04.23-17.41.58:816][395]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.23-17.41.58:844][395]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.23-17.41.59:028][395]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 183.628ms to complete.
+[2017.04.23-17.41.59:028][395]LogFileHelpers: Loading map 'Pepelu' took 0.239
+[2017.04.23-17.42.16:197][254]LogSlate: Took 0.002210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.23-17.42.56:289][508]LogSlate: Took 0.002038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.04.23-17.43.03:751][  6]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.04.23-17.43.04:132][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.04.23-17.43.04:132][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2017.04.23-17.43.04:132][  6]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2017.04.23-17.43.53:139][427]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.04.23-17.43.53:333][427]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.04.23-17.43.53:333][427]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2017.04.23-17.43.53:333][427]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2017.04.23-17.50.28:490][650]LogEditorTransaction: Undo Add Widget
+[2017.04.23-17.52.04:517][199]BlueprintLog: New page: Compile HUD
+[2017.04.23-17.52.05:349][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/HUD" FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset" SILENT=true
+[2017.04.23-17.52.05:407][246]LogSavePackage: Save=22.21ms
+[2017.04.23-17.52.05:407][246]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/HUD09E3BC9A4965AB17A1BFF79A48FFC892.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset'
+[2017.04.23-17.52.05:412][246]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset
+[2017.04.23-17.52.14:261][887]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-17.52.14:287][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.52.14:287][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-17.52.14:287][887]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 9:52:14 PM)
+[2017.04.23-17.52.14:288][887]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-17.52.14:312][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024097s)
+[2017.04.23-17.52.14:313][887]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.52.14:314][887]LogPlayLevel: PIE: World Init took: (0.001714s)
+[2017.04.23-17.52.14:314][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.026550s)
+[2017.04.23-17.52.14:337][887]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-17.52.14:394][887]LogInit: FAudioDevice initialized.
+[2017.04.23-17.52.14:430][887]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-17.52.14:434][887]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-19.52.14
+[2017.04.23-17.52.14:435][887]LogWorld: Bringing up level for play took: 0.003155
+[2017.04.23-17.52.14:438][887]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.622
+[2017.04.23-17.52.14:438][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.52.43:574][328]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.52.43:614][328]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.52.46:852][702]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-17.52.46:868][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.52.46:868][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-17.52.46:868][702]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 9:52:46 PM)
+[2017.04.23-17.52.46:868][702]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-17.52.46:892][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024080s)
+[2017.04.23-17.52.46:893][702]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.52.46:894][702]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2017.04.23-17.52.46:894][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.025510s)
+[2017.04.23-17.52.46:915][702]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-17.52.46:966][702]LogInit: FAudioDevice initialized.
+[2017.04.23-17.52.46:998][702]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-17.52.47:002][702]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-19.52.47
+[2017.04.23-17.52.47:002][702]LogWorld: Bringing up level for play took: 0.001820
+[2017.04.23-17.52.47:008][702]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu -0.808
+[2017.04.23-17.52.47:008][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.52.59:641][812]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.52.59:673][812]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.53.16:141][ 20]BlueprintLog: New page: Compile HUD
+[2017.04.23-17.53.21:834][424]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-17.53.21:851][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.53.21:851][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-17.53.21:851][424]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 9:53:21 PM)
+[2017.04.23-17.53.21:851][424]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-17.53.21:876][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024358s)
+[2017.04.23-17.53.21:877][424]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.53.21:877][424]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2017.04.23-17.53.21:877][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.025679s)
+[2017.04.23-17.53.21:901][424]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-17.53.21:955][424]LogInit: FAudioDevice initialized.
+[2017.04.23-17.53.21:987][424]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-17.53.21:990][424]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-19.53.21
+[2017.04.23-17.53.21:990][424]LogWorld: Bringing up level for play took: 0.001737
+[2017.04.23-17.53.21:992][424]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.176
+[2017.04.23-17.53.21:992][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.53.30:770][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.53.30:803][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.53.33:654][764]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-17.53.33:668][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.53.33:668][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-17.53.33:668][764]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 9:53:33 PM)
+[2017.04.23-17.53.33:669][764]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-17.53.33:694][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025366s)
+[2017.04.23-17.53.33:695][764]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.53.33:695][764]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2017.04.23-17.53.33:695][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.026852s)
+[2017.04.23-17.53.33:719][764]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-17.53.33:772][764]LogInit: FAudioDevice initialized.
+[2017.04.23-17.53.33:804][764]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-17.53.33:808][764]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-19.53.33
+[2017.04.23-17.53.33:808][764]LogWorld: Bringing up level for play took: 0.002174
+[2017.04.23-17.53.33:810][764]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu -0.006
+[2017.04.23-17.53.33:810][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.54.29:128][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.54.29:166][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.54.38:978][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/HUD" FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset" SILENT=true
+[2017.04.23-17.54.39:025][487]LogSavePackage: Save=28.17ms
+[2017.04.23-17.54.39:025][487]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/HUDFD2AD93740BE7B6C8269A4B4D8A4E7FF.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset'
+[2017.04.23-17.54.39:029][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset
+[2017.04.23-17.54.43:428][826]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-17.54.43:443][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.54.43:443][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-17.54.43:443][826]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 9:54:43 PM)
+[2017.04.23-17.54.43:443][826]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-17.54.43:471][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027441s)
+[2017.04.23-17.54.43:471][826]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.54.43:472][826]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2017.04.23-17.54.43:472][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.028709s)
+[2017.04.23-17.54.43:494][826]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-17.54.43:546][826]LogInit: FAudioDevice initialized.
+[2017.04.23-17.54.43:576][826]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-17.54.43:579][826]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-19.54.43
+[2017.04.23-17.54.43:580][826]LogWorld: Bringing up level for play took: 0.001810
+[2017.04.23-17.54.43:586][826]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu -0.23
+[2017.04.23-17.54.43:586][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.54.53:419][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.54.53:453][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.55.07:550][872]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-17.55.07:566][872]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.55.07:566][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-17.55.07:566][872]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 9:55:07 PM)
+[2017.04.23-17.55.07:566][872]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-17.55.07:592][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026007s)
+[2017.04.23-17.55.07:593][872]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.55.07:593][872]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2017.04.23-17.55.07:594][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.027665s)
+[2017.04.23-17.55.07:616][872]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-17.55.07:671][872]LogInit: FAudioDevice initialized.
+[2017.04.23-17.55.07:704][872]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-17.55.07:707][872]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-19.55.07
+[2017.04.23-17.55.07:707][872]LogWorld: Bringing up level for play took: 0.001892
+[2017.04.23-17.55.07:709][872]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu -0.107
+[2017.04.23-17.55.07:709][872]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.55.14:065][400]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:115621).
+[2017.04.23-17.55.24:917][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.55.24:952][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.56.55:072][417]BlueprintLog: New page: Compile HUD
+[2017.04.23-17.56.57:992][622]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-17.56.58:007][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.56.58:007][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-17.56.58:007][622]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 9:56:58 PM)
+[2017.04.23-17.56.58:007][622]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-17.56.58:030][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023750s)
+[2017.04.23-17.56.58:032][622]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-17.56.58:032][622]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2017.04.23-17.56.58:032][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.025471s)
+[2017.04.23-17.56.58:060][622]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-17.56.58:113][622]LogInit: FAudioDevice initialized.
+[2017.04.23-17.56.58:148][622]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-17.56.58:151][622]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-19.56.58
+[2017.04.23-17.56.58:152][622]LogWorld: Bringing up level for play took: 0.001988
+[2017.04.23-17.56.58:153][622]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.337
+[2017.04.23-17.56.58:154][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.57.03:122][199]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.57.03:156][199]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-17.57.55:223][863]LogSavePackage: Save=136.88ms
+[2017.04.23-17.57.55:224][863]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Pepelu_Auto406B33BB14D18AFA69FA49E84E4DCB95E.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Pepelu_Auto4.umap'
+[2017.04.23-17.57.55:227][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Pepelu_Auto4.umap
+[2017.04.23-17.57.55:230][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Pepelu' took 0.194
+[2017.04.23-17.57.55:230][863]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.194
+[2017.04.23-17.57.55:232][863]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.04.23-17.57.55:288][863]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.04.23-17.57.55:288][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.04.23-17.57.55:395][863]LogSavePackage: Save=87.12ms
+[2017.04.23-17.57.55:395][863]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/FirstPersonCharacter_Auto4237DB26B4D6338876A1492A13B2FD6F5.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2017.04.23-17.57.55:399][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset
+[2017.04.23-17.57.55:400][863]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/HUD] ([1] browsable assets)...
+[2017.04.23-17.57.55:400][863]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/HUD]
+[2017.04.23-17.57.55:449][863]LogSavePackage: Save=29.15ms
+[2017.04.23-17.57.55:449][863]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/HUD_Auto433F3B7CD4060D6653D70FBB88D0995B9.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/HUD_Auto4.uasset'
+[2017.04.23-17.57.55:452][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/HUD_Auto4.uasset
+[2017.04.23-17.57.55:452][863]LogFileHelpers: Auto-saving content packages took 0.222
+[2017.04.23-18.00.09:894][811]BlueprintLog: New page: Compile HUD
+[2017.04.23-18.00.12:395][990]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-18.00.12:412][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.00.12:412][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-18.00.12:412][990]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 10:00:12 PM)
+[2017.04.23-18.00.12:412][990]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-18.00.12:438][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026420s)
+[2017.04.23-18.00.12:440][990]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-18.00.12:440][990]LogPlayLevel: PIE: World Init took: (0.001588s)
+[2017.04.23-18.00.12:441][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.028539s)
+[2017.04.23-18.00.12:464][990]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-18.00.12:518][990]LogInit: FAudioDevice initialized.
+[2017.04.23-18.00.12:551][990]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-18.00.12:554][990]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-20.00.12
+[2017.04.23-18.00.12:555][990]LogWorld: Bringing up level for play took: 0.002339
+[2017.04.23-18.00.12:556][990]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.741
+[2017.04.23-18.00.12:556][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.00.19:245][772]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.00.19:281][772]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.00.20:227][877]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-18.00.20:244][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.00.20:244][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-18.00.20:244][877]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 10:00:20 PM)
+[2017.04.23-18.00.20:244][877]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-18.00.20:272][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027754s)
+[2017.04.23-18.00.20:273][877]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-18.00.20:273][877]LogPlayLevel: PIE: World Init took: (0.001315s)
+[2017.04.23-18.00.20:273][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.029578s)
+[2017.04.23-18.00.20:297][877]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-18.00.20:350][877]LogInit: FAudioDevice initialized.
+[2017.04.23-18.00.20:379][877]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-18.00.20:383][877]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-20.00.20
+[2017.04.23-18.00.20:383][877]LogWorld: Bringing up level for play took: 0.002246
+[2017.04.23-18.00.20:385][877]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.569
+[2017.04.23-18.00.20:385][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.00.39:644][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.00.39:678][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.06.21:210][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/HUD" FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset" SILENT=true
+[2017.04.23-18.06.21:273][ 23]LogSavePackage: Save=31.20ms
+[2017.04.23-18.06.21:273][ 23]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/HUDCE5D5A2144AD4C02A6F807B317FF7F2D.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset'
+[2017.04.23-18.06.21:276][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset
+[2017.04.23-18.06.23:323][159]BlueprintLog: New page: Compile HUD
+[2017.04.23-18.06.23:343][159]LogBlueprint:Error: [Compiler HUD] Error This blueprint (self) is not a HUD, therefore ' Target ' must have a connection.
+[2017.04.23-18.06.23:553][159]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a HUD, therefore ' Target ' must have a connection.
+[2017.04.23-18.06.23:554][159]LogBlueprint:Warning: [Compiler HUD] Warning [2392.29] Compile of HUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 230 ms] (/Game/FirstPersonBP/Maps/HUD.HUD)
+[2017.04.23-18.06.25:943][332]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-18.06.25:963][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.06.25:963][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-18.06.28:287][332]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 10:06:28 PM)
+[2017.04.23-18.06.28:287][332]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-18.06.28:315][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028032s)
+[2017.04.23-18.06.28:317][332]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-18.06.28:317][332]LogPlayLevel: PIE: World Init took: (0.001618s)
+[2017.04.23-18.06.28:317][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.030054s)
+[2017.04.23-18.06.28:343][332]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-18.06.28:398][332]LogInit: FAudioDevice initialized.
+[2017.04.23-18.06.28:430][332]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-18.06.28:433][332]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-20.06.28
+[2017.04.23-18.06.28:433][332]LogWorld: Bringing up level for play took: 0.002253
+[2017.04.23-18.06.28:435][332]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 2.619
+[2017.04.23-18.06.28:435][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.06.33:971][950]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.06.34:010][950]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.06.48:051][866]BlueprintLog: New page: Compile HUD
+[2017.04.23-18.06.51:661][137]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-18.06.51:676][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.06.51:676][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-18.06.51:676][137]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 10:06:51 PM)
+[2017.04.23-18.06.51:676][137]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-18.06.51:703][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026772s)
+[2017.04.23-18.06.51:704][137]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-18.06.51:704][137]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2017.04.23-18.06.51:704][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.028237s)
+[2017.04.23-18.06.51:729][137]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-18.06.51:783][137]LogInit: FAudioDevice initialized.
+[2017.04.23-18.06.51:818][137]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-18.06.51:822][137]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-20.06.51
+[2017.04.23-18.06.51:822][137]LogWorld: Bringing up level for play took: 0.001959
+[2017.04.23-18.06.51:824][137]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.008
+[2017.04.23-18.06.51:824][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.06.58:173][868]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.06.58:208][868]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.07.51:852][403]BlueprintLog: New page: Compile HUD
+[2017.04.23-18.07.51:867][403]LogBlueprint:Error: [Compiler HUD] Error This blueprint (self) is not a HUD, therefore ' Target ' must have a connection.
+[2017.04.23-18.07.52:070][403]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a HUD, therefore ' Target ' must have a connection.
+[2017.04.23-18.07.52:071][403]LogBlueprint:Warning: [Compiler HUD] Warning [2480.81] Compile of HUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 218 ms] (/Game/FirstPersonBP/Maps/HUD.HUD)
+[2017.04.23-18.07.54:272][554]BlueprintLog: New page: Compile HUD
+[2017.04.23-18.07.54:287][554]LogBlueprint:Error: [Compiler HUD] Error This blueprint (self) is not a HUD, therefore ' Target ' must have a connection.
+[2017.04.23-18.07.54:459][554]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a HUD, therefore ' Target ' must have a connection.
+[2017.04.23-18.07.54:459][554]LogBlueprint:Warning: [Compiler HUD] Warning [2483.20] Compile of HUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 186 ms] (/Game/FirstPersonBP/Maps/HUD.HUD)
+[2017.04.23-18.08.45:441][251]Cmd: TRANSACTION UNDO
+[2017.04.23-18.08.45:441][251]LogEditorTransaction: Undo Create Pin Link
+[2017.04.23-18.08.45:678][268]Cmd: TRANSACTION UNDO
+[2017.04.23-18.08.45:678][268]LogEditorTransaction: Undo Create Pin Link
+[2017.04.23-18.08.45:865][280]Cmd: TRANSACTION UNDO
+[2017.04.23-18.08.45:865][280]LogEditorTransaction: Undo Break Pin Link
+[2017.04.23-18.08.46:574][341]Cmd: TRANSACTION UNDO
+[2017.04.23-18.08.46:574][341]LogEditorTransaction: Undo Create Pin Link
+[2017.04.23-18.09.19:861][830]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.23-18.09.20:387][860]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.23-18.09.29:804][604]Cmd: TRANSACTION UNDO
+[2017.04.23-18.09.29:804][604]LogEditorTransaction: Undo Remove Widget
+[2017.04.23-18.09.32:088][779]Cmd: TRANSACTION UNDO
+[2017.04.23-18.09.32:088][779]LogEditorTransaction: Undo Delete selection
+[2017.04.23-18.09.32:506][811]Cmd: TRANSACTION UNDO
+[2017.04.23-18.09.32:506][811]LogEditorTransaction: Undo Changed Anchors
+[2017.04.23-18.10.06:754][269]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Pepelu' took 0.025
+[2017.04.23-18.10.06:757][269]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.04.23-18.10.06:796][269]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.04.23-18.10.06:796][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.04.23-18.10.06:914][269]LogSavePackage: Save=92.49ms
+[2017.04.23-18.10.06:914][269]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/FirstPersonCharacter_Auto59067955346017EE028898E97DC60A91E.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset'
+[2017.04.23-18.10.06:921][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto5.uasset
+[2017.04.23-18.10.06:922][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/HUD] ([1] browsable assets)...
+[2017.04.23-18.10.06:922][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/HUD]
+[2017.04.23-18.10.06:970][269]LogSavePackage: Save=29.64ms
+[2017.04.23-18.10.06:970][269]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/HUD_Auto5AE0E1FAD44ABB8A68D39D9849C074053.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/HUD_Auto5.uasset'
+[2017.04.23-18.10.06:973][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/HUD_Auto5.uasset
+[2017.04.23-18.10.06:974][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD] ([1] browsable assets)...
+[2017.04.23-18.10.06:974][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD]
+[2017.04.23-18.10.07:008][269]LogSavePackage: Save=12.19ms
+[2017.04.23-18.10.07:008][269]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/FirstPersonHUD_Auto5E954FD154A737BDA82C79C952E74B3C6.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonHUD_Auto5.uasset'
+[2017.04.23-18.10.07:011][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonHUD_Auto5.uasset
+[2017.04.23-18.10.07:011][269]LogFileHelpers: Auto-saving content packages took 0.256
+[2017.04.23-18.11.23:619][905]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-18.11.23:634][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.11.23:634][905]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.23-18.11.23:634][905]LogPlayLevel: [PlayLevel] Compiling FirstPersonHUD before play...
+[2017.04.23-18.11.23:717][905]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2017.04.23-18.11.23:849][905]LogPlayLevel: PlayLevel: Blueprint regeneration took 215 ms (2 blueprints)
+[2017.04.23-18.11.23:850][905]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 10:11:23 PM)
+[2017.04.23-18.11.23:850][905]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-18.11.23:874][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024386s)
+[2017.04.23-18.11.23:875][905]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-18.11.23:875][905]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2017.04.23-18.11.23:876][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.026256s)
+[2017.04.23-18.11.23:904][905]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-18.11.23:956][905]LogInit: FAudioDevice initialized.
+[2017.04.23-18.11.23:989][905]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-18.11.23:993][905]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-20.11.23
+[2017.04.23-18.11.23:993][905]LogWorld: Bringing up level for play took: 0.001920
+[2017.04.23-18.11.23:995][905]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.179
+[2017.04.23-18.11.23:995][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.11.27:157][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.11.27:188][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.15.59:693][868]Cmd: TRANSACTION UNDO
+[2017.04.23-18.15.59:693][868]LogEditorTransaction: Undo Edit Image
+[2017.04.23-18.16.27:729][724]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\jose_\Documents\GitHub\LastBulletVR\LastBullet\Content\mirilla.png)
+[2017.04.23-18.16.27:736][724]LogTexture:Display: Building textures: mirilla (BGRA8, 220X165) - 630 MB total VRAM
+[2017.04.23-18.16.31:454][ 90]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.23-18.18.14:661][112]AssetReimport: New page: Detailed File System Changes from 8:18:14 PM
+[2017.04.23-18.18.14:680][112]AssetReimport: Info 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/mirilla.png' has been created.
+[2017.04.23-18.18.18:057][466]AssetReimport: New page: Outstanding source content changes 10:18:18 PM
+[2017.04.23-18.18.18:060][466]LogEditorFactories: Performing atomic reimport of [C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/mirilla.png]
+[2017.04.23-18.18.18:061][466]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/mirilla.png)
+[2017.04.23-18.18.18:072][466]LogEditorFactories: -- imported successfully
+[2017.04.23-18.18.21:099][794]AssetReimport: Info Reimported asset mirilla from C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/mirilla.png.
+[2017.04.23-18.19.03:354][ 30]BlueprintLog: New page: Compile HUD
+[2017.04.23-18.19.05:762][179]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-18.19.05:780][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.19.05:780][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-18.19.05:781][179]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 10:19:05 PM)
+[2017.04.23-18.19.05:781][179]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-18.19.05:806][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025334s)
+[2017.04.23-18.19.05:807][179]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-18.19.05:807][179]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2017.04.23-18.19.05:807][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.026781s)
+[2017.04.23-18.19.05:840][179]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-18.19.05:901][179]LogInit: FAudioDevice initialized.
+[2017.04.23-18.19.05:932][179]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-18.19.05:935][179]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-20.19.05
+[2017.04.23-18.19.05:935][179]LogWorld: Bringing up level for play took: 0.002138
+[2017.04.23-18.19.05:937][179]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.121
+[2017.04.23-18.19.05:937][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.19.25:402][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.19.25:439][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.19.47:682][ 49]BlueprintLog: New page: Compile HUD
+[2017.04.23-18.19.49:867][195]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.23-18.19.49:882][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.19.49:882][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.23-18.19.49:882][195]PIE: New page: PIE session: Pepelu (Apr 23, 2017, 10:19:49 PM)
+[2017.04.23-18.19.49:882][195]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu
+[2017.04.23-18.19.49:909][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026631s)
+[2017.04.23-18.19.49:909][195]LogAIModule: Creating AISystem for world Pepelu
+[2017.04.23-18.19.49:910][195]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2017.04.23-18.19.49:910][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Pepelu.Pepelu to /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu (0.028101s)
+[2017.04.23-18.19.49:932][195]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-18.19.49:986][195]LogInit: FAudioDevice initialized.
+[2017.04.23-18.19.50:015][195]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.23-18.19.50:019][195]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu.Pepelu up for play (max tick rate 0) at 2017.04.23-20.19.50
+[2017.04.23-18.19.50:019][195]LogWorld: Bringing up level for play took: 0.002472
+[2017.04.23-18.19.50:021][195]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Pepelu 0.205
+[2017.04.23-18.19.50:022][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.20.08:576][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.20.08:610][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu' with GeneratedClass '/Game/FirstPersonBP/Maps/Pepelu.Pepelu_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Pepelu.Pepelu:PersistentLevel.Pepelu'
+[2017.04.23-18.20.11:157][619]LogSavePackage: Save=136.24ms
+[2017.04.23-18.20.11:157][619]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/PepeluB432C3A04E4C1E6D6896E5A803D19F8B.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Pepelu.umap'
+[2017.04.23-18.20.11:161][619]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Pepelu.umap
+[2017.04.23-18.20.12:408][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/mirilla" FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/mirilla.uasset" SILENT=true
+[2017.04.23-18.20.12:414][696]LogSavePackage: Save=4.38ms
+[2017.04.23-18.20.12:414][696]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/mirilla375476BF42267C1DB6175DB8AFB4B14E.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/mirilla.uasset'
+[2017.04.23-18.20.12:418][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/mirilla.uasset
+[2017.04.23-18.20.14:319][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/HUD" FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset" SILENT=true
+[2017.04.23-18.20.14:367][847]LogSavePackage: Save=27.31ms
+[2017.04.23-18.20.14:367][847]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/HUDDE1ACAAB431C3088440044891645A070.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset'
+[2017.04.23-18.20.14:372][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/HUD.uasset
+[2017.04.23-18.24.40:095][573]LogSavePackage: Save=95.32ms
+[2017.04.23-18.24.40:095][573]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/FirstPersonCharacter4E2610154BC7EF9B9ADA17A39696604B.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.04.23-18.24.40:099][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.23-18.24.40:110][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMediaTexture" FILE="../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/NewMediaTexture.uasset" SILENT=true
+[2017.04.23-18.24.40:114][573]LogSavePackage: Save=1.64ms
+[2017.04.23-18.24.40:114][573]LogSavePackage: Moving '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/NewMediaTexture2841400E40148B195C0BD7AC8C827A94.tmp' to '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/NewMediaTexture.uasset'
+[2017.04.23-18.24.40:118][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/NewMediaTexture.uasset
+[2017.04.23-18.24.40:201][573]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.23-18.24.40:201][573]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.23-18.24.40:454][574]Cmd: QUIT_EDITOR
+[2017.04.23-18.24.40:807][574]LogExit: Preparing to exit.
+[2017.04.23-18.24.41:315][574]LogDirectoryWatcher: A directory notification for 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/' was aborted.
+[2017.04.23-18.24.41:506][574]LogExit: Editor shut down
+[2017.04.23-18.24.41:508][574]LogExit: Transaction tracking system shut down
+[2017.04.23-18.24.41:814][574]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.23-18.24.41:814][574]LogExit: Object subsystem successfully closed.
+[2017.04.23-18.24.41:860][574]LogD3D11RHI: Shutdown
+[2017.04.23-18.24.41:860][574]LogD3D11RHI: CleanupD3DDevice
+[2017.04.23-18.24.42:055][574]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.23-18.24.42:117][574]LogModuleManager: Shutting down and abandoning module TextureEditor (508)
+[2017.04.23-18.24.42:117][574]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.04.23-18.24.42:117][574]LogModuleManager: Shutting down and abandoning module SequencerWidgets (504)
+[2017.04.23-18.24.42:117][574]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.04.23-18.24.42:117][574]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.04.23-18.24.42:119][574]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.23-18.24.42:119][574]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.23-18.24.42:120][574]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.23-18.24.42:120][574]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.23-18.24.42:121][574]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.23-18.24.42:129][574]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.23-18.24.42:129][574]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.23-18.24.42:129][574]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.23-18.24.42:129][574]LogDirectoryWatcher: A directory notification for 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Collections/' was aborted.
+[2017.04.23-18.24.42:129][574]LogDirectoryWatcher: A directory notification for 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/Developers/jose/Collections/' was aborted.
+[2017.04.23-18.24.42:129][574]LogDirectoryWatcher: A directory notification for 'C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Saved/Collections/' was aborted.
+[2017.04.23-18.24.42:130][574]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.23-18.24.42:130][574]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.23-18.24.42:130][574]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.23-18.24.42:131][574]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.23-18.24.42:131][574]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.23-18.24.42:131][574]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.23-18.24.42:131][574]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.23-18.24.42:131][574]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.23-18.24.42:132][574]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.23-18.24.42:132][574]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.23-18.24.42:132][574]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.23-18.24.42:132][574]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.23-18.24.42:133][574]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.23-18.24.42:134][574]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.23-18.24.42:135][574]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.23-18.24.42:136][574]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.23-18.24.42:136][574]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.23-18.24.42:136][574]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.23-18.24.42:136][574]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.23-18.24.42:136][574]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.23-18.24.42:138][574]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.23-18.24.42:138][574]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.23-18.24.42:140][574]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.23-18.24.42:140][574]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.23-18.24.42:140][574]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.23-18.24.42:140][574]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.23-18.24.42:140][574]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.23-18.24.42:361][574]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.23-18.24.42:361][574]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.23-18.24.42:361][574]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.23-18.24.42:362][574]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.23-18.24.42:364][574]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.23-18.24.42:365][574]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.23-18.24.42:365][574]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.23-18.24.42:366][574]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.23-18.24.42:366][574]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.23-18.24.42:367][574]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.23-18.24.42:368][574]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.23-18.24.42:368][574]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.23-18.24.42:369][574]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.23-18.24.42:369][574]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.23-18.24.42:369][574]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.23-18.24.42:369][574]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.23-18.24.42:370][574]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.23-18.24.42:370][574]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.23-18.24.42:370][574]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.23-18.24.42:370][574]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.23-18.24.42:371][574]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.23-18.24.42:372][574]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.23-18.24.42:373][574]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.23-18.24.42:373][574]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.23-18.24.42:374][574]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.23-18.24.42:418][574]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.23-18.24.42:419][574]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.23-18.24.42:420][574]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.23-18.24.42:423][574]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.23-18.24.42:423][574]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.23-18.24.42:424][574]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.23-18.24.42:424][574]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.23-18.24.42:425][574]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.23-18.24.42:425][574]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.23-18.24.42:436][574]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.23-18.24.42:436][574]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.23-18.24.42:437][574]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.23-18.24.42:437][574]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.23-18.24.42:438][574]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.23-18.24.42:439][574]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.23-18.24.42:439][574]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.23-18.24.42:440][574]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.23-18.24.42:500][574]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.23-18.24.42:502][574]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.23-18.24.42:502][574]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.23-18.24.42:502][574]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.23-18.24.42:503][574]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.23-18.24.42:503][574]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.23-18.24.42:503][574]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.23-18.24.42:503][574]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.23-18.24.42:503][574]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.23-18.24.42:503][574]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.23-18.24.42:503][574]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.23-18.24.42:503][574]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.23-18.24.42:506][574]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.23-18.24.42:506][574]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.23-18.24.42:506][574]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.23-18.24.42:506][574]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.23-18.24.42:507][574]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.23-18.24.42:507][574]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.23-18.24.42:507][574]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.23-18.24.42:507][574]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.23-18.24.42:507][574]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.23-18.24.42:509][574]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.23-18.24.42:510][574]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.23-18.24.42:510][574]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.23-18.24.42:510][574]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.23-18.24.42:511][574]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.23-18.24.42:511][574]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.23-18.24.42:512][574]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.23-18.24.42:513][574]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.23-18.24.42:513][574]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.23-18.24.42:514][574]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.23-18.24.42:514][574]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.23-18.24.42:514][574]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.23-18.24.42:514][574]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.23-18.24.42:514][574]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.23-18.24.42:514][574]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.23-18.24.42:516][574]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.23-18.24.42:517][574]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.23-18.24.42:517][574]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.23-18.24.42:518][574]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.23-18.24.42:520][574]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.23-18.24.42:521][574]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.23-18.24.42:521][574]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.23-18.24.42:521][574]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.23-18.24.42:622][574]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.23-18.24.42:723][574]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.23-18.24.42:724][574]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.23-18.24.42:724][574]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.23-18.24.42:724][574]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.23-18.24.42:724][574]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.23-18.24.42:725][574]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.23-18.24.42:725][574]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.23-18.24.42:726][574]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.23-18.24.42:726][574]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.23-18.24.42:726][574]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.23-18.24.42:726][574]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.23-18.24.42:727][574]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.23-18.24.42:727][574]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.23-18.24.42:729][574]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.23-18.24.42:729][574]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.23-18.24.42:730][574]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.23-18.24.42:730][574]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.23-18.24.42:730][574]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.23-18.24.42:730][574]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.23-18.24.42:732][574]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.23-18.24.42:732][574]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.23-18.24.42:732][574]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.23-18.24.42:735][574]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.23-18.24.42:735][574]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.23-18.24.42:740][574]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.23-18.24.42:741][574]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.23-18.24.42:741][574]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.23-18.24.42:741][574]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.23-18.24.42:741][574]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.23-18.24.42:741][574]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.23-18.24.42:908][574]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.23-18.24.42:908][574]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/Content/' was aborted.
+[2017.04.23-18.24.42:908][574]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.23-18.24.42:909][574]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.23-18.24.42:914][574]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.23-18.24.42:914][574]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.23-18.24.42:914][574]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.23-18.24.42:915][574]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.23-18.24.42:916][574]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.23-18.24.42:916][574]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.23-18.24.42:917][574]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.23-18.24.42:917][574]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.23-18.24.42:929][574]LogDerivedDataCache: Shutdown
+[2017.04.23-18.24.42:929][574]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.23-18.24.42:929][574]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.23-18.24.42:929][574]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.23-18.24.42:930][574]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.23-18.24.42:930][574]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.23-18.24.42:931][574]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.23-18.24.42:931][574]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.23-18.24.42:931][574]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.23-18.24.42:931][574]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.23-18.24.42:932][574]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.23-18.24.42:932][574]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.23-18.24.42:932][574]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.23-18.24.42:933][574]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.23-18.24.42:934][574]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.23-18.24.42:935][574]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.23-18.24.42:935][574]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.23-18.24.42:935][574]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.23-18.24.42:935][574]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.23-18.24.42:935][574]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.23-18.24.42:937][574]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.23-18.24.42:938][574]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.23-18.24.42:938][574]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.23-18.24.42:938][574]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B082A165F-4DD6-BA69-C8C9-FD9031291765%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=b001de5b45e5acaf0e6945b031774733%7C110700a2fc624ba6959c79c1c7378d2c%7Cc4768b7d-3e8a-4111-98c4-e572acc32675&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.23-18.24.42:955][574]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.23-18.24.42:957][574]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.23-18.24.42:958][574]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.23-18.24.42:958][574]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.23-18.24.42:958][574]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.23-18.24.42:958][574]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.23-18.24.42:996][574]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.23-18.24.42:997][574]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.23-18.24.42:997][574]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.23-18.24.42:998][574]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.23-18.24.42:998][574]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.23-18.24.42:998][574]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.23-18.24.42:998][574]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.23-18.24.42:998][574]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.23-18.24.42:999][574]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.23-18.24.42:999][574]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.23-18.24.43:005][574]LogExit: Exiting.
+[2017.04.23-18.24.43:012][574]Log file closed, 04/23/17 20:24:43
