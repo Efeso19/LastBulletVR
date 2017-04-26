@@ -1,0 +1,1366 @@
+﻿Log file open, 04/25/17 21:21:13
+LogInit:Display: Running engine for game: LastBullet
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-142917312) SRandInit(-142917312).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.114881
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.25-19.21.14:219][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.25-19.21.14:219][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.25-19.21.14:251][  0]LogInit: Computer: DESKTOP-T9NOKQO
+[2017.04.25-19.21.14:251][  0]LogInit: User: cripe
+[2017.04.25-19.21.14:251][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.25-19.21.14:251][  0]LogInit: High frequency timer resolution =2.435773 MHz
+[2017.04.25-19.21.14:251][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.25-19.21.14:251][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.25-19.21.14:251][  0]LogMemory: Process Physical Memory: 263.41 MB used, 263.41 MB peak
+[2017.04.25-19.21.14:251][  0]LogMemory: Process Virtual Memory: 262.67 MB used, 262.67 MB peak
+[2017.04.25-19.21.14:251][  0]LogMemory: Physical Memory: 6595.64 MB used,  9707.50 MB free, 16303.14 MB total
+[2017.04.25-19.21.14:251][  0]LogMemory: Virtual Memory: 645.25 MB used,  9707.50 MB free, 134217728.00 MB total
+[2017.04.25-19.21.14:928][  0]LogInit: Overriding culture en with editor configuration.
+[2017.04.25-19.21.15:652][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.25-19.21.16:227][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.04.25-19.21.16:227][  0]LogD3D11RHI:       2017/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.25-19.21.16:234][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.25-19.21.16:234][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.25-19.21.16:235][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.25-19.21.16:235][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.25-19.21.16:235][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.25-19.21.16:241][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.25-19.21.16:241][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.25-19.21.16:241][  0]LogWindows: EnumDisplayDevices:
+[2017.04.25-19.21.16:241][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.25-19.21.16:241][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.25-19.21.16:241][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.25-19.21.16:241][  0]LogWindows:    3. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.25-19.21.16:242][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.25-19.21.16:242][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.25-19.21.16:242][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.25-19.21.16:242][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.04.25-19.21.16:242][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.25-19.21.16:242][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.25-19.21.16:242][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.25-19.21.16:805][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.25-19.21.16:806][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.25-19.21.16:906][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.25-19.21.16:906][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Intermediate/Shaders/WorkingDirectory/13372/).
+[2017.04.25-19.21.16:907][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cripe/AppData/Local/Temp/UnrealShaderWorkingDir/1322BD374DC9916152D5C9A49968923F/'.
+[2017.04.25-19.21.16:907][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.25-19.21.18:058][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.25-19.21.18:107][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.25-19.21.18:153][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.25-19.21.18:200][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.25-19.21.18:247][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.25-19.21.18:304][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.25-19.21.18:361][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.25-19.21.18:409][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.25-19.21.18:448][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.25-19.21.18:493][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.25-19.21.18:540][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.25-19.21.18:593][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.25-19.21.18:638][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.25-19.21.18:682][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.25-19.21.18:726][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.25-19.21.18:818][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.25-19.21.18:818][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.25-19.21.18:852][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.25-19.21.18:937][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.25-19.21.18:969][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.25-19.21.19:018][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.25-19.21.19:065][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.25-19.21.19:117][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.25-19.21.19:172][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.25-19.21.19:172][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.25-19.21.19:543][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.25-19.21.19:592][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.25-19.21.19:592][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.25-19.21.19:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/cripe/Desktop/LastBulletVR/LastBullet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.25-19.21.19:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.25-19.21.19:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/cripe/Desktop/LastBulletVR/LastBullet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.25-19.21.19:592][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.25-19.21.19:610][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.25-19.21.19:622][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cripe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.25-19.21.19:632][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.25-19.21.19:632][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.25-19.21.19:632][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.25-19.21.19:919][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.25-19.21.19:921][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.25-19.21.20:121][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.25-19.21.20:155][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.25-19.21.20:196][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.25-19.21.20:196][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.25-19.21.20:196][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.25-19.21.20:765][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lastbullet, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1522868599
+[2017.04.25-19.21.20:807][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.04.25-19.21.20:843][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.015092 seconds
+[2017.04.25-19.21.20:849][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.25-19.21.20:849][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.25-19.21.20:849][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.25-19.21.20:905][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.25-19.21.22:545][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.25-19.21.22:586][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.25-19.21.23:019][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.25-19.21.23:363][  0]SourceControl: Info Source control is disabled
+[2017.04.25-19.21.23:364][  0]SourceControl: Info Source control is disabled
+[2017.04.25-19.21.23:412][  0]SourceControl: Info Source control is disabled
+[2017.04.25-19.21.23:451][  0]SourceControl: Info Source control is disabled
+[2017.04.25-19.21.24:575][  0]LogEngine: Initializing Engine...
+[2017.04.25-19.21.24:576][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.25-19.21.24:787][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.25-19.21.24:796][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.25-19.21.24:812][  0]LogInit: FAudioDevice initialized.
+[2017.04.25-19.21.25:008][  0]LogDerivedDataCache: Saved boot cache 0.20s 50MB C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.25-19.21.25:011][  0]LogInit: Texture streaming: Enabled
+[2017.04.25-19.21.25:089][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.25-19.21.25:182][  0]LogInit: Transaction tracking system initialized
+[2017.04.25-19.21.25:463][  0]BlueprintLog: New page: Editor Load
+[2017.04.25-19.21.26:183][  0]LocalizationService: Info Localization service is disabled
+[2017.04.25-19.21.26:752][  0]LogConsoleResponse:Display: 
+[2017.04.25-19.21.26:875][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.25-19.21.26:875][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.25-19.21.27:364][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/' took 0.02s
+[2017.04.25-19.21.27:734][  0]SourceControl: Info Source control is disabled
+[2017.04.25-19.21.27:734][  0]Cmd: MAP LOAD FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.25-19.21.27:735][  0]LightingResults: New page: Lighting Build
+[2017.04.25-19.21.27:773][  0]MapCheck: New page: Map Check
+[2017.04.25-19.21.27:773][  0]LightingResults: New page: Lighting Build
+[2017.04.25-19.21.27:789][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Blueprints/modul_transporttransport_16_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.25-19.21.27:812][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_0.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.25-19.21.27:815][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_1.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.25-19.21.27:819][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_2.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.25-19.21.28:076][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.25-19.21.28:076][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.04.25-19.21.28:077][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.04.25-19.21.28:149][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.25-19.21.28:150][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.25-19.21.28:156][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/FX_Map_7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.25-19.21.28:156][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.25-19.21.28:303][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.25-19.21.28:303][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.04.25-19.21.28:303][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.04.25-19.21.28:317][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.25-19.21.28:317][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.25-19.21.28:317][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.25-19.21.28:317][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.25-19.21.28:340][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.25-19.21.28:340][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.04.25-19.21.28:340][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.25-19.21.28:340][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.04.25-19.21.28:414][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:UserConstructionScript.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.25-19.21.28:940][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.25-19.21.28:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.25-19.21.28:978][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.25-19.21.29:101][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.872ms to complete.
+[2017.04.25-19.21.29:101][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.367
+[2017.04.25-19.21.29:172][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.25-19.21.29:285][  0]LogCollectionManager: Loaded 0 collections in 0.001864 seconds
+[2017.04.25-19.21.29:366][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Collections/' took 0.01s
+[2017.04.25-19.21.29:366][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Developers/cripe/Collections/' took 0.01s
+[2017.04.25-19.21.29:366][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Collections/' took 0.01s
+[2017.04.25-19.21.29:366][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.25-19.21.29:376][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2245 classes and 453 folders.
+[2017.04.25-19.21.29:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.25-19.21.29:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.25-19.21.29:429][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.25-19.21.29:478][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.25-19.21.29:514][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.25-19.21.29:615][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.25-19.21.29:625][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.25-19.21.29:686][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.25-19.21.29:686][  0]LogLoad: (Engine Initialization) Total time: 18.31 seconds
+[2017.04.25-19.21.29:686][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.04.25-19.21.29:686][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.25-19.21.29:686][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.25-19.21.29:703][  0]LogOcInput: OculusInput pre-init called
+[2017.04.25-19.21.29:737][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.25-19.21.29:757][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.25-19.21.29:763][  0]LogSlate: Took 0.001329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.25-19.21.29:769][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.25-19.21.29:915][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.25-19.21.29:966][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.25-19.21.30:049][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/' took 0.33s
+[2017.04.25-19.21.30:068][  1]LogAssetRegistry: Asset discovery search completed in 9.2825 seconds
+[2017.04.25-19.21.30:068][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.04.25-19.21.30:068][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.04.25-19.21.30:777][ 27]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.25-19.21.37:781][433]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.25-19.21.38:532][433]LogAIModule: Creating AISystem for world Ruben
+[2017.04.25-19.21.38:591][433]Cmd: MAP LOAD FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.25-19.21.38:591][433]LightingResults: New page: Lighting Build
+[2017.04.25-19.21.38:594][433]LoadErrors: New page: Loading map: Ruben.umap
+[2017.04.25-19.21.38:598][433]MapCheck: New page: Map Check
+[2017.04.25-19.21.38:598][433]LightingResults: New page: Lighting Build
+[2017.04.25-19.21.38:810][433]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.25-19.21.38:904][433]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.25-19.21.39:114][433]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 209.958ms to complete.
+[2017.04.25-19.21.39:115][433]LogFileHelpers: Loading map 'Ruben' took 0.525
+[2017.04.25-19.21.39:119][433]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.25-19.21.41:098][535]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.25-19.21.41:152][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.25-19.21.41:152][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.25-19.21.41:153][535]PIE: New page: PIE session: Ruben (Apr 25, 2017, 11:21:41 PM)
+[2017.04.25-19.21.41:153][535]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.25-19.21.41:193][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039885s)
+[2017.04.25-19.21.41:193][535]LogAIModule: Creating AISystem for world Ruben
+[2017.04.25-19.21.41:194][535]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2017.04.25-19.21.41:194][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.041204s)
+[2017.04.25-19.21.41:217][535]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.25-19.21.41:234][535]LogInit: FAudioDevice initialized.
+[2017.04.25-19.21.41:297][535]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.25-19.21.41:301][535]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.25-21.21.41
+[2017.04.25-19.21.41:304][535]LogWorld: Bringing up level for play took: 0.005965
+[2017.04.25-19.21.41:356][535]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.04.25-19.21.41:358][535]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 1.124
+[2017.04.25-19.21.41:359][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.25-19.23.55:772][223]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.55:840][227]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.55:906][231]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.55:973][235]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:039][239]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:106][243]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:172][247]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:239][251]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:306][255]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:372][259]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:439][263]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:506][267]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:573][271]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:639][275]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:706][279]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:773][283]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:839][287]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:906][291]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.56:972][295]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:039][299]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:106][303]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:172][307]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:240][311]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:306][315]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:373][319]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:439][323]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:506][327]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:572][331]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:639][335]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:706][339]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:773][343]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:839][347]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:906][351]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.57:973][355]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:039][359]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:106][363]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:173][367]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:239][371]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:306][375]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:373][379]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:439][383]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:506][387]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:573][391]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:640][395]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:706][399]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:773][403]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:839][407]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:906][411]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.58:973][415]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:039][419]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:106][423]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:173][427]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:239][431]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:306][435]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:373][439]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:440][443]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:506][447]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:573][451]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:639][455]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:706][459]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:773][463]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:839][467]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:906][471]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.23.59:973][475]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:040][479]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:106][483]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:173][487]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:240][491]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:306][495]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:373][499]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:440][503]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:506][507]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.00:573][511]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.00:639][515]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.00:706][519]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.00:773][523]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.00:840][527]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.00:906][531]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.00:973][535]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.01:039][539]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.01:106][543]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.01:173][547]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.01:240][551]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.01:306][555]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.01:373][559]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.01:440][563]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.01:506][567]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.01:573][571]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.01:640][575]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.01:706][579]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.01:773][583]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.01:839][587]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.01:906][591]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.01:973][595]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:040][599]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:106][603]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:173][607]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:240][611]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:307][615]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:373][619]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:440][623]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:508][627]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:574][631]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:639][635]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:708][639]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:775][643]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:841][647]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:907][651]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.02:974][655]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:040][659]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:107][663]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:173][667]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:240][671]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:307][675]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:373][679]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:440][683]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:507][687]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:574][691]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:640][695]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:706][699]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:779][703]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:845][707]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:912][711]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.03:978][715]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:046][719]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:112][723]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:179][727]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:245][731]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:312][735]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:379][739]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:446][743]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:512][747]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:579][751]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:645][755]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:712][759]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:779][763]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:846][767]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:912][771]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.04:979][775]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:045][779]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:112][783]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:179][787]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:246][791]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:312][795]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:379][799]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:445][803]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:512][807]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:579][811]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:645][815]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:712][819]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:779][823]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:846][827]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:913][831]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.05:979][835]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:046][839]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:112][843]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:179][847]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:245][851]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:312][855]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:378][859]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:445][863]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:512][867]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:579][871]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:646][875]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:712][879]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:779][883]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:845][887]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:912][891]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.06:979][895]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:045][899]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:112][903]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:178][907]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:246][911]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:312][915]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:379][919]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:445][923]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:512][927]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:579][931]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:645][935]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:712][939]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:779][943]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:846][947]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:913][951]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.07:979][955]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:045][959]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:112][963]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:179][967]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:246][971]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:312][975]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:379][979]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:445][983]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:513][987]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:580][991]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:646][995]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:714][999]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:780][  3]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:846][  7]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:913][ 11]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.08:980][ 15]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:045][ 19]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:113][ 23]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:180][ 27]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:247][ 31]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:313][ 35]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:380][ 39]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:446][ 43]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:513][ 47]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:579][ 51]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:646][ 55]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:712][ 59]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:779][ 63]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:845][ 67]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:912][ 71]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.09:979][ 75]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:046][ 79]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:112][ 83]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:179][ 87]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:246][ 91]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:312][ 95]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:379][ 99]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:445][103]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:512][107]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:579][111]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:646][115]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:712][119]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:779][123]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:846][127]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:912][131]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.10:979][135]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:046][139]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:112][143]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:179][147]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:245][151]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:312][155]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:379][159]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:446][163]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:512][167]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:579][171]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:645][175]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:712][179]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:779][183]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:845][187]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:912][191]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.11:979][195]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:046][199]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:112][203]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:179][207]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:259][211]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:325][215]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:392][219]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:459][223]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:525][227]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:592][231]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:659][235]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:726][239]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:792][243]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:859][247]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:926][251]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.12:992][255]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:059][259]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:125][263]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:192][267]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:259][271]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:325][275]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:392][279]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:459][283]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:526][287]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:592][291]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:659][295]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:726][299]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:792][303]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:859][307]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:925][311]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.13:992][315]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:058][319]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:126][323]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:192][327]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:259][331]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:326][335]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:392][339]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:459][343]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:525][347]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:592][351]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:659][355]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:725][359]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:792][363]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.14:859][367]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.14:926][371]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.14:992][375]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:059][379]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:125][383]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:192][387]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:259][391]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:325][395]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:392][399]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:459][403]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:525][407]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:592][411]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:659][415]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:726][419]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:792][423]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:859][427]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:926][431]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.15:992][435]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:059][439]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:126][443]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:192][447]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:259][451]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:326][455]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:392][459]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:459][463]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:526][467]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:592][471]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:659][475]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:726][479]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:793][483]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:859][487]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:925][491]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.16:993][495]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:059][499]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:126][503]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:192][507]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:259][511]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:326][515]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:392][519]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:459][523]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:525][527]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:592][531]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:659][535]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:726][539]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:793][543]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:859][547]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:926][551]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.17:992][555]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:059][559]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:126][563]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:192][567]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:259][571]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:326][575]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:393][579]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:459][583]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:526][587]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:592][591]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:659][595]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:726][599]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:792][603]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:859][607]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:926][611]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.18:992][615]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:059][619]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:126][623]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:192][627]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:259][631]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:326][635]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:393][639]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:461][643]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:528][647]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:594][651]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:661][655]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:728][659]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:794][663]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:861][667]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:928][671]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.19:994][675]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:061][679]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:127][683]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:194][687]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:260][691]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:327][695]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:394][699]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:461][703]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:527][707]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:593][711]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:660][715]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:727][719]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:793][723]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:860][727]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:926][731]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.20:993][735]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:060][739]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:127][743]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:193][747]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:260][751]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:327][755]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:393][759]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:460][763]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:526][767]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:593][771]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:660][775]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:727][779]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:793][783]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:860][787]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:927][791]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.21:993][795]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.22:060][799]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.22:127][803]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.22:193][807]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.22:260][811]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.22:327][815]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.22:393][819]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:460][823]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:527][827]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:594][831]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:660][835]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:727][839]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:793][843]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:860][847]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:927][851]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.22:994][855]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:060][859]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:127][863]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:193][867]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:260][871]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:327][875]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:393][879]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:460][883]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:527][887]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:593][891]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:660][895]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:727][899]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:793][903]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:860][907]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:927][911]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.23:993][915]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:060][919]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:127][923]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:193][927]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:260][931]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:327][935]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:393][939]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:460][943]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:527][947]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:593][951]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:660][955]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:727][959]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:793][963]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:860][967]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:926][971]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.24:994][975]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:060][979]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:127][983]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:193][987]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:260][991]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:327][995]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:393][999]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:460][  3]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:527][  7]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:593][ 11]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:660][ 15]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:727][ 19]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:794][ 23]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:860][ 27]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:927][ 31]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.25:994][ 35]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:061][ 39]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:127][ 43]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:194][ 47]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:260][ 51]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:327][ 55]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:394][ 59]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:460][ 63]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:527][ 67]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:593][ 71]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:660][ 75]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:727][ 79]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:793][ 83]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:860][ 87]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:927][ 91]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.26:993][ 95]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:060][ 99]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:127][103]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:194][107]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:260][111]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:327][115]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:393][119]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:460][123]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:527][127]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:593][131]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:660][135]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:726][139]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:794][143]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:860][147]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:927][151]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.27:994][155]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:060][159]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:127][163]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:193][167]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:260][171]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:327][175]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:393][179]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:461][183]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:527][187]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:594][191]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:660][195]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:728][199]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.28:794][203]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.28:861][207]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.28:928][211]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.28:994][215]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:061][219]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:127][223]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:194][227]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:261][231]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:327][235]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:394][239]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:460][243]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:527][247]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:594][251]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:660][255]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:727][259]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:793][263]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:860][267]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:927][271]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.29:994][275]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:060][279]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:127][283]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:194][287]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:260][291]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:327][295]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:393][299]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:460][303]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:527][307]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:594][311]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:661][315]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:727][319]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:794][323]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:860][327]LogBlueprintUserMessages: [AICharacter_2] DISPARO!!
+[2017.04.25-19.24.30:927][331]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.30:994][335]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:060][339]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:127][343]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:194][347]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:261][351]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:327][355]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:394][359]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:460][363]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:527][367]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:594][371]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:660][375]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:727][379]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:793][383]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:860][387]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:927][391]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.31:994][395]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:060][399]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:127][403]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:194][407]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:260][411]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:327][415]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:394][419]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:460][423]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:527][427]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:593][431]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:660][435]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:727][439]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:794][443]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:860][447]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:927][451]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.32:994][455]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:060][459]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:127][463]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:193][467]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:260][471]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:327][475]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:394][479]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:460][483]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:527][487]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:594][491]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:660][495]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:727][499]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:794][503]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:860][507]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:927][511]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.33:993][515]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:060][519]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:127][523]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:194][527]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:260][531]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:327][535]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:394][539]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:460][543]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:527][547]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:594][551]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:660][555]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:727][559]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:793][563]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:861][567]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:927][571]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.34:994][575]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:061][579]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:128][583]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:195][587]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:261][591]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:328][595]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:395][599]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:461][603]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:528][607]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:595][611]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:662][615]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:728][619]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:795][623]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:861][627]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:928][631]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.35:995][635]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:061][639]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:128][643]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:195][647]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:262][651]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:328][655]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:395][659]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:461][663]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:528][667]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:595][671]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:661][675]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:728][679]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:795][683]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:862][687]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:928][691]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.36:995][695]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:062][699]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:128][703]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:195][707]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:262][711]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:328][715]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:395][719]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:462][723]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:530][727]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:596][731]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:663][735]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:729][739]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:796][743]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:862][747]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:929][751]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.37:995][755]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:062][759]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:128][763]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:195][767]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:262][771]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:329][775]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:395][779]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:462][783]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:529][787]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:595][791]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:662][795]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:728][799]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:795][803]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:862][807]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:928][811]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.38:995][815]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:062][819]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:128][823]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:195][827]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:262][831]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:328][835]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:395][839]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:462][843]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:528][847]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:595][851]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:662][855]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:729][859]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:795][863]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:862][867]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:929][871]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.39:995][875]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:062][879]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:128][883]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:195][887]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:261][891]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:328][895]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:395][899]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:462][903]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:528][907]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:595][911]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:662][915]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:728][919]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:795][923]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:862][927]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:928][931]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.40:995][935]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:062][939]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:129][943]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:195][947]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:262][951]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:328][955]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:395][959]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:462][963]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:528][967]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:595][971]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:662][975]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:728][979]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:795][983]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:862][987]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:929][991]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.41:995][995]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:062][999]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:129][  3]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:195][  7]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:262][ 11]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:328][ 15]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:395][ 19]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:462][ 23]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:529][ 27]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:595][ 31]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:662][ 35]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:729][ 39]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:795][ 43]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:862][ 47]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:929][ 51]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.42:995][ 55]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:062][ 59]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:128][ 63]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:195][ 67]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:262][ 71]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:329][ 75]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:395][ 79]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:462][ 83]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:529][ 87]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:595][ 91]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:662][ 95]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:728][ 99]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:795][103]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:862][107]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:929][111]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.43:995][115]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:062][119]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:129][123]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:195][127]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:262][131]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:328][135]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:395][139]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:462][143]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:528][147]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:595][151]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:662][155]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:729][159]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:795][163]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:862][167]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:929][171]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.44:995][175]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:062][179]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:128][183]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:195][187]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:262][191]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:329][195]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:395][199]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:462][203]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:529][207]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:595][211]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:662][215]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:728][219]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:795][223]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:862][227]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:929][231]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.45:995][235]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:062][239]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:129][243]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:195][247]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:262][251]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:329][255]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:395][259]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:462][263]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:528][267]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:595][271]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:662][275]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:729][279]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:795][283]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:862][287]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:929][291]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.46:995][295]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:062][299]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:129][303]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:195][307]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:262][311]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:329][315]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:396][319]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:463][323]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:529][327]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:596][331]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:662][335]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:729][339]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:795][343]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:862][347]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:929][351]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.47:996][355]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:063][359]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:129][363]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:196][367]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:262][371]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:329][375]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:396][379]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:462][383]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:529][387]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:595][391]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:662][395]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:729][399]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:796][403]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:862][407]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:929][411]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.48:996][415]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:062][419]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:129][423]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:195][427]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:262][431]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:329][435]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:396][439]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:462][443]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:529][447]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:596][451]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:662][455]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:729][459]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:796][463]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:862][467]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:929][471]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.49:996][475]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:062][479]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:129][483]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:196][487]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:262][491]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:329][495]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:395][499]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:462][503]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:529][507]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:596][511]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:662][515]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:729][519]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:796][523]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:862][527]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:929][531]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.50:996][535]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:062][539]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:129][543]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:196][547]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:262][551]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:329][555]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:396][559]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:462][563]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:529][567]LogBlueprintUserMessages: [AICharacter_2] caja!!
+[2017.04.25-19.24.51:530][567]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.25-19.24.51:565][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.25-19.24.53:032][642]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.25-19.24.53:312][643]Cmd: QUIT_EDITOR
+[2017.04.25-19.24.54:221][643]LogExit: Preparing to exit.
+[2017.04.25-19.24.54:828][643]LogExit: Editor shut down
+[2017.04.25-19.24.54:828][643]LogExit: Transaction tracking system shut down
+[2017.04.25-19.24.54:903][643]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.25-19.24.54:903][643]LogExit: Object subsystem successfully closed.
+[2017.04.25-19.24.54:923][643]LogD3D11RHI: Shutdown
+[2017.04.25-19.24.54:923][643]LogD3D11RHI: CleanupD3DDevice
+[2017.04.25-19.24.55:019][643]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.25-19.24.55:026][643]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.04.25-19.24.55:026][643]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.25-19.24.55:026][643]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.25-19.24.55:026][643]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.25-19.24.55:026][643]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.25-19.24.55:026][643]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.25-19.24.55:027][643]LogDirectoryWatcher: A directory notification for 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Collections/' was aborted.
+[2017.04.25-19.24.55:027][643]LogDirectoryWatcher: A directory notification for 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Developers/cripe/Collections/' was aborted.
+[2017.04.25-19.24.55:027][643]LogDirectoryWatcher: A directory notification for 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Collections/' was aborted.
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.25-19.24.55:027][643]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.25-19.24.55:028][643]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.25-19.24.55:547][643]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.25-19.24.55:601][643]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.25-19.24.55:602][643]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.25-19.24.55:780][643]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.25-19.24.55:781][643]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.25-19.24.55:782][643]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.25-19.24.55:782][643]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.25-19.24.55:783][643]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.25-19.24.55:783][643]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.25-19.24.55:783][643]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.25-19.24.55:883][643]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.25-19.24.55:984][643]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.25-19.24.55:986][643]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.25-19.24.55:986][643]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.25-19.24.55:986][643]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.25-19.24.55:986][643]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.25-19.24.55:986][643]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.25-19.24.55:986][643]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.25-19.24.56:218][643]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.25-19.24.56:218][643]LogDirectoryWatcher: A directory notification for 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/' was aborted.
+[2017.04.25-19.24.56:218][643]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.25-19.24.56:218][643]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.25-19.24.56:219][643]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.25-19.24.56:219][643]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.25-19.24.56:219][643]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.25-19.24.56:219][643]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.25-19.24.56:219][643]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.25-19.24.56:219][643]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.25-19.24.56:219][643]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.25-19.24.56:219][643]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.25-19.24.56:311][643]LogDerivedDataCache: Shutdown
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.25-19.24.56:311][643]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.25-19.24.56:312][643]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.25-19.24.56:312][643]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.25-19.24.56:312][643]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.25-19.24.56:312][643]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82F60076-4F33-BAEE-2391-E289403B4BFF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=78865e4d4a8ae815e8d400bc6125e577%7C5361294e5f654db5881228f5582e9124%7C456667b1-22e8-45ef-a524-8410a492a64f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.25-19.24.56:340][643]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.25-19.24.56:341][643]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.25-19.24.56:341][643]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.25-19.24.56:341][643]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.25-19.24.56:341][643]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.25-19.24.56:341][643]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.25-19.24.56:342][643]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.25-19.24.56:344][643]LogExit: Exiting.
+[2017.04.25-19.24.56:345][643]Log file closed, 04/25/17 21:24:56
