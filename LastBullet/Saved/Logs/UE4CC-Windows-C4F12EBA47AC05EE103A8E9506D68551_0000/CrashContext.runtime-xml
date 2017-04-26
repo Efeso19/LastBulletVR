@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-C4F12EBA47AC05EE103A8E9506D68551_0000</CrashGUID>
+		<ProcessId>2312</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>390</SecondsSinceStart>
+		<GameName>UE4-LastBullet</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.1-3348071+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;C:/Users/jose_/Documents/GitHub/LastBulletVR/LastBullet/LastBullet.uproject&quot;-EpicPortal</CommandLine>
+		<LanguageLCID>3082</LanguageLCID>
+		<AppDefaultLocale>es_ES</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3348071</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>jose</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>B001DE5B45E5ACAF0E6945B031774733</MachineId>
+		<LoginId>b001de5b45e5acaf0e6945b031774733</LoginId>
+		<EpicAccountId>110700a2fc624ba6959c79c1c7378d2c</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;Document : 3&quot; Label=&quot;Recargar&quot; Content=SGraphEditor</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: ToPin-&gt;LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 333] &nl;UEdGraphPin::BreakLinkTo Pin &apos;then&apos; on node &apos;Set isReloading&apos; not reciprocally linked with pin &apos;execute&apos; on node &apos;Delay&apos;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>8460451840</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>2506489856</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140734474674176</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1650245632</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1650245632</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>2197295104</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>2197295104</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636288224268090000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
