@@ -1,0 +1,894 @@
+﻿Log file open, 04/26/17 16:38:35
+LogInit:Display: Running engine for game: LastBullet
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1506135615) SRandInit(1506135615).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.094669
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.26-14.38.36:109][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-14.38.36:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.26-14.38.36:116][  0]LogInit: Computer: DESKTOP-T9NOKQO
+[2017.04.26-14.38.36:116][  0]LogInit: User: cripe
+[2017.04.26-14.38.36:116][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.26-14.38.36:116][  0]LogInit: High frequency timer resolution =2.435773 MHz
+[2017.04.26-14.38.36:116][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.26-14.38.36:116][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.26-14.38.36:116][  0]LogMemory: Process Physical Memory: 264.23 MB used, 264.23 MB peak
+[2017.04.26-14.38.36:116][  0]LogMemory: Process Virtual Memory: 262.64 MB used, 262.64 MB peak
+[2017.04.26-14.38.36:116][  0]LogMemory: Physical Memory: 5352.56 MB used,  10950.58 MB free, 16303.14 MB total
+[2017.04.26-14.38.36:116][  0]LogMemory: Virtual Memory: 645.25 MB used,  10950.58 MB free, 134217728.00 MB total
+[2017.04.26-14.38.36:786][  0]LogInit: Overriding culture en with editor configuration.
+[2017.04.26-14.38.37:410][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.26-14.38.37:976][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.04.26-14.38.37:976][  0]LogD3D11RHI:       2017/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.26-14.38.37:984][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.26-14.38.37:984][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.26-14.38.37:985][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.26-14.38.37:985][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.26-14.38.37:985][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.26-14.38.37:990][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.26-14.38.37:990][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.26-14.38.37:990][  0]LogWindows: EnumDisplayDevices:
+[2017.04.26-14.38.37:990][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.26-14.38.37:990][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-14.38.37:990][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-14.38.37:991][  0]LogWindows:    3. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-14.38.37:991][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-14.38.37:991][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-14.38.37:991][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.26-14.38.37:991][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.04.26-14.38.37:991][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.26-14.38.37:991][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.26-14.38.37:991][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.26-14.38.38:530][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.26-14.38.38:531][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.26-14.38.38:582][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.26-14.38.38:583][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Intermediate/Shaders/WorkingDirectory/5200/).
+[2017.04.26-14.38.38:583][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cripe/AppData/Local/Temp/UnrealShaderWorkingDir/A250458C4DF75FF62A425A888F0A4B28/'.
+[2017.04.26-14.38.38:583][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.26-14.38.39:626][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.26-14.38.39:671][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.26-14.38.39:716][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.26-14.38.39:760][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.26-14.38.39:805][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.26-14.38.39:850][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.26-14.38.39:895][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.26-14.38.39:940][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.26-14.38.39:975][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.26-14.38.40:018][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.26-14.38.40:061][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.26-14.38.40:105][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.26-14.38.40:147][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.26-14.38.40:191][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.26-14.38.40:234][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.26-14.38.40:321][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.26-14.38.40:321][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.26-14.38.40:349][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.26-14.38.40:429][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.26-14.38.40:459][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.26-14.38.40:502][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.26-14.38.40:545][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.26-14.38.40:588][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.26-14.38.40:631][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.26-14.38.40:631][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.26-14.38.40:984][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.26-14.38.41:032][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-14.38.41:032][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.26-14.38.41:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/cripe/Desktop/LastBulletVR/LastBullet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.26-14.38.41:032][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.26-14.38.41:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/cripe/Desktop/LastBulletVR/LastBullet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.26-14.38.41:032][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.26-14.38.41:050][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.26-14.38.41:062][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cripe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.26-14.38.41:071][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.26-14.38.41:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-14.38.41:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-14.38.41:334][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-14.38.41:336][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.26-14.38.41:530][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.26-14.38.41:563][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.26-14.38.41:603][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.26-14.38.41:603][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.26-14.38.41:603][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.26-14.38.42:102][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lastbullet, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1522868599
+[2017.04.26-14.38.42:142][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.04.26-14.38.42:173][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.015568 seconds
+[2017.04.26-14.38.42:178][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.26-14.38.42:178][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.26-14.38.42:178][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.26-14.38.42:224][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.26-14.38.43:638][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.26-14.38.43:672][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.26-14.38.44:038][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.26-14.38.44:339][  0]SourceControl: Info Source control is disabled
+[2017.04.26-14.38.44:340][  0]SourceControl: Info Source control is disabled
+[2017.04.26-14.38.44:379][  0]SourceControl: Info Source control is disabled
+[2017.04.26-14.38.44:415][  0]SourceControl: Info Source control is disabled
+[2017.04.26-14.38.45:405][  0]LogEngine: Initializing Engine...
+[2017.04.26-14.38.45:405][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.26-14.38.45:603][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.26-14.38.45:612][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-14.38.45:624][  0]LogInit: FAudioDevice initialized.
+[2017.04.26-14.38.45:647][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-14.38.45:650][  0]LogInit: Texture streaming: Enabled
+[2017.04.26-14.38.45:719][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.26-14.38.45:785][  0]LogInit: Transaction tracking system initialized
+[2017.04.26-14.38.46:037][  0]BlueprintLog: New page: Editor Load
+[2017.04.26-14.38.46:685][  0]LocalizationService: Info Localization service is disabled
+[2017.04.26-14.38.47:180][  0]LogConsoleResponse:Display: 
+[2017.04.26-14.38.47:287][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.26-14.38.47:287][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.26-14.38.47:531][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/' took 0.02s
+[2017.04.26-14.38.48:076][  0]SourceControl: Info Source control is disabled
+[2017.04.26-14.38.48:076][  0]Cmd: MAP LOAD FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-14.38.48:077][  0]LightingResults: New page: Lighting Build
+[2017.04.26-14.38.48:106][  0]MapCheck: New page: Map Check
+[2017.04.26-14.38.48:106][  0]LightingResults: New page: Lighting Build
+[2017.04.26-14.38.48:120][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Blueprints/modul_transporttransport_16_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-14.38.48:140][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_0.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.26-14.38.48:143][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_1.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.26-14.38.48:145][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_2.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.26-14.38.48:371][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-14.38.48:371][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.04.26-14.38.48:371][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.04.26-14.38.48:432][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-14.38.48:434][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-14.38.48:439][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/FX_Map_7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-14.38.48:439][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-14.38.48:574][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-14.38.48:574][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.04.26-14.38.48:574][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.04.26-14.38.48:587][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-14.38.48:587][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.26-14.38.48:588][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-14.38.48:588][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.26-14.38.48:641][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-14.38.48:641][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.04.26-14.38.48:641][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.26-14.38.48:641][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.04.26-14.38.48:996][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:UserConstructionScript.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.26-14.38.49:120][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.26-14.38.49:156][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-14.38.49:156][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-14.38.49:254][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.019ms to complete.
+[2017.04.26-14.38.49:254][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.178
+[2017.04.26-14.38.49:313][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.26-14.38.49:422][  0]LogCollectionManager: Loaded 0 collections in 0.001859 seconds
+[2017.04.26-14.38.49:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Collections/' took 0.01s
+[2017.04.26-14.38.49:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Developers/cripe/Collections/' took 0.01s
+[2017.04.26-14.38.49:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Collections/' took 0.01s
+[2017.04.26-14.38.49:491][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.26-14.38.49:501][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2245 classes and 453 folders.
+[2017.04.26-14.38.49:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.26-14.38.49:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.26-14.38.49:550][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.26-14.38.49:593][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.26-14.38.49:625][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.26-14.38.49:716][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.26-14.38.49:724][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.26-14.38.49:787][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.04.26-14.38.49:787][  0]LogLoad: (Engine Initialization) Total time: 15.44 seconds
+[2017.04.26-14.38.49:787][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.04.26-14.38.49:787][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.26-14.38.49:787][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.26-14.38.49:805][  0]LogOcInput: OculusInput pre-init called
+[2017.04.26-14.38.49:839][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.26-14.38.49:854][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-14.38.49:858][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.26-14.38.49:863][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.26-14.38.50:001][  0]LogSlate: Took 0.000488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-14.38.50:061][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.26-14.38.50:140][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/' took 0.32s
+[2017.04.26-14.38.50:162][  1]LogAssetRegistry: Asset discovery search completed in 8.0416 seconds
+[2017.04.26-14.38.50:162][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.04.26-14.38.50:162][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.04.26-14.39.14:106][308]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-14.39.14:545][308]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.04.26-14.39.15:150][308]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-14.39.15:235][308]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.26-14.39.21:842][573]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-14.39.21:891][573]Cmd: MAP LOAD FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-14.39.21:891][573]LightingResults: New page: Lighting Build
+[2017.04.26-14.39.21:893][573]LoadErrors: New page: Loading map: Ruben.umap
+[2017.04.26-14.39.21:895][573]MapCheck: New page: Map Check
+[2017.04.26-14.39.21:895][573]LightingResults: New page: Lighting Build
+[2017.04.26-14.39.22:016][573]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-14.39.22:039][573]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-14.39.22:164][573]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.248ms to complete.
+[2017.04.26-14.39.22:164][573]LogFileHelpers: Loading map 'Ruben' took 0.274
+[2017.04.26-14.39.28:572][936]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.26-14.39.44:248][848]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-14.42.57:462][658]BlueprintLog: New page: Compile AICharacter
+[2017.04.26-14.43.00:202][809]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-14.43.00:230][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.43.00:240][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-14.43.00:241][809]PIE: New page: PIE session: Ruben (Apr 26, 2017, 6:43:00 PM)
+[2017.04.26-14.43.00:241][809]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-14.43.00:277][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036124s)
+[2017.04.26-14.43.00:278][809]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-14.43.00:279][809]LogPlayLevel: PIE: World Init took: (0.001718s)
+[2017.04.26-14.43.00:279][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.038499s)
+[2017.04.26-14.43.00:313][809]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-14.43.00:326][809]LogInit: FAudioDevice initialized.
+[2017.04.26-14.43.00:375][809]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-14.43.00:380][809]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-16.43.00
+[2017.04.26-14.43.00:383][809]LogWorld: Bringing up level for play took: 0.006646
+[2017.04.26-14.43.00:422][809]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.26-14.43.00:424][809]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 0.446
+[2017.04.26-14.43.00:424][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.43.05:467][108]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.05:767][126]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.06:034][142]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.06:435][166]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.06:651][179]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.07:101][206]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.07:217][213]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.07:734][244]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.07:884][253]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.08:267][276]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.08:401][284]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.08:801][308]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.08:851][311]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.11:218][453]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.11:234][454]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.11:568][474]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.11:701][482]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.11:884][493]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.12:251][515]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.12:285][517]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.12:551][533]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.12:701][542]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.13:134][568]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.13:168][570]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.13:618][597]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.13:635][598]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.14:151][629]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.14:151][629]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.14:618][657]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.14:734][664]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.15:119][687]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.15:369][702]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.15:402][704]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.15:668][720]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.15:835][730]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.16:051][743]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.16:218][753]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.16:601][776]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.16:651][779]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.17:001][800]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.17:318][819]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.17:484][829]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.17:701][842]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.17:834][850]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.18:135][868]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.18:467][888]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.18:467][888]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.18:784][907]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.18:851][911]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.19:134][928]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.19:368][942]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.19:768][966]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.19:885][973]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.20:251][995]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.20:401][  4]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.20:567][ 14]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.20:935][ 36]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.21:102][ 46]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.21:502][ 70]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.21:518][ 71]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.21:785][ 87]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.22:135][108]LogBlueprintUserMessages: [AICharacter2_2] EditorCube9
+[2017.04.26-14.43.22:451][127]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.22:534][132]LogBlueprintUserMessages: [AICharacter2_2] EditorCube9
+[2017.04.26-14.43.22:951][157]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.23:068][164]LogBlueprintUserMessages: [AICharacter2_2] EditorCube9
+[2017.04.26-14.43.23:501][190]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.23:735][204]LogBlueprintUserMessages: [AICharacter2_2] EditorCube9
+[2017.04.26-14.43.23:968][218]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.24:318][239]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.24:368][242]LogBlueprintUserMessages: [AICharacter2_2] EditorCube9
+[2017.04.26-14.43.24:819][269]LogBlueprintUserMessages: [AICharacter2_2] EditorCube9
+[2017.04.26-14.43.24:885][273]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.25:218][293]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.25:435][306]LogBlueprintUserMessages: [AICharacter2_2] EditorCube9
+[2017.04.26-14.43.25:534][312]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.25:952][337]LogBlueprintUserMessages: [AICharacter2_2] EditorCube9
+[2017.04.26-14.43.26:101][346]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.43.26:451][367]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.26:585][375]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.26:902][394]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.27:001][400]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.27:518][431]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.27:635][438]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.43.27:886][453]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.43.28:185][471]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.28:385][483]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.28:785][507]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.28:785][507]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-14.43.29:119][527]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-14.43.29:419][545]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.29:419][545]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-14.43.29:918][575]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.30:018][581]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.30:252][595]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.30:469][608]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.30:619][617]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.31:002][640]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.31:118][647]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.31:452][667]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.31:718][683]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.43.32:019][701]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.43.32:269][716]LogBlueprintUserMessages: [AICharacter_2] BigWall
+[2017.04.26-14.47.00:523][208]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.00:523][208]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.00:806][225]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.00:940][233]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.01:222][250]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.01:472][265]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.01:656][276]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.01:856][288]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.02:189][308]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.02:289][314]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.02:606][333]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-14.47.02:722][340]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.03:123][364]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.03:256][372]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-14.47.03:739][401]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.03:789][404]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-14.47.04:256][432]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.04:306][435]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.04:673][457]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.04:839][467]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.05:189][488]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.05:223][490]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.05:506][507]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.05:773][523]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.06:006][537]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.06:223][550]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-14.47.06:289][554]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.06:573][571]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-14.47.06:690][578]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.47.06:744][578]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.47.28:221][815]BlueprintLog: New page: Compile AICharacter
+[2017.04.26-14.47.31:225][984]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-14.47.31:244][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.47.31:252][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-14.47.31:252][984]PIE: New page: PIE session: Ruben (Apr 26, 2017, 6:47:31 PM)
+[2017.04.26-14.47.31:252][984]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-14.47.31:276][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023696s)
+[2017.04.26-14.47.31:276][984]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-14.47.31:277][984]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2017.04.26-14.47.31:277][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.024823s)
+[2017.04.26-14.47.31:305][984]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-14.47.31:315][984]LogInit: FAudioDevice initialized.
+[2017.04.26-14.47.31:348][984]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-14.47.31:351][984]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-16.47.31
+[2017.04.26-14.47.31:353][984]LogWorld: Bringing up level for play took: 0.004112
+[2017.04.26-14.47.31:355][984]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben -0.623
+[2017.04.26-14.47.31:355][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.47.36:953][318]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.37:553][354]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.38:154][390]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.38:770][427]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.39:220][454]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.39:621][478]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.40:254][516]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.40:754][546]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.41:354][582]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.41:838][611]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.42:238][635]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.42:771][667]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.43:138][689]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.43:604][717]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.49:804][ 89]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.49:821][ 90]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.50:105][107]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.50:321][120]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.50:487][130]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.50:755][146]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.50:855][152]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.51:321][180]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.51:522][192]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.51:804][209]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.51:837][211]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.52:138][229]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.52:254][236]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.52:571][255]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.47.52:904][275]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.53:005][281]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.47.53:504][311]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.47.53:554][314]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.53:971][339]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.47.54:054][344]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.54:405][365]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.54:455][368]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.54:871][393]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.54:888][394]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.55:171][411]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.55:188][412]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-14.47.55:671][441]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.55:788][448]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.56:021][462]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.56:221][474]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.56:605][497]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-14.47.56:638][499]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.57:005][521]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.57:121][528]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.57:388][544]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.47.57:605][557]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.47.58:822][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.47.58:873][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.47.59:879][689]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-14.47.59:898][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.47.59:905][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-14.47.59:905][689]PIE: New page: PIE session: Ruben (Apr 26, 2017, 6:47:59 PM)
+[2017.04.26-14.47.59:905][689]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-14.47.59:925][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019666s)
+[2017.04.26-14.47.59:925][689]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-14.47.59:926][689]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2017.04.26-14.47.59:926][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.020630s)
+[2017.04.26-14.47.59:954][689]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-14.47.59:966][689]LogInit: FAudioDevice initialized.
+[2017.04.26-14.47.59:998][689]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-14.48.00:003][689]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-16.48.00
+[2017.04.26-14.48.00:006][689]LogWorld: Bringing up level for play took: 0.006221
+[2017.04.26-14.48.00:008][689]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 0.03
+[2017.04.26-14.48.00:008][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.48.04:229][940]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.48.04:879][979]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.48.05:428][ 12]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.48.05:612][ 23]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.48.06:012][ 47]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.48.06:212][ 59]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.48.06:495][ 76]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-14.48.06:862][ 98]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.48.06:962][104]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.48.07:245][121]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.48.07:412][131]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.48.07:529][138]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.48.07:896][160]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.48.08:096][172]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.48.08:512][197]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-14.48.08:529][198]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-14.48.09:263][242]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.48.09:306][242]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-14.54.05:661][573]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Ruben' took 0.025
+[2017.04.26-14.54.05:662][573]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/IA/AICharacter] ([1] browsable assets)...
+[2017.04.26-14.54.05:683][573]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/IA/AICharacter.AICharacter]
+[2017.04.26-14.54.05:683][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/IA/AICharacter]
+[2017.04.26-14.54.05:729][573]LogSavePackage: Save=36.20ms
+[2017.04.26-14.54.05:729][573]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/AICharacter_Auto13D712EF044C6D59F90CAEA9A6DCCF1E0.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AICharacter_Auto1.uasset'
+[2017.04.26-14.54.05:731][573]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AICharacter_Auto1.uasset
+[2017.04.26-14.54.05:731][573]LogFileHelpers: Auto-saving content packages took 0.070
+[2017.04.26-15.03.36:877][605]LogSlate: Took 0.001534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.04.26-15.04.23:547][340]LogSavePackage: Save=245.36ms
+[2017.04.26-15.04.23:547][340]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben_Auto23CDD249943A07F82E533689929DA96A4.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto2.umap'
+[2017.04.26-15.04.23:550][340]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto2.umap
+[2017.04.26-15.04.23:551][340]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Ruben' took 0.291
+[2017.04.26-15.04.23:551][340]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.291
+[2017.04.26-15.06.06:180][ 27]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/FirstPersonBP/IA/Zona.
+[2017.04.26-15.06.45:799][364]LogClass:Warning: Type mismatch in m_targets of SKEL_Zona_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.04.26-15.07.14:121][ 54]BlueprintLog: New page: Compile Zona
+[2017.04.26-15.07.18:673][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-15.07.18:678][318]LogSavePackage: Save=3.91ms
+[2017.04.26-15.07.18:678][318]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona3239AC0543EB90A5110B4C8B06387C98.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-15.07.18:681][318]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-15.07.18:781][324]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonBP/IA/Zona.
+[2017.04.26-15.11.23:093][759]BlueprintLog: New page: Compile Zona
+[2017.04.26-15.11.23:127][759]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning Can't parse default value 'False' for  <None> . Property: zonas.
+[2017.04.26-15.13.17:018][565]BlueprintLog: New page: Compile Ruben
+[2017.04.26-15.13.51:199][605]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-15.13.51:224][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-15.13.51:232][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-15.13.51:232][605]PIE: New page: PIE session: Ruben (Apr 26, 2017, 7:13:51 PM)
+[2017.04.26-15.13.51:232][605]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-15.13.51:256][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023873s)
+[2017.04.26-15.13.51:257][605]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-15.13.51:257][605]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2017.04.26-15.13.51:257][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.025142s)
+[2017.04.26-15.13.51:287][605]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-15.13.51:298][605]LogInit: FAudioDevice initialized.
+[2017.04.26-15.13.51:329][605]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-15.13.51:333][605]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-17.13.51
+[2017.04.26-15.13.51:334][605]LogWorld: Bringing up level for play took: 0.004629
+[2017.04.26-15.13.51:336][605]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben -0.641
+[2017.04.26-15.13.51:337][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-15.13.56:618][920]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.13.57:068][947]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.13.57:418][968]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-15.13.57:735][987]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.13.58:001][  3]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.13.58:084][  8]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.13.58:301][ 21]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.13.58:601][ 39]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.13.58:952][ 60]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.13.59:202][ 75]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.13.59:268][ 79]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.13.59:668][103]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.13.59:868][115]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.00:301][141]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.00:468][151]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.00:735][167]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.00:768][169]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.01:151][192]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.01:285][200]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.01:735][227]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.01:818][232]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.02:168][253]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.02:201][255]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.02:502][273]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.02:835][293]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.02:918][298]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.03:419][328]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.03:503][333]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.03:918][358]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.04:152][372]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.04:435][389]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.04:518][394]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.04:902][417]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.05:002][423]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.05:235][437]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.05:419][448]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.05:735][467]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.05:785][470]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.06:185][494]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.06:285][500]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.06:752][528]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.06:768][529]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.07:202][555]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.07:435][569]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.07:768][589]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.07:835][593]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.08:135][611]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.08:385][626]LogBlueprintUserMessages: [AICharacter_2] EditorCube8
+[2017.04.26-15.14.08:468][631]LogBlueprintUserMessages: [AICharacter2_2] EditorCube8
+[2017.04.26-15.14.08:802][651]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.08:935][659]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.09:102][669]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.09:602][699]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.09:619][700]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.10:136][731]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.10:152][732]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.10:569][757]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.10:602][759]LogBlueprintUserMessages: [AICharacter_2] FirstPersonCharacter
+[2017.04.26-15.14.10:918][778]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-15.14.11:219][796]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.11:235][797]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-15.14.11:569][817]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.11:752][828]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-15.14.11:919][838]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.12:386][866]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.12:402][867]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-15.14.12:919][898]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.13:069][907]LogBlueprintUserMessages: [AICharacter_2] AICharacter2
+[2017.04.26-15.14.13:202][915]LogBlueprintUserMessages: [AICharacter2_2] FirstPersonCharacter
+[2017.04.26-15.14.13:552][936]LogBlueprintUserMessages: [AICharacter2_2] BigWall
+[2017.04.26-15.14.15:302][ 41]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-15.14.15:366][ 41]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-15.15.14:530][393]LogSavePackage: Save=248.97ms
+[2017.04.26-15.15.14:530][393]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben_Auto3B8C202A24C9FE4F5B26BF2A58A55B1EB.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto3.umap'
+[2017.04.26-15.15.14:533][393]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto3.umap
+[2017.04.26-15.15.14:534][393]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Ruben' took 0.290
+[2017.04.26-15.15.14:534][393]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.290
+[2017.04.26-15.15.14:536][393]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/IA/Zona] ([1] browsable assets)...
+[2017.04.26-15.15.14:536][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/IA/Zona]
+[2017.04.26-15.15.14:536][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.04.26-15.15.14:546][393]LogSavePackage: Save=3.31ms
+[2017.04.26-15.15.14:546][393]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona_Auto3EFC40D06459048D1BCA4F98EDAC5F18E.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto3.uasset'
+[2017.04.26-15.15.14:548][393]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto3.uasset
+[2017.04.26-15.15.14:548][393]LogFileHelpers: Auto-saving content packages took 0.013
+[2017.04.26-15.25.14:829][306]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error This blueprint (self) is not a AICharacter_C, therefore ' Target ' must have a connection.
+[2017.04.26-15.25.14:829][306]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Variable node  Get m_zona  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.04.26-15.25.15:164][306]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [2800.81] Compile of PersistentLevel.Ruben failed. 2 Fatal Issue(s) 0 Warning(s) [in 346 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-15.25.15:165][306]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [2800.81] Compile of PersistentLevel.Ruben failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-15.25.15:165][306]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [2800.81] Compile of PersistentLevel.Ruben failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-15.25.15:165][306]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [2800.81] Compile of PersistentLevel.Ruben failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-15.25.15:169][306]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [2800.82] Compile of PersistentLevel.Ruben failed. 2 Fatal Issue(s) 4 Warning(s) [in 4 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-15.25.15:169][306]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [2800.82] Compile of PersistentLevel.Ruben failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-15.25.15:298][306]LogSavePackage: Save=495.78ms
+[2017.04.26-15.25.15:298][306]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben_Auto43F3FA94341C2D20989B66EBB312C7FCF.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto4.umap'
+[2017.04.26-15.25.15:300][306]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto4.umap
+[2017.04.26-15.25.15:302][306]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Ruben' took 0.545
+[2017.04.26-15.25.15:302][306]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.545
+[2017.04.26-15.26.47:096][807]BlueprintLog: New page: Compile Ruben
+[2017.04.26-15.26.47:119][807]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error This blueprint (self) is not a AICharacter_C, therefore ' Target ' must have a connection.
+[2017.04.26-15.26.47:120][807]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Variable node  Get m_zona  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.04.26-15.26.47:488][807]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a AICharacter_C, therefore ' Target ' must have a connection.
+[2017.04.26-15.26.47:488][807]BlueprintEditorCompileResults:Error: Error Variable node  Get m_zona  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.04.26-15.26.47:489][807]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [2893.14] Compile of PersistentLevel.Ruben failed. 2 Fatal Issue(s) 0 Warning(s) [in 393 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-15.33.44:551][473]BlueprintLog: New page: Compile AIControllerVR
+[2017.04.26-15.36.35:895][680]BlueprintLog: New page: Compile Zona
+[2017.04.26-15.36.35:904][680]LogBlueprint:Error: [Compiler AIControllerVR] Error Default value '' for  Targets  is invalid: 'Array inputs (like 'Targets') must have an input wired into them (try connecting a MakeArray node).'
+[2017.04.26-15.38.20:120][825]BlueprintLog: New page: Compile Zona
+[2017.04.26-15.38.20:130][825]LogBlueprint:Error: [Compiler AIControllerVR] Error Default value '' for  Targets  is invalid: 'Array inputs (like 'Targets') must have an input wired into them (try connecting a MakeArray node).'
+[2017.04.26-15.38.44:414][262]BlueprintLog: New page: Compile Zona
+[2017.04.26-15.41.42:168][747]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/FirstPersonBP/IA/Zona2.
+[2017.04.26-15.42.11:894][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.26-15.42.11:997][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.26-15.42.14:082][394]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.04.26-15.42.14:082][394]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.04.26-15.42.14:082][394]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Zona2_C_1' or package '/Engine/Transient'.
+[2017.04.26-15.42.14:082][394]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.04.26-15.42.14:082][394]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.04.26-15.42.14:082][394]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Zona2_C_0' or package '/Engine/Transient'.
+[2017.04.26-15.42.14:083][394]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Zona2_C_274' or package '/Engine/Transient'.
+[2017.04.26-15.42.14:083][394]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Zona2_C_273' or package '/Engine/Transient'.
+[2017.04.26-15.42.45:203][224]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (zona1)
+[2017.04.26-15.43.27:787][756]LogSavePackage: Save=235.53ms
+[2017.04.26-15.43.27:787][756]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben_Auto59BF2C8354CA4D570C872039136B4CEE0.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto5.umap'
+[2017.04.26-15.43.27:794][756]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto5.umap
+[2017.04.26-15.43.27:795][756]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Ruben' took 0.276
+[2017.04.26-15.43.27:795][756]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.276
+[2017.04.26-15.43.27:798][756]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/IA/AICharacter] ([1] browsable assets)...
+[2017.04.26-15.43.27:815][756]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/IA/AICharacter.AICharacter]
+[2017.04.26-15.43.27:815][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/IA/AICharacter]
+[2017.04.26-15.43.27:857][756]LogSavePackage: Save=34.14ms
+[2017.04.26-15.43.27:857][756]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/AICharacter_Auto55C07157F41ED3E9F6962E3BA737FA44F.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AICharacter_Auto5.uasset'
+[2017.04.26-15.43.27:860][756]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AICharacter_Auto5.uasset
+[2017.04.26-15.43.27:860][756]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/IA/AIControllerVR] ([1] browsable assets)...
+[2017.04.26-15.43.27:860][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/IA/AIControllerVR]
+[2017.04.26-15.43.27:877][756]LogSavePackage: Save=9.19ms
+[2017.04.26-15.43.27:877][756]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/AIControllerVR_Auto566673E474C84EF1652BB458C5432BA14.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AIControllerVR_Auto5.uasset'
+[2017.04.26-15.43.27:879][756]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AIControllerVR_Auto5.uasset
+[2017.04.26-15.43.27:880][756]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/IA/Zona] ([1] browsable assets)...
+[2017.04.26-15.43.27:880][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/IA/Zona]
+[2017.04.26-15.43.27:880][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.04.26-15.43.27:894][756]LogSavePackage: Save=6.17ms
+[2017.04.26-15.43.27:894][756]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona_Auto50091452F4A7883728FDCEB859727D074.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto5.uasset'
+[2017.04.26-15.43.27:895][756]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto5.uasset
+[2017.04.26-15.43.27:895][756]LogFileHelpers: Auto-saving content packages took 0.099
+[2017.04.26-15.43.46:112][692]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/FirstPersonBP/IA/Zona2.
+[2017.04.26-15.43.59:433][277]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:177385).
+[2017.04.26-15.54.16:033][560]LogSavePackage: Save=254.77ms
+[2017.04.26-15.54.16:033][560]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben_Auto683CFA7594A44AB55ED06509E9B9F9EE5.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto6.umap'
+[2017.04.26-15.54.16:036][560]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto6.umap
+[2017.04.26-15.54.16:037][560]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Ruben' took 0.307
+[2017.04.26-15.54.16:037][560]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.307
+[2017.04.26-15.54.16:039][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/IA/Zona] ([1] browsable assets)...
+[2017.04.26-15.54.16:039][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/IA/Zona]
+[2017.04.26-15.54.16:039][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.04.26-15.54.16:054][560]LogSavePackage: Save=6.45ms
+[2017.04.26-15.54.16:054][560]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona_Auto69D3D49C24103A997AFF053B8F4101004.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto6.uasset'
+[2017.04.26-15.54.16:055][560]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona_Auto6.uasset
+[2017.04.26-15.54.16:056][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/IA/Zona2] ([1] browsable assets)...
+[2017.04.26-15.54.16:056][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/IA/Zona2]
+[2017.04.26-15.54.16:056][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona2" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona2_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.04.26-15.54.16:063][560]LogSavePackage: Save=5.74ms
+[2017.04.26-15.54.16:063][560]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona2_Auto6D1D44BD94E0F8C68C0953F8FA5B2239F.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona2_Auto6.uasset'
+[2017.04.26-15.54.16:065][560]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/Zona2_Auto6.uasset
+[2017.04.26-15.54.16:065][560]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.04.26-15.54.59:551][877]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.26-15.55.01:587][999]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.26-15.56.48:051][254]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/zona2_Blueprint.
+[2017.04.26-15.57.36:702][771]Cmd: DELETE
+[2017.04.26-15.57.36:702][771]Cmd: ACTOR DELETE
+[2017.04.26-15.57.36:703][771]LogEditorActor: Deleted Actor: zona2_Blueprint_C
+[2017.04.26-15.57.36:724][771]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.04.26-15.57.42:394][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.26-15.57.43:090][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.26-15.57.43:864][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.26-15.57.45:406][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.26-15.57.47:842][430]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (zona1)
+[2017.04.26-15.58.04:757][220]Cmd: TRANSACTION UNDO
+[2017.04.26-15.58.04:757][220]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.26-15.58.05:900][277]Cmd: TRANSACTION UNDO
+[2017.04.26-15.58.05:900][277]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.26-15.58.06:573][313]Cmd: TRANSACTION UNDO
+[2017.04.26-15.58.06:573][313]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.26-15.58.07:004][338]Cmd: TRANSACTION UNDO
+[2017.04.26-15.58.07:004][338]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.26-15.58.07:292][355]Cmd: TRANSACTION UNDO
+[2017.04.26-15.58.07:292][355]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.26-15.58.07:625][375]Cmd: TRANSACTION UNDO
+[2017.04.26-15.58.07:625][375]LogEditorTransaction: Undo Delete Actors
+[2017.04.26-15.58.13:422][589]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.04.26-15.58.13:422][589]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_zona2_Blueprint_C_3' or package '/Engine/Transient'.
+[2017.04.26-15.58.13:422][589]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.04.26-15.58.13:423][589]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.04.26-15.58.13:423][589]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_zona2_Blueprint_C_2' or package '/Engine/Transient'.
+[2017.04.26-15.58.13:423][589]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_zona2_Blueprint_C_296' or package '/Engine/Transient'.
+[2017.04.26-15.58.13:423][589]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_zona2_Blueprint_C_295' or package '/Engine/Transient'.
+[2017.04.26-15.59.16:703][228]LogEditorTransaction: Undo Rename Function
+[2017.04.26-15.59.17:066][247]LogEditorTransaction: Undo Add New Function
+[2017.04.26-16.00.16:566][780]LogClass:Warning: Type mismatch in m_targtes of SKEL_Zona2_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.04.26-16.00.40:177][181]LogBlueprint:Warning: [Zona2] 'm_targetsDisponible' variable not found. Base class was probably changed.
+[2017.04.26-16.00.43:339][369]LogEditorTransaction: Undo Move Node
+[2017.04.26-16.00.43:779][392]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.26-16.00.45:102][468]LogBlueprint:Warning: [Zona2] 'm_targetsDisponible' variable not found. Base class was probably changed.
+[2017.04.26-16.01.06:677][753]LogBlueprint:Warning: [Zona2] 'm_targetsDisponible' variable not found. Base class was probably changed.
+[2017.04.26-16.02.29:503][641]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.02.29:509][641]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.29:509][641]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.29:510][641]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.29:510][641]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.29:889][641]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.29:889][641]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.29:889][641]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.29:889][641]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.29:890][641]LogBlueprint:Warning: [Compiler Zona2] Warning [5035.54] Compile of Zona2 failed. 2 Fatal Issue(s) 2 Warning(s) [in 386 ms] (/Game/FirstPersonBP/IA/Zona2.Zona2)
+[2017.04.26-16.02.48:657][759]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.02.48:663][759]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.48:663][759]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.48:664][759]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.48:664][759]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.48:877][759]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.48:877][759]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.48:877][759]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.48:877][759]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.48:877][759]LogBlueprint:Warning: [Compiler Zona2] Warning [5054.53] Compile of Zona2 failed. 2 Fatal Issue(s) 2 Warning(s) [in 219 ms] (/Game/FirstPersonBP/IA/Zona2.Zona2)
+[2017.04.26-16.02.57:335][257]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.02.57:340][257]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.57:341][257]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.57:341][257]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.57:341][257]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.57:560][257]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.57:560][257]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.02.57:560][257]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.57:560][257]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.02.57:561][257]LogBlueprint:Warning: [Compiler Zona2] Warning [5063.21] Compile of Zona2 failed. 2 Fatal Issue(s) 2 Warning(s) [in 225 ms] (/Game/FirstPersonBP/IA/Zona2.Zona2)
+[2017.04.26-16.03.02:074][523]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.03.02:080][523]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.02:080][523]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.02:081][523]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.02:081][523]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.02:299][523]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.02:299][523]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.02:299][523]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.02:299][523]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.02:300][523]LogBlueprint:Warning: [Compiler Zona2] Warning [5067.95] Compile of Zona2 failed. 2 Fatal Issue(s) 2 Warning(s) [in 224 ms] (/Game/FirstPersonBP/IA/Zona2.Zona2)
+[2017.04.26-16.03.10:959][ 23]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.03.10:964][ 23]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.10:964][ 23]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.10:965][ 23]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.10:965][ 23]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.11:180][ 23]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.11:180][ 23]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.11:180][ 23]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.11:180][ 23]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.11:181][ 23]LogBlueprint:Warning: [Compiler Zona2] Warning [5076.83] Compile of Zona2 failed. 2 Fatal Issue(s) 2 Warning(s) [in 221 ms] (/Game/FirstPersonBP/IA/Zona2.Zona2)
+[2017.04.26-16.03.13:108][135]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.03.13:113][135]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.13:114][135]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.13:114][135]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.13:114][135]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.13:330][135]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.13:330][135]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.13:330][135]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.13:330][135]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.13:331][135]LogBlueprint:Warning: [Compiler Zona2] Warning [5078.98] Compile of Zona2 failed. 2 Fatal Issue(s) 2 Warning(s) [in 222 ms] (/Game/FirstPersonBP/IA/Zona2.Zona2)
+[2017.04.26-16.03.14:988][230]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.03.14:993][230]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.14:993][230]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.14:994][230]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.14:994][230]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.15:214][230]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.15:214][230]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.15:214][230]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.15:214][230]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.15:215][230]LogBlueprint:Warning: [Compiler Zona2] Warning [5080.86] Compile of Zona2 failed. 2 Fatal Issue(s) 2 Warning(s) [in 227 ms] (/Game/FirstPersonBP/IA/Zona2.Zona2)
+[2017.04.26-16.03.17:315][352]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.03.17:321][352]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.17:321][352]LogBlueprint:Warning: [Compiler Zona2] Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.17:321][352]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.17:321][352]LogBlueprint:Error: [Compiler Zona2] Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.17:534][352]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.17:534][352]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "m_targetsDisponible" in 'Zona2_C'.
+Make sure 'Zona2_C' has been compiled for  Get m_targetsDisponible
+[2017.04.26-16.03.17:534][352]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.17:534][352]BlueprintEditorCompileResults:Error: Error The property associated with  M Targets Disponible  could not be found
+[2017.04.26-16.03.17:535][352]LogBlueprint:Warning: [Compiler Zona2] Warning [5083.18] Compile of Zona2 failed. 2 Fatal Issue(s) 2 Warning(s) [in 220 ms] (/Game/FirstPersonBP/IA/Zona2.Zona2)
+[2017.04.26-16.03.37:679][547]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.03.42:654][819]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.03.44:242][901]BlueprintLog: New page: Compile Zona2
+[2017.04.26-16.03.49:428][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona2" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona2.uasset" SILENT=true
+[2017.04.26-16.03.49:441][196]LogSavePackage: Save=11.57ms
+[2017.04.26-16.03.49:441][196]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona28C4FE94F45C98F1962A62D8D75E5946D.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona2.uasset'
+[2017.04.26-16.03.49:443][196]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona2.uasset
+[2017.04.26-16.03.49:464][197]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonBP/IA/Zona2.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ObjectProperty_759' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_AddComponent_523' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'm_zona' or package '/Game/FirstPersonBP/IA/AIControllerVR'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'zona' or package '/Game/FirstPersonBP/IA/AIControllerVR'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_3148' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_AddComponent_426' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_2848' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'zonas' or package '/Game/FirstPersonBP/Maps/Ruben'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Zona_C_4' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:724][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Zona_C_5' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:725][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'eliminarTarget' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:725][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'targets disponibles' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:725][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'm_targets' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:725][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'm_targetsDisponible' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:725][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASHCLASS_Zona_298' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:725][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Zona_C_410' or package '/Engine/Transient'.
+[2017.04.26-16.03.59:725][708]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Zona_C_409' or package '/Engine/Transient'.
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.SKEL_Zona_C' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona_C' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:deleteTargetDisponible.K2Node_FunctionEntry_1' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:targetsDisponibles.K2Node_FunctionEntry_2' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:590][184]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:resetTargetsDisponibles.K2Node_FunctionEntry_3' ref from Metadata '/Game/FirstPersonBP/IA/Zona2.PackageMetaData'
+[2017.04.26-16.04.08:617][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.04.08:628][184]LogSavePackage: Save=10.07ms
+[2017.04.26-16.04.08:628][184]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona72D5DFE34C4A8294BBB82CA1882F66DA.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.04.08:631][184]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.04.08:856][184]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonBP/IA/Zona.
+[2017.04.26-16.07.28:881][880]BlueprintLog: New page: Compile Zona
+[2017.04.26-16.08.49:400][618]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
