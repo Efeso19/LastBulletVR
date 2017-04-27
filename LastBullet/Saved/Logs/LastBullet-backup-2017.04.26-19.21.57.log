@@ -1,0 +1,1358 @@
+﻿Log file open, 04/26/17 18:41:12
+LogInit:Display: Running engine for game: LastBullet
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2049243872) SRandInit(-2049243872).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096432
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.26-16.41.12:889][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-16.41.12:889][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.26-16.41.12:896][  0]LogInit: Computer: DESKTOP-T9NOKQO
+[2017.04.26-16.41.12:896][  0]LogInit: User: cripe
+[2017.04.26-16.41.12:896][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.26-16.41.12:896][  0]LogInit: High frequency timer resolution =2.435773 MHz
+[2017.04.26-16.41.12:896][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.26-16.41.12:896][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.26-16.41.12:896][  0]LogMemory: Process Physical Memory: 263.17 MB used, 263.17 MB peak
+[2017.04.26-16.41.12:896][  0]LogMemory: Process Virtual Memory: 262.70 MB used, 262.70 MB peak
+[2017.04.26-16.41.12:896][  0]LogMemory: Physical Memory: 5224.44 MB used,  11078.70 MB free, 16303.14 MB total
+[2017.04.26-16.41.12:896][  0]LogMemory: Virtual Memory: 645.25 MB used,  11078.70 MB free, 134217728.00 MB total
+[2017.04.26-16.41.12:960][  0]LogInit: Overriding culture en with editor configuration.
+[2017.04.26-16.41.13:569][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.26-16.41.14:143][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2017.04.26-16.41.14:143][  0]LogD3D11RHI:       2017/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.26-16.41.14:152][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.26-16.41.14:152][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.26-16.41.14:153][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.26-16.41.14:153][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.26-16.41.14:153][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.26-16.41.14:158][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.26-16.41.14:158][  0]LogD3D11RHI:     GPU DeviceId: 0x119a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.26-16.41.14:158][  0]LogWindows: EnumDisplayDevices:
+[2017.04.26-16.41.14:158][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.04.26-16.41.14:158][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-16.41.14:159][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-16.41.14:159][  0]LogWindows:    3. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-16.41.14:159][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-16.41.14:159][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.26-16.41.14:159][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.26-16.41.14:159][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2017.04.26-16.41.14:159][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.26-16.41.14:159][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.26-16.41.14:159][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.26-16.41.14:689][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.26-16.41.14:690][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.26-16.41.14:746][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.26-16.41.14:746][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Intermediate/Shaders/WorkingDirectory/5488/).
+[2017.04.26-16.41.14:747][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cripe/AppData/Local/Temp/UnrealShaderWorkingDir/C221A3EF49A47851DB24238A5880141D/'.
+[2017.04.26-16.41.14:747][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.26-16.41.15:782][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.26-16.41.15:827][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.26-16.41.15:870][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.26-16.41.15:914][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.26-16.41.15:958][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.26-16.41.16:002][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.26-16.41.16:046][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.26-16.41.16:090][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.26-16.41.16:124][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.26-16.41.16:166][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.26-16.41.16:208][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.26-16.41.16:251][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.26-16.41.16:293][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.26-16.41.16:336][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.26-16.41.16:379][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.26-16.41.16:465][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.26-16.41.16:465][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.26-16.41.16:492][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.26-16.41.16:571][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.26-16.41.16:599][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.26-16.41.16:643][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.26-16.41.16:685][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.26-16.41.16:727][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.26-16.41.16:770][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.26-16.41.16:770][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.26-16.41.17:098][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.26-16.41.17:145][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-16.41.17:145][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.26-16.41.17:145][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/cripe/Desktop/LastBulletVR/LastBullet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.26-16.41.17:145][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.26-16.41.17:145][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/cripe/Desktop/LastBulletVR/LastBullet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.26-16.41.17:145][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.26-16.41.17:163][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.26-16.41.17:175][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cripe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.26-16.41.17:184][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.26-16.41.17:184][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-16.41.17:184][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-16.41.17:441][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-16.41.17:443][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.26-16.41.17:621][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.26-16.41.17:652][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.26-16.41.17:689][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.26-16.41.17:689][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.26-16.41.17:689][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.26-16.41.18:186][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lastbullet, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1522868599
+[2017.04.26-16.41.18:226][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2017.04.26-16.41.18:253][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011958 seconds
+[2017.04.26-16.41.18:259][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.26-16.41.18:259][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.26-16.41.18:259][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.26-16.41.18:303][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.26-16.41.19:703][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.26-16.41.19:737][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.26-16.41.20:098][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.26-16.41.20:396][  0]SourceControl: Info Source control is disabled
+[2017.04.26-16.41.20:397][  0]SourceControl: Info Source control is disabled
+[2017.04.26-16.41.20:434][  0]SourceControl: Info Source control is disabled
+[2017.04.26-16.41.20:470][  0]SourceControl: Info Source control is disabled
+[2017.04.26-16.41.21:436][  0]LogEngine: Initializing Engine...
+[2017.04.26-16.41.21:436][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.26-16.41.21:636][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.26-16.41.21:645][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-16.41.21:657][  0]LogInit: FAudioDevice initialized.
+[2017.04.26-16.41.21:682][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/cripe/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-16.41.21:685][  0]LogInit: Texture streaming: Enabled
+[2017.04.26-16.41.21:757][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.26-16.41.21:757][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={48A1F20F-4F5B-235A-9ADC-5B82C177C558}
+[2017.04.26-16.41.21:825][  0]LogInit: Transaction tracking system initialized
+[2017.04.26-16.41.22:076][  0]BlueprintLog: New page: Editor Load
+[2017.04.26-16.41.22:712][  0]LocalizationService: Info Localization service is disabled
+[2017.04.26-16.41.23:204][  0]LogConsoleResponse:Display: 
+[2017.04.26-16.41.23:313][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.26-16.41.23:313][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.26-16.41.23:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/' took 0.02s
+[2017.04.26-16.41.24:101][  0]SourceControl: Info Source control is disabled
+[2017.04.26-16.41.24:101][  0]Cmd: MAP LOAD FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-16.41.24:101][  0]LightingResults: New page: Lighting Build
+[2017.04.26-16.41.24:130][  0]MapCheck: New page: Map Check
+[2017.04.26-16.41.24:130][  0]LightingResults: New page: Lighting Build
+[2017.04.26-16.41.24:142][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Blueprints/modul_transporttransport_16_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-16.41.24:163][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_0.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.26-16.41.24:165][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_1.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.26-16.41.24:168][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_2.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.26-16.41.24:394][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-16.41.24:394][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.04.26-16.41.24:394][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.04.26-16.41.24:454][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-16.41.24:455][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-16.41.24:460][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/FX_Map_7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-16.41.24:461][  0]LogLinker:Warning: Asset 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.26-16.41.24:592][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-16.41.24:592][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.04.26-16.41.24:592][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.04.26-16.41.24:605][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-16.41.24:605][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.26-16.41.24:605][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-16.41.24:605][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.26-16.41.24:658][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.04.26-16.41.24:658][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.04.26-16.41.24:658][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.04.26-16.41.24:658][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.04.26-16.41.25:014][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:UserConstructionScript.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.26-16.41.25:127][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.26-16.41.25:164][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-16.41.25:164][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-16.41.25:259][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.801ms to complete.
+[2017.04.26-16.41.25:259][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.158
+[2017.04.26-16.41.25:324][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.26-16.41.25:434][  0]LogCollectionManager: Loaded 0 collections in 0.001754 seconds
+[2017.04.26-16.41.25:503][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Collections/' took 0.01s
+[2017.04.26-16.41.25:503][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Developers/cripe/Collections/' took 0.01s
+[2017.04.26-16.41.25:503][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Collections/' took 0.01s
+[2017.04.26-16.41.25:503][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.26-16.41.25:512][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2245 classes and 453 folders.
+[2017.04.26-16.41.25:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.26-16.41.25:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.26-16.41.25:560][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.26-16.41.25:603][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.04.26-16.41.25:636][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.26-16.41.25:724][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.26-16.41.25:733][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.26-16.41.25:795][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.26-16.41.25:795][  0]LogLoad: (Engine Initialization) Total time: 14.66 seconds
+[2017.04.26-16.41.25:795][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.04.26-16.41.25:795][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.26-16.41.25:795][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.26-16.41.25:813][  0]LogOcInput: OculusInput pre-init called
+[2017.04.26-16.41.25:846][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.26-16.41.25:864][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-16.41.25:869][  0]LogSlate: Took 0.000542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.26-16.41.25:874][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.26-16.41.26:006][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-16.41.26:052][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.26-16.41.26:124][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/' took 0.30s
+[2017.04.26-16.41.26:147][  1]LogAssetRegistry: Asset discovery search completed in 7.9442 seconds
+[2017.04.26-16.41.26:147][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.04.26-16.41.26:147][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.04.26-16.41.26:841][ 28]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-16.41.29:347][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (scene_PtoA_11)
+[2017.04.26-16.41.46:564][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:564][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:564][113]LoadErrors:Error: Error /Game/FirstPersonBP/IA/AIControllerVR : Can't find file for asset. /Game/FirstPersonBP/IA/Zona
+[2017.04.26-16.41.46:580][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:581][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset.
+[2017.04.26-16.41.46:581][113]LoadErrors:Error: Error /Game/FirstPersonBP/IA/Task/MoveToLocation : Can't find file for asset. /Game/FirstPersonBP/IA/Zona
+[2017.04.26-16.41.46:582][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:582][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset.
+[2017.04.26-16.41.46:582][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:582][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:583][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:583][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:584][113]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_VariableGet_6
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:584][113]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_CallFunction_16
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:584][113]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_CallFunction_25
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:584][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:585][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:588][113]LogBlueprint:Error: [Compiler MoveToLocation] Error Could not find a function named "deleteTargetDisponible" in 'MoveToLocation'.
+Make sure 'MoveToLocation' has been compiled for  Delete Target Disponible
+[2017.04.26-16.41.46:588][113]LogBlueprint:Error: [Compiler MoveToLocation] Error Could not find a function named "getTargetsDisponibles" in 'MoveToLocation'.
+Make sure 'MoveToLocation' has been compiled for  Get Targets Disponibles
+[2017.04.26-16.41.46:589][113]LogBlueprint:Error: [Compiler MoveToLocation] Error Failed to find class for pin  Mi Zona
+[2017.04.26-16.41.46:591][113]LogBlueprint:Warning: [Compiler MoveToLocation] Warning [0035.45] Compile of MoveToLocation failed. 3 Fatal Issue(s) 0 Warning(s) [in 3 ms] (/Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation)
+[2017.04.26-16.41.46:591][113]LogBlueprint:Warning: [Compiler MoveToLocation] Warning [0035.45] Compile of MoveToLocation failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation)
+[2017.04.26-16.41.46:591][113]LogBlueprint:Warning: [Compiler MoveToLocation] Warning [0035.45] Compile of MoveToLocation failed. 3 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation)
+[2017.04.26-16.41.46:594][113]LogBlueprint:Error: [Compiler AIControllerVR] Error Default value '' for  Targets  is invalid: 'Array inputs (like 'Targets') must have an input wired into them (try connecting a MakeArray node).'
+[2017.04.26-16.41.46:596][113]LogBlueprint:Warning: [Compiler AIControllerVR] Warning [0035.46] Compile of AIControllerVR failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/FirstPersonBP/IA/AIControllerVR.AIControllerVR)
+[2017.04.26-16.41.46:596][113]LogBlueprint:Warning: [Compiler AIControllerVR] Warning [0035.46] Compile of AIControllerVR failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonBP/IA/AIControllerVR.AIControllerVR)
+[2017.04.26-16.41.46:596][113]LogBlueprint:Warning: [Compiler AIControllerVR] Warning [0035.46] Compile of AIControllerVR failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/IA/AIControllerVR.AIControllerVR)
+[2017.04.26-16.41.46:597][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:597][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:598][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:598][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:598][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:598][113]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by AICharacter
+[2017.04.26-16.41.46:598][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:599][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:599][113]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_FunctionEntry_24
+[2017.04.26-16.41.46:599][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:599][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:599][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:599][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:599][113]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_VariableSet_19
+[2017.04.26-16.41.46:599][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:600][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:600][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset.
+[2017.04.26-16.41.46:622][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:622][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset.
+[2017.04.26-16.41.46:622][113]LoadErrors:Error: Error /Game/FirstPersonBP/IA/AICharacter : Can't find file for asset. /Game/FirstPersonBP/IA/Zona
+[2017.04.26-16.41.46:624][113]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.41.46:624][113]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset.
+[2017.04.26-16.41.46:685][113]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-16.41.46:787][113]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.26-16.41.50:580][281]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.04.26-16.41.51:301][282]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.26-16.42.12:450][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:450][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap.
+[2017.04.26-16.42.12:450][302]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/Ruben : Can't find file for asset. /Game/FirstPersonBP/IA/Zona
+[2017.04.26-16.42.12:458][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:458][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap.
+[2017.04.26-16.42.12:460][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:460][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap.
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:463][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:464][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:464][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:464][302]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by Default__Ruben_C
+[2017.04.26-16.42.12:464][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:469][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:469][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:469][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:469][302]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_Literal_83
+[2017.04.26-16.42.12:469][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:469][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:469][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:470][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:470][302]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_CallFunction_44
+[2017.04.26-16.42.12:470][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:470][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:470][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:476][302]LogBlueprint:Warning: [Ruben] 'm_targets' variable not found. Base class was probably changed.
+[2017.04.26-16.42.12:482][302]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Can't connect pins    and  New Item : Reference is not compatible with Object Reference (by ref).
+[2017.04.26-16.42.12:482][302]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Could not find a function named "setTargets" in 'Ruben'.
+Make sure 'Ruben' has been compiled for  Set Targets
+[2017.04.26-16.42.12:483][302]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Can't connect pins  New Item  and   : Object Reference (by ref) is not compatible with Reference.
+[2017.04.26-16.42.12:489][302]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [0061.35] Compile of PersistentLevel.Ruben failed. 3 Fatal Issue(s) 0 Warning(s) [in 11 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-16.42.12:489][302]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [0061.35] Compile of PersistentLevel.Ruben failed. 3 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-16.42.12:491][302]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [0061.35] Compile of PersistentLevel.Ruben failed. 3 Fatal Issue(s) 2 Warning(s) [in 1 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-16.42.12:495][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:495][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:495][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:495][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:497][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:497][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:497][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:497][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:503][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:503][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:503][302]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.26-16.42.12:503][302]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by PersistentLevel
+[2017.04.26-16.42.12:503][302]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.26-16.42.12:601][302]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-16.42.12:648][302]Cmd: MAP LOAD FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-16.42.12:648][302]LightingResults: New page: Lighting Build
+[2017.04.26-16.42.12:649][302]LoadErrors: New page: Loading map: Ruben.umap
+[2017.04.26-16.42.12:652][302]MapCheck: New page: Map Check
+[2017.04.26-16.42.12:652][302]LightingResults: New page: Lighting Build
+[2017.04.26-16.42.12:773][302]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-16.42.12:797][302]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-16.42.12:924][302]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.006ms to complete.
+[2017.04.26-16.42.12:925][302]LogFileHelpers: Loading map 'Ruben' took 0.278
+[2017.04.26-16.42.12:931][302]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Zona_C /Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Zona0
+[2017.04.26-16.42.28:287][991]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonBP/IA/NewBlueprint.
+[2017.04.26-16.42.45:710][384]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zon.Zon:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/IA/NewBlueprint.PackageMetaData'
+[2017.04.26-16.42.45:710][384]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zon.SKEL_Zon_C' ref from Metadata '/Game/FirstPersonBP/IA/NewBlueprint.PackageMetaData'
+[2017.04.26-16.42.45:710][384]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zon.Zon_C' ref from Metadata '/Game/FirstPersonBP/IA/NewBlueprint.PackageMetaData'
+[2017.04.26-16.42.45:710][384]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zon.Zon:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/IA/NewBlueprint.PackageMetaData'
+[2017.04.26-16.42.45:710][384]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zon.Zon:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/IA/NewBlueprint.PackageMetaData'
+[2017.04.26-16.42.45:710][384]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zon.Zon:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/IA/NewBlueprint.PackageMetaData'
+[2017.04.26-16.42.45:735][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zon" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zon.uasset" SILENT=true
+[2017.04.26-16.42.45:742][384]LogSavePackage: Save=6.00ms
+[2017.04.26-16.42.45:742][384]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/ZonF62F2E27489816C97CE54B87B1ECA644.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zon.uasset'
+[2017.04.26-16.42.45:745][384]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zon.uasset
+[2017.04.26-16.42.45:968][388]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonBP/IA/Zon.
+[2017.04.26-16.42.48:802][534]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona_C' ref from Metadata '/Game/FirstPersonBP/IA/Zon.PackageMetaData'
+[2017.04.26-16.42.48:802][534]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.SKEL_Zona_C' ref from Metadata '/Game/FirstPersonBP/IA/Zon.PackageMetaData'
+[2017.04.26-16.42.48:802][534]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/IA/Zon.PackageMetaData'
+[2017.04.26-16.42.48:802][534]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/IA/Zon.PackageMetaData'
+[2017.04.26-16.42.48:802][534]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/IA/Zon.PackageMetaData'
+[2017.04.26-16.42.48:802][534]LogMetaData: Removing '/Game/FirstPersonBP/IA/Zona.Zona:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/IA/Zon.PackageMetaData'
+[2017.04.26-16.42.48:824][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.42.48:830][534]LogSavePackage: Save=5.64ms
+[2017.04.26-16.42.48:830][534]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona8DA7BE5347B6A7D97701FFB331907AC1.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.42.48:832][534]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.42.49:073][539]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonBP/IA/Zona.
+[2017.04.26-16.42.50:750][602]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:3696).
+[2017.04.26-16.43.08:928][680]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.04.26-16.43.12:064][865]LogClass:Warning: Type mismatch in m_targets of SKEL_Zona_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.04.26-16.44.26:999][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.44.27:019][285]LogSavePackage: Save=10.05ms
+[2017.04.26-16.44.27:019][285]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/ZonaC97305BE402F8F5E3466FFAC307FB8F8.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.44.27:022][285]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.44.28:141][352]BlueprintLog: New page: Compile Zona
+[2017.04.26-16.44.58:870][175]LogEditorTransaction: Undo Move Node
+[2017.04.26-16.45.01:522][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.45.01:539][329]LogSavePackage: Save=9.01ms
+[2017.04.26-16.45.01:539][329]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona98C72084423F4F4B07B153B26BCCEC90.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.45.01:541][329]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.45.02:453][383]Cmd: TRANSACTION UNDO
+[2017.04.26-16.45.02:453][383]LogEditorTransaction: Undo Move Node
+[2017.04.26-16.45.05:622][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.45.05:638][562]LogSavePackage: Save=8.43ms
+[2017.04.26-16.45.05:638][562]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona513972CB447B592539CEB388930D6F0C.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.45.05:641][562]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.45.06:791][631]BlueprintLog: New page: Compile Zona
+[2017.04.26-16.45.41:645][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.45.41:663][683]LogSavePackage: Save=9.56ms
+[2017.04.26-16.45.41:663][683]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona7BF69DC34EA338FDA6C19FB78DF17F86.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.45.41:666][683]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.45.42:685][744]BlueprintLog: New page: Compile Zona
+[2017.04.26-16.46.47:944][613]BlueprintLog: New page: Compile Zona
+[2017.04.26-16.46.49:868][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.46.49:887][719]LogSavePackage: Save=10.56ms
+[2017.04.26-16.46.49:887][719]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona1EC8CF534B748FF3799CF99481D960CC.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.46.49:890][719]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.47.16:383][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.47.16:403][288]LogSavePackage: Save=11.59ms
+[2017.04.26-16.47.16:403][288]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona5D2D9820421D4E33894EE48B34F4426C.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.47.16:406][288]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.47.17:577][358]BlueprintLog: New page: Compile Zona
+[2017.04.26-16.47.20:666][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-16.47.20:685][534]LogSavePackage: Save=11.36ms
+[2017.04.26-16.47.20:685][534]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/ZonaAD49ABEE4FE997EBFF98AD8A0D60F2BA.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-16.47.20:687][534]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-16.49.14:416][185]BlueprintLog: New page: Compile Ruben
+[2017.04.26-16.51.27:554][789]LogSavePackage: Save=90.62ms
+[2017.04.26-16.51.27:554][789]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/FirstPersonCharacter40E281C14BBCE97E62E59EAAD66B9F49.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.04.26-16.51.27:557][789]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.26-16.51.28:193][827]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.04.26-16.51.28:292][827]LogBlueprint:Error: [Compiler AIControllerVR] Error Default value '' for  Targets  is invalid: 'Array inputs (like 'Targets') must have an input wired into them (try connecting a MakeArray node).'
+[2017.04.26-16.51.28:298][827]LogBlueprint:Error: [Compiler MoveToLocation] Error Could not find a function named "deleteTargetDisponible" in 'MoveToLocation'.
+Make sure 'MoveToLocation' has been compiled for  Delete Target Disponible
+[2017.04.26-16.51.28:298][827]LogBlueprint:Error: [Compiler MoveToLocation] Error Could not find a function named "getTargetsDisponibles" in 'MoveToLocation'.
+Make sure 'MoveToLocation' has been compiled for  Get Targets Disponibles
+[2017.04.26-16.51.28:299][827]LogBlueprint:Error: [Compiler MoveToLocation] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.04.26-16.51.28:299][827]LogBlueprint:Error: [Compiler MoveToLocation] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.04.26-16.51.29:134][827]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.04.26-16.51.29:134][827]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2017.04.26-16.51.29:134][827]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2017.04.26-16.51.45:278][725]LogSavePackage: Save=89.07ms
+[2017.04.26-16.51.45:278][725]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/FirstPersonCharacter14C9672441CD459958A786A2BBF496F9.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.04.26-16.51.45:281][725]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.26-16.51.45:943][764]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.04.26-16.51.46:200][764]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.04.26-16.51.46:200][764]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2017.04.26-16.51.46:200][764]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2017.04.26-16.52.12:849][322]LogSavePackage: Save=250.75ms
+[2017.04.26-16.52.12:850][322]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben_Auto178A143744907F5C721798BAB778CAB6F.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto1.umap'
+[2017.04.26-16.52.12:852][322]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto1.umap
+[2017.04.26-16.52.12:854][322]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Ruben' took 0.294
+[2017.04.26-16.52.12:854][322]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.294
+[2017.04.26-16.52.12:855][322]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/IA/AICharacter] ([1] browsable assets)...
+[2017.04.26-16.52.12:873][322]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/IA/AICharacter.AICharacter]
+[2017.04.26-16.52.12:873][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/IA/AICharacter]
+[2017.04.26-16.52.12:914][322]LogSavePackage: Save=31.79ms
+[2017.04.26-16.52.12:914][322]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/AICharacter_Auto114C17173499BEC34123D25A80097D7D4.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AICharacter_Auto1.uasset'
+[2017.04.26-16.52.12:916][322]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AICharacter_Auto1.uasset
+[2017.04.26-16.52.12:916][322]LogFileHelpers: Auto-saving content packages took 0.062
+[2017.04.26-16.53.49:973][476]BlueprintLog: New page: Compile AICharacter
+[2017.04.26-16.54.16:200][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/AICharacter" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset" SILENT=true
+[2017.04.26-16.54.16:241][  0]LogSavePackage: Save=32.56ms
+[2017.04.26-16.54.16:241][  0]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/AICharacterB77D8EC44AC279EA72D71487FFB76E52.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset'
+[2017.04.26-16.54.16:244][  0]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset
+[2017.04.26-16.54.16:712][ 28]BlueprintLog: New page: Compile AICharacter
+[2017.04.26-16.54.16:736][ 28]LogBlueprint:Error: [Compiler AIControllerVR] Error Default value '' for  Targets  is invalid: 'Array inputs (like 'Targets') must have an input wired into them (try connecting a MakeArray node).'
+[2017.04.26-16.54.16:743][ 28]LogBlueprint:Error: [Compiler MoveToLocation] Error Could not find a function named "deleteTargetDisponible" in 'MoveToLocation'.
+Make sure 'MoveToLocation' has been compiled for  Delete Target Disponible
+[2017.04.26-16.54.16:743][ 28]LogBlueprint:Error: [Compiler MoveToLocation] Error Could not find a function named "getTargetsDisponibles" in 'MoveToLocation'.
+Make sure 'MoveToLocation' has been compiled for  Get Targets Disponibles
+[2017.04.26-16.54.16:743][ 28]LogBlueprint:Error: [Compiler MoveToLocation] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.04.26-16.54.16:743][ 28]LogBlueprint:Error: [Compiler MoveToLocation] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.04.26-16.56.13:036][868]BlueprintLog: New page: Compile MoveToLocation
+[2017.04.26-16.56.14:195][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Task/MoveToLocation" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset" SILENT=true
+[2017.04.26-16.56.14:214][929]LogSavePackage: Save=9.08ms
+[2017.04.26-16.56.14:214][929]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/MoveToLocation6D63EBC54C82AE1837243AA1F30AC1AD.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset'
+[2017.04.26-16.56.14:217][929]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset
+[2017.04.26-16.56.23:733][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Ruben" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.26-16.56.24:009][489]LogSavePackage: Save=249.18ms
+[2017.04.26-16.56.24:009][489]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben77448A4D4624C68355C5499602585541.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap'
+[2017.04.26-16.56.24:013][489]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap
+[2017.04.26-16.56.24:047][489]LogFileHelpers: Saving map 'Ruben' took 0.439
+[2017.04.26-16.58.52:772][ 32]BlueprintLog: New page: Compile Ruben
+[2017.04.26-16.59.49:781][389]BlueprintLog: New page: Compile Ruben
+[2017.04.26-17.02.22:427][231]BlueprintLog: New page: Compile Ruben
+[2017.04.26-17.03.14:911][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Ruben" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.26-17.03.15:199][344]LogSavePackage: Save=251.61ms
+[2017.04.26-17.03.15:199][344]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/RubenEA9ABFF94F3580605B1B13B047A2C817.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap'
+[2017.04.26-17.03.15:202][344]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap
+[2017.04.26-17.03.15:231][344]LogFileHelpers: Saving map 'Ruben' took 0.437
+[2017.04.26-17.03.58:151][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Ruben" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.26-17.03.58:424][887]LogSavePackage: Save=242.72ms
+[2017.04.26-17.03.58:424][887]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/RubenB9751E0D44DE3F2CF66AA68DD5F79B5C.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap'
+[2017.04.26-17.03.58:427][887]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap
+[2017.04.26-17.03.58:454][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Ruben_BuiltData" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben_BuiltData.uasset" SILENT=true
+[2017.04.26-17.03.59:389][887]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-17.03.59:808][887]LogSavePackage: Save=1333.26ms
+[2017.04.26-17.03.59:808][887]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben_BuiltData353E4519499DAF644DFDFCA1901B7D45.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben_BuiltData.uasset'
+[2017.04.26-17.03.59:811][887]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben_BuiltData.uasset
+[2017.04.26-17.04.01:346][979]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.04.01:366][979]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.04.01:377][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.04.11:396][169]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.04.11:414][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.04.11:421][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.05.25:588][385]BlueprintLog: New page: Compile AIControllerVR
+[2017.04.26-17.05.28:365][537]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.05.28:387][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.05.28:398][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.05.28:398][537]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:05:28 PM)
+[2017.04.26-17.05.28:398][537]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.05.28:425][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026980s)
+[2017.04.26-17.05.28:426][537]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.05.28:426][537]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2017.04.26-17.05.28:427][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.028299s)
+[2017.04.26-17.05.28:457][537]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.05.28:469][537]LogInit: FAudioDevice initialized.
+[2017.04.26-17.05.28:513][537]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.05.28:517][537]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.05.28
+[2017.04.26-17.05.28:518][537]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.05.28:519][537]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.05.28:519][537]LogWorld: Bringing up level for play took: 0.004819
+[2017.04.26-17.05.28:553][537]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.26-17.05.28:554][537]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 0.577
+[2017.04.26-17.05.28:555][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.05.33:462][828]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.05.33:463][828]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.05.33:463][828]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.05.33:463][828]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:02C3
+[2017.04.26-17.05.33:463][828]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.05.33:463][828]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_1.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.05.33:463][828]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.05.33:463][828]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.05.33:463][828]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_1.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:02C3
+[2017.04.26-17.05.33:463][828]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.05.40:362][242]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-17.05.40:679][261]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-17.05.41:063][284]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.41:662][320]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.42:045][343]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.42:696][382]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.42:996][400]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.43:529][432]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.05.43:529][432]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.05.43:529][432]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.05.43:529][432]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:02C3
+[2017.04.26-17.05.43:529][432]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.05.43:529][432]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.43:979][459]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.44:613][497]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.45:262][536]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.45:829][570]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.46:429][606]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.46:996][640]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.50:963][878]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.51:263][896]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.51:663][920]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.52:030][942]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.52:596][976]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.52:663][980]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.05.52:663][980]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.05.52:663][980]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.05.52:663][980]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:02C3
+[2017.04.26-17.05.52:663][980]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.05.52:879][993]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.53:396][ 24]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.53:812][ 49]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.54:413][ 85]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.05.54:647][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.05.54:734][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.05.55:926][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/AIControllerVR" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset" SILENT=true
+[2017.04.26-17.05.55:943][162]LogSavePackage: Save=7.31ms
+[2017.04.26-17.05.55:943][162]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/AIControllerVRA976F2714188BA52D826BDAB088BA30F.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset'
+[2017.04.26-17.05.55:945][162]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AIControllerVR.uasset
+[2017.04.26-17.06.16:607][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.26-17.07.06:169][240]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.07.06:191][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.07.06:198][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.07.06:199][240]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:07:06 PM)
+[2017.04.26-17.07.06:199][240]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.07.06:221][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022643s)
+[2017.04.26-17.07.06:222][240]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.07.06:222][240]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2017.04.26-17.07.06:222][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.023835s)
+[2017.04.26-17.07.06:255][240]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.07.06:264][240]LogInit: FAudioDevice initialized.
+[2017.04.26-17.07.06:301][240]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.07.06:305][240]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.07.06
+[2017.04.26-17.07.06:305][240]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.07.06:306][240]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.07.06:306][240]LogWorld: Bringing up level for play took: 0.004231
+[2017.04.26-17.07.06:308][240]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_setTargets', from offset 367
+[2017.04.26-17.07.06:308][240]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ReceiveBeginPlay
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:inicializarTargetsEnZonas
+
+[2017.04.26-17.07.06:322][240]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1.WidgetTree_5.TextBlock_4.TextBinding_3 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.07.06:322][240]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1.WidgetTree_5.TextBlock_6.TextBinding_4 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.07.06:322][240]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1.WidgetTree_5.TextBlock_3.TextBinding_5 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.07.06:326][240]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1.WidgetTree_5.ProgressBar_1.FloatBinding_1 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.07.06:326][240]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1.WidgetTree_5.ProgressBar_1.FloatBinding_1 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.07.16:350][240]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 10.373
+[2017.04.26-17.07.16:351][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.07.16:385][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.07.16:482][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.07.48:476][135]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.07.48:497][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.07.48:505][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.07.48:505][135]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:07:48 PM)
+[2017.04.26-17.07.48:505][135]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.07.48:526][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020795s)
+[2017.04.26-17.07.48:527][135]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.07.48:527][135]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2017.04.26-17.07.48:527][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.021942s)
+[2017.04.26-17.07.48:557][135]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.07.48:566][135]LogInit: FAudioDevice initialized.
+[2017.04.26-17.07.48:606][135]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.07.48:609][135]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.07.48
+[2017.04.26-17.07.48:610][135]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 1648
+[2017.04.26-17.07.48:610][135]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:BndEvt__zona1_K2Node_ActorBoundEvent_16_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+
+[2017.04.26-17.07.55:167][135]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.07.55:168][135]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 1648
+[2017.04.26-17.07.55:168][135]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:BndEvt__zona1_K2Node_ActorBoundEvent_16_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+
+[2017.04.26-17.08.10:520][135]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.08.10:521][135]LogWorld: Bringing up level for play took: 21.914396
+[2017.04.26-17.08.10:523][135]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 22.546
+[2017.04.26-17.08.10:523][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.08.23:045][788]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_1.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.08.23:045][788]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.08.23:045][788]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.08.23:045][788]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_1.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:02C3
+[2017.04.26-17.08.23:046][788]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.08.23:046][788]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.08.23:046][788]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.08.23:046][788]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.08.23:046][788]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:02C3
+[2017.04.26-17.08.23:046][788]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.08.25:546][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.08.25:640][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.08.50:296][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Ruben" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.26-17.08.50:575][220]LogSavePackage: Save=243.13ms
+[2017.04.26-17.08.50:575][220]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben669F908E494A2F7E725AB9BC3BFD3146.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap'
+[2017.04.26-17.08.50:579][220]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap
+[2017.04.26-17.08.50:607][220]LogFileHelpers: Saving map 'Ruben' took 0.430
+[2017.04.26-17.09.06:232][153]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.09.06:253][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.09.06:260][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.09.06:260][153]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:09:06 PM)
+[2017.04.26-17.09.06:260][153]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.09.06:280][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020281s)
+[2017.04.26-17.09.06:281][153]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.09.06:281][153]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2017.04.26-17.09.06:281][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.021413s)
+[2017.04.26-17.09.06:312][153]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.09.06:322][153]LogInit: FAudioDevice initialized.
+[2017.04.26-17.09.06:361][153]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.09.06:364][153]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.09.06
+[2017.04.26-17.09.06:365][153]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 1648
+[2017.04.26-17.09.06:365][153]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:BndEvt__zona1_K2Node_ActorBoundEvent_16_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+
+[2017.04.26-17.09.11:458][153]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.09.11:459][153]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.09.11:459][153]LogWorld: Bringing up level for play took: 5.097265
+[2017.04.26-17.09.11:461][153]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 5.483
+[2017.04.26-17.09.11:461][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.09.19:162][612]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_1.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.09.19:162][612]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.09.19:162][612]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.09.19:162][612]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_SetBlackboardValueAsVector', from offset 478
+[2017.04.26-17.09.19:162][612]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ReceiveExecute
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation
+
+[2017.04.26-17.09.19:183][612]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3.WidgetTree_7.TextBlock_4.TextBinding_9 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.09.19:183][612]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3.WidgetTree_7.TextBlock_6.TextBinding_10 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.09.19:183][612]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3.WidgetTree_7.TextBlock_3.TextBinding_11 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.09.19:186][612]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3.WidgetTree_7.ProgressBar_1.FloatBinding_3 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.09.48:553][612]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_1.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:02C3
+[2017.04.26-17.09.48:554][612]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.09.48:554][612]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.09.48:554][612]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.09.48:554][612]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.09.48:554][612]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_0.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:02C3
+[2017.04.26-17.09.48:554][612]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.09.48:555][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.09.48:645][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.10.20:263][452]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.10.20:285][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.10.20:292][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.10.20:292][452]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:10:20 PM)
+[2017.04.26-17.10.20:293][452]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.10.20:310][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017387s)
+[2017.04.26-17.10.20:311][452]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.10.20:311][452]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.04.26-17.10.20:311][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.018424s)
+[2017.04.26-17.10.20:343][452]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.10.20:353][452]LogInit: FAudioDevice initialized.
+[2017.04.26-17.10.20:387][452]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.10.20:391][452]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.10.20
+[2017.04.26-17.10.20:391][452]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.10.20:391][452]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 2
+[2017.04.26-17.10.20:391][452]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:BndEvt__zona1_K2Node_ActorBoundEvent_16_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/IA/AICharacter.AICharacter_C:setMiZona
+
+[2017.04.26-17.10.22:585][452]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.10.22:585][452]LogWorld: Bringing up level for play took: 2.197522
+[2017.04.26-17.10.22:587][452]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 2.61
+[2017.04.26-17.10.22:587][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.10.38:871][235]LogScript:Warning: Accessed None trying to read property miZona
+	MoveToLocation_C /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben:PersistentLevel.AIControllerVR_C_1.BTComponent.MoveToLocation_C_4
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation:00F0
+[2017.04.26-17.10.38:871][235]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.10.38:871][235]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.10.38:871][235]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_SetBlackboardValueAsVector', from offset 478
+[2017.04.26-17.10.38:871][235]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ReceiveExecute
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation
+
+[2017.04.26-17.10.38:892][235]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_4.HUD_C_4.WidgetTree_8.TextBlock_4.TextBinding_12 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.10.38:892][235]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_4.HUD_C_4.WidgetTree_8.TextBlock_6.TextBinding_13 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.10.38:892][235]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_4.HUD_C_4.WidgetTree_8.TextBlock_3.TextBinding_14 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.10.38:895][235]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_4.HUD_C_4.WidgetTree_8.ProgressBar_1.FloatBinding_4 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.11.13:219][235]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.11.13:219][235]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.11.13:219][235]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.11.13:219][235]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.11.13:220][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.11.13:308][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.11.59:662][984]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.11.59:684][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.11.59:692][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.11.59:692][984]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:11:59 PM)
+[2017.04.26-17.11.59:692][984]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.11.59:712][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019575s)
+[2017.04.26-17.11.59:712][984]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.11.59:712][984]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2017.04.26-17.11.59:713][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.020798s)
+[2017.04.26-17.11.59:748][984]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.11.59:757][984]LogInit: FAudioDevice initialized.
+[2017.04.26-17.11.59:794][984]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.11.59:797][984]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.11.59
+[2017.04.26-17.11.59:798][984]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.11.59:798][984]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 2
+[2017.04.26-17.11.59:798][984]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:BndEvt__zona1_K2Node_ActorBoundEvent_16_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/IA/AICharacter.AICharacter_C:setMiZona
+
+[2017.04.26-17.12.04:279][984]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.12.04:279][984]LogWorld: Bringing up level for play took: 4.484901
+[2017.04.26-17.12.04:281][984]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 2
+[2017.04.26-17.12.04:281][984]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ReceiveBeginPlay
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:inicializarTargetsEnZonas
+	Function /Game/FirstPersonBP/IA/Zona.Zona_C:setTargets
+
+[2017.04.26-17.12.04:295][984]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_5.WidgetTree_9.TextBlock_4.TextBinding_15 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.12.04:295][984]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_5.WidgetTree_9.TextBlock_6.TextBinding_16 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.12.04:295][984]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_5.WidgetTree_9.TextBlock_3.TextBinding_17 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.12.04:298][984]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_5.WidgetTree_9.ProgressBar_1.FloatBinding_5 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.12.04:298][984]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_5.WidgetTree_9.ProgressBar_1.FloatBinding_5 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.12.24:087][984]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 24.109
+[2017.04.26-17.12.24:087][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.12.24:123][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.12.24:209][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.13.14:248][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Ruben" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.26-17.13.14:529][939]LogSavePackage: Save=250.32ms
+[2017.04.26-17.13.14:529][939]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben7B093BB5405FCDE99047BB95DC57A451.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap'
+[2017.04.26-17.13.14:532][939]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap
+[2017.04.26-17.13.14:554][939]LogFileHelpers: Saving map 'Ruben' took 0.423
+[2017.04.26-17.13.14:556][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-17.13.14:574][939]LogSavePackage: Save=10.90ms
+[2017.04.26-17.13.14:574][939]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona3079B7434CB86C14163D10B382D22799.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-17.13.14:577][939]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-17.13.14:604][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/AICharacter" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset" SILENT=true
+[2017.04.26-17.13.14:646][939]LogSavePackage: Save=33.61ms
+[2017.04.26-17.13.14:646][939]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/AICharacter123C34BE4F606D04515E739693BBB783.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset'
+[2017.04.26-17.13.14:649][939]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset
+[2017.04.26-17.13.14:651][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Task/MoveToLocation" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset" SILENT=true
+[2017.04.26-17.13.14:668][939]LogSavePackage: Save=8.45ms
+[2017.04.26-17.13.14:668][939]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/MoveToLocation3C0DEB824FE144277CDFCE90A29620CC.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset'
+[2017.04.26-17.13.14:670][939]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset
+[2017.04.26-17.13.17:279][ 94]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.13.17:299][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.13.17:306][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.13.17:306][ 94]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:13:17 PM)
+[2017.04.26-17.13.17:306][ 94]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.13.17:325][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018055s)
+[2017.04.26-17.13.17:325][ 94]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.13.17:325][ 94]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2017.04.26-17.13.17:326][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.019141s)
+[2017.04.26-17.13.17:356][ 94]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.13.17:366][ 94]LogInit: FAudioDevice initialized.
+[2017.04.26-17.13.17:401][ 94]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.13.17:405][ 94]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.13.17
+[2017.04.26-17.13.17:406][ 94]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.13.17:406][ 94]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.13.17:407][ 94]LogWorld: Bringing up level for play took: 0.004341
+[2017.04.26-17.13.17:408][ 94]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_setTargets', from offset 367
+[2017.04.26-17.13.17:408][ 94]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ReceiveBeginPlay
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:inicializarTargetsEnZonas
+
+[2017.04.26-17.13.17:432][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_4.TextBinding_18 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.17:432][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_6.TextBinding_19 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.17:432][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_3.TextBinding_20 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.17:435][ 94]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.ProgressBar_1.FloatBinding_6 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.13.17:435][ 94]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.ProgressBar_1.FloatBinding_6 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.13.24:477][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_4.TextBinding_18 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.24:477][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_6.TextBinding_19 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.24:477][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_3.TextBinding_20 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.24:480][ 94]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.ProgressBar_1.FloatBinding_6 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.13.28:231][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_4.TextBinding_18 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.28:231][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_6.TextBinding_19 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.28:231][ 94]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.TextBlock_3.TextBinding_20 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.13.28:235][ 94]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_6.WidgetTree_10.ProgressBar_1.FloatBinding_6 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.13.50:332][ 94]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 32.355
+[2017.04.26-17.13.50:332][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.13.50:368][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.13.50:464][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.14.19:288][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Ruben" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.26-17.14.19:350][784]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Pin  New Param 1  named NewParam1 doesn't match any parameters of function setTargets
+[2017.04.26-17.14.19:679][784]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [1988.54] Compile of PersistentLevel.Ruben failed. 1 Fatal Issue(s) 0 Warning(s) [in 339 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-17.14.19:679][784]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [1988.54] Compile of PersistentLevel.Ruben failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-17.14.19:679][784]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [1988.54] Compile of PersistentLevel.Ruben failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-17.14.19:679][784]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [1988.54] Compile of PersistentLevel.Ruben failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-17.14.19:684][784]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [1988.55] Compile of PersistentLevel.Ruben failed. 1 Fatal Issue(s) 4 Warning(s) [in 4 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-17.14.19:684][784]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [1988.55] Compile of PersistentLevel.Ruben failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-17.14.19:807][784]LogSavePackage: Save=482.95ms
+[2017.04.26-17.14.19:807][784]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Ruben1FBA553F4C89A07734FFAB88AF11E3BA.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap'
+[2017.04.26-17.14.19:810][784]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap
+[2017.04.26-17.14.19:838][784]LogFileHelpers: Saving map 'Ruben' took 0.664
+[2017.04.26-17.14.19:839][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-17.14.19:858][784]LogSavePackage: Save=11.01ms
+[2017.04.26-17.14.19:858][784]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona191867CC4F4E245A5DB99EB80E4C1844.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-17.14.19:861][784]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-17.14.21:041][854]BlueprintLog: New page: Compile Ruben
+[2017.04.26-17.14.21:066][854]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Pin  New Param 1  named NewParam1 doesn't match any parameters of function setTargets
+[2017.04.26-17.14.21:430][854]BlueprintEditorCompileResults:Error: Error Pin  New Param 1  named NewParam1 doesn't match any parameters of function setTargets
+[2017.04.26-17.14.21:431][854]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [1990.30] Compile of PersistentLevel.Ruben failed. 1 Fatal Issue(s) 0 Warning(s) [in 390 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.26-17.14.38:956][899]BlueprintLog: New page: Compile Zona
+[2017.04.26-17.14.44:205][190]BlueprintLog: New page: Compile Ruben
+[2017.04.26-17.14.46:928][344]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.14.46:948][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.14.46:955][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.14.46:955][344]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:14:46 PM)
+[2017.04.26-17.14.46:956][344]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.14.46:974][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018294s)
+[2017.04.26-17.14.46:975][344]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.14.46:975][344]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2017.04.26-17.14.46:975][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.019326s)
+[2017.04.26-17.14.47:006][344]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.14.47:016][344]LogInit: FAudioDevice initialized.
+[2017.04.26-17.14.47:054][344]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.14.47:058][344]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.14.47
+[2017.04.26-17.14.47:058][344]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.14.47:059][344]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.14.47:059][344]LogWorld: Bringing up level for play took: 0.004053
+[2017.04.26-17.14.47:061][344]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_setTargets', from offset 367
+[2017.04.26-17.14.47:061][344]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ReceiveBeginPlay
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:inicializarTargetsEnZonas
+
+[2017.04.26-17.14.47:074][344]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.TextBlock_4.TextBinding_21 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.14.47:074][344]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.TextBlock_6.TextBinding_22 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.14.47:074][344]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.TextBlock_3.TextBinding_23 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.14.47:077][344]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.ProgressBar_1.FloatBinding_7 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.14.47:077][344]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.ProgressBar_1.FloatBinding_7 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.14.52:493][344]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.TextBlock_4.TextBinding_21 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.14.52:493][344]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.TextBlock_6.TextBinding_22 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.14.52:493][344]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.TextBlock_3.TextBinding_23 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.14.52:496][344]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_7.WidgetTree_11.ProgressBar_1.FloatBinding_7 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.15.06:239][344]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 20.261
+[2017.04.26-17.15.06:239][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.15.06:274][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.15.06:362][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.15.39:263][300]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.15.39:284][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.15.39:291][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.15.39:292][300]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:15:39 PM)
+[2017.04.26-17.15.39:292][300]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.15.39:313][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020886s)
+[2017.04.26-17.15.39:313][300]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.15.39:313][300]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2017.04.26-17.15.39:314][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.022017s)
+[2017.04.26-17.15.39:342][300]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.15.39:352][300]LogInit: FAudioDevice initialized.
+[2017.04.26-17.15.39:380][300]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.15.39:384][300]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.15.39
+[2017.04.26-17.15.39:384][300]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.15.39:385][300]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.15.39:386][300]LogWorld: Bringing up level for play took: 0.004171
+[2017.04.26-17.15.39:387][300]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_setTargets', from offset 367
+[2017.04.26-17.15.39:387][300]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ReceiveBeginPlay
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:inicializarTargetsEnZonas
+
+[2017.04.26-17.15.39:410][300]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.TextBlock_4.TextBinding_24 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.15.39:410][300]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.TextBlock_6.TextBinding_25 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.15.39:410][300]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.TextBlock_3.TextBinding_26 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.15.39:413][300]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.ProgressBar_1.FloatBinding_8 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.15.39:413][300]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.ProgressBar_1.FloatBinding_8 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.15.50:899][300]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.TextBlock_4.TextBinding_24 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.15.50:899][300]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.TextBlock_6.TextBinding_25 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.15.50:899][300]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.TextBlock_3.TextBinding_26 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.15.50:903][300]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_8.WidgetTree_12.ProgressBar_1.FloatBinding_8 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.16.23:290][300]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 43.312
+[2017.04.26-17.16.23:291][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.16.23:326][300]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.16.23:410][300]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.18.03:809][236]BlueprintLog: New page: Compile Zona
+[2017.04.26-17.18.06:513][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/Ruben" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.26-17.18.06:784][367]LogSavePackage: Save=243.28ms
+[2017.04.26-17.18.06:784][367]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/RubenBA55B9284D17A2F4060D7FACB89DC048.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap'
+[2017.04.26-17.18.06:787][367]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap
+[2017.04.26-17.18.06:815][367]LogFileHelpers: Saving map 'Ruben' took 0.419
+[2017.04.26-17.18.06:816][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/Zona" FILE="C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset" SILENT=true
+[2017.04.26-17.18.06:836][367]LogSavePackage: Save=12.26ms
+[2017.04.26-17.18.06:836][367]LogSavePackage: Moving 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Zona38BB8C31489128BDFD092EA38D36C84B.tmp' to 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset'
+[2017.04.26-17.18.06:838][367]LogSavePackage:Display: Finished SavePackage C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/Zona.uasset
+[2017.04.26-17.18.08:929][492]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.18.08:949][492]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.18.08:956][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.18.08:956][492]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:18:08 PM)
+[2017.04.26-17.18.08:956][492]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.18.08:974][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017626s)
+[2017.04.26-17.18.08:974][492]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.18.08:974][492]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2017.04.26-17.18.08:975][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.018749s)
+[2017.04.26-17.18.09:005][492]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.18.09:015][492]LogInit: FAudioDevice initialized.
+[2017.04.26-17.18.09:049][492]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.18.09:052][492]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.18.09
+[2017.04.26-17.18.09:053][492]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.18.09:054][492]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.18.09:054][492]LogWorld: Bringing up level for play took: 0.004239
+[2017.04.26-17.18.09:056][492]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_setTargets', from offset 367
+[2017.04.26-17.18.09:056][492]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ReceiveBeginPlay
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:inicializarTargetsEnZonas
+
+[2017.04.26-17.18.09:096][492]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_4.TextBinding_27 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.09:096][492]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_6.TextBinding_28 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.09:096][492]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_3.TextBinding_29 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.09:099][492]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.ProgressBar_1.FloatBinding_9 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.18.09:099][492]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.ProgressBar_1.FloatBinding_9 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.18.13:747][492]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_4.TextBinding_27 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.13:747][492]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_6.TextBinding_28 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.13:747][492]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_3.TextBinding_29 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.13:751][492]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.ProgressBar_1.FloatBinding_9 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.18.26:391][492]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 18.414
+[2017.04.26-17.18.26:391][492]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.18.32:327][845]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.18.32:327][845]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.18.32:327][845]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_SetBlackboardValueAsVector', from offset 478
+[2017.04.26-17.18.32:327][845]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ReceiveExecute
+	Function /Game/FirstPersonBP/IA/Task/MoveToLocation.MoveToLocation_C:ExecuteUbergraph_MoveToLocation
+
+[2017.04.26-17.18.32:345][845]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_4.TextBinding_27 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.32:345][845]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_6.TextBinding_28 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.32:345][845]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.TextBlock_3.TextBinding_29 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.32:348][845]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_9.WidgetTree_13.ProgressBar_1.FloatBinding_9 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.18.38:205][845]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.18.38:205][845]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.18.38:205][845]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.18.38:205][845]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.18.39:784][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.18.39:868][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.18.42:812][111]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.26-17.18.42:830][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.18.42:837][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.26-17.18.42:837][111]PIE: New page: PIE session: Ruben (Apr 26, 2017, 9:18:42 PM)
+[2017.04.26-17.18.42:837][111]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.26-17.18.42:855][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017293s)
+[2017.04.26-17.18.42:855][111]LogAIModule: Creating AISystem for world Ruben
+[2017.04.26-17.18.42:855][111]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2017.04.26-17.18.42:856][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.018334s)
+[2017.04.26-17.18.42:886][111]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.18.42:895][111]LogInit: FAudioDevice initialized.
+[2017.04.26-17.18.42:930][111]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.26-17.18.42:933][111]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 60) at 2017.04.26-19.18.42
+[2017.04.26-17.18.42:934][111]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.18.42:935][111]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array zonas of length 0!
+[2017.04.26-17.18.42:935][111]LogWorld: Bringing up level for play took: 0.004197
+[2017.04.26-17.18.42:937][111]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_setTargets', from offset 367
+[2017.04.26-17.18.42:937][111]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ReceiveBeginPlay
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:ExecuteUbergraph_Ruben
+	Function /Game/FirstPersonBP/Maps/Ruben.Ruben_C:inicializarTargetsEnZonas
+
+[2017.04.26-17.18.42:959][111]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.HUD_C_10.WidgetTree_14.TextBlock_4.TextBinding_30 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.42:959][111]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.HUD_C_10.WidgetTree_14.TextBlock_6.TextBinding_31 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.42:959][111]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.HUD_C_10.WidgetTree_14.TextBlock_3.TextBinding_32 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.04.26-17.18.42:962][111]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.HUD_C_10.WidgetTree_14.ProgressBar_1.FloatBinding_10 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.18.42:962][111]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_10.HUD_C_10.WidgetTree_14.ProgressBar_1.FloatBinding_10 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.04.26-17.18.47:477][111]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 5.499
+[2017.04.26-17.18.47:477][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.18.53:419][464]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.18.53:419][464]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.18.53:419][464]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.18.53:419][464]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.18.53:419][464]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.18.53:419][464]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.19.00:853][910]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-17.19.01:286][936]LogBlueprintUserMessages: [AICharacter2_2] AICharacter
+[2017.04.26-17.19.01:919][974]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.02:286][996]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.02:786][ 26]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.03:453][ 66]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.03:486][ 68]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Get Targets Disponibles in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.19.03:486][ 68]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_getTargetsDisponibles_NewParam of length 0!
+[2017.04.26-17.19.03:486][ 68]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property miZona from function: 'ExecuteUbergraph_MoveToLocation' from node: Delete Target Disponible in graph: EventGraph in object: MoveToLocation with description: Accessed None trying to read property miZona
+[2017.04.26-17.19.03:920][ 94]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.04:270][115]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.04:603][135]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.05:036][161]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.05:353][180]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.05:936][215]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.06:603][255]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.06:986][278]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.07:636][317]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.08:170][349]LogBlueprintUserMessages: [AICharacter2_2] Wall5
+[2017.04.26-17.19.12:103][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.19.12:187][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.26-17.19.24:329][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.26-17.19.24:405][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.26-17.19.24:458][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.26-17.19.24:533][298]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.26-17.19.24:728][299]Cmd: QUIT_EDITOR
+[2017.04.26-17.19.25:353][299]LogExit: Preparing to exit.
+[2017.04.26-17.19.25:761][299]LogExit: Editor shut down
+[2017.04.26-17.19.25:761][299]LogExit: Transaction tracking system shut down
+[2017.04.26-17.19.25:894][299]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.26-17.19.25:895][299]LogExit: Object subsystem successfully closed.
+[2017.04.26-17.19.25:938][299]LogD3D11RHI: Shutdown
+[2017.04.26-17.19.25:938][299]LogD3D11RHI: CleanupD3DDevice
+[2017.04.26-17.19.26:062][299]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.26-17.19.26:069][299]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.04.26-17.19.26:069][299]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.04.26-17.19.26:069][299]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.04.26-17.19.26:069][299]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.26-17.19.26:069][299]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.26-17.19.26:069][299]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.26-17.19.26:069][299]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.26-17.19.26:069][299]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.26-17.19.26:070][299]LogDirectoryWatcher: A directory notification for 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Collections/' was aborted.
+[2017.04.26-17.19.26:070][299]LogDirectoryWatcher: A directory notification for 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/Developers/cripe/Collections/' was aborted.
+[2017.04.26-17.19.26:070][299]LogDirectoryWatcher: A directory notification for 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Saved/Collections/' was aborted.
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.26-17.19.26:070][299]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.26-17.19.26:071][299]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.26-17.19.26:856][299]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.26-17.19.26:857][299]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.26-17.19.26:857][299]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.26-17.19.26:857][299]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.26-17.19.26:857][299]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.26-17.19.26:857][299]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.26-17.19.26:857][299]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.26-17.19.26:857][299]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.26-17.19.26:910][299]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.26-17.19.26:917][299]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.26-17.19.26:917][299]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.26-17.19.26:918][299]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.26-17.19.27:048][299]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.26-17.19.27:049][299]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.26-17.19.27:050][299]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.26-17.19.27:051][299]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.26-17.19.27:051][299]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.26-17.19.27:051][299]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.26-17.19.27:051][299]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.26-17.19.27:151][299]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.26-17.19.27:252][299]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.26-17.19.27:255][299]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.26-17.19.27:255][299]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.26-17.19.27:255][299]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.26-17.19.27:255][299]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.26-17.19.27:255][299]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.26-17.19.27:255][299]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.26-17.19.27:461][299]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.26-17.19.27:461][299]LogDirectoryWatcher: A directory notification for 'C:/Users/cripe/Desktop/LastBulletVR/LastBullet/Content/' was aborted.
+[2017.04.26-17.19.27:461][299]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.26-17.19.27:461][299]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.26-17.19.27:462][299]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.26-17.19.27:462][299]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.26-17.19.27:462][299]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.26-17.19.27:462][299]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.26-17.19.27:462][299]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.26-17.19.27:462][299]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.26-17.19.27:462][299]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.26-17.19.27:462][299]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.26-17.19.27:470][299]LogDerivedDataCache: Shutdown
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.26-17.19.27:470][299]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.26-17.19.27:471][299]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.26-17.19.27:471][299]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.26-17.19.27:471][299]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.04.26-17.19.27:471][299]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B766FFE88-4BF6-F786-1CBC-D4A215D2AC76%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=78865e4d4a8ae815e8d400bc6125e577%7C5361294e5f654db5881228f5582e9124%7C456667b1-22e8-45ef-a524-8410a492a64f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.26-17.19.27:471][299]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B766FFE88-4BF6-F786-1CBC-D4A215D2AC76%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=78865e4d4a8ae815e8d400bc6125e577%7C5361294e5f654db5881228f5582e9124%7C456667b1-22e8-45ef-a524-8410a492a64f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.26-17.19.27:488][299]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.26-17.19.27:489][299]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.26-17.19.27:489][299]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.26-17.19.27:489][299]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.26-17.19.27:489][299]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.26-17.19.27:489][299]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.26-17.19.27:492][299]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.26-17.19.27:494][299]LogExit: Exiting.
+[2017.04.26-17.19.27:495][299]Log file closed, 04/26/17 19:19:27
