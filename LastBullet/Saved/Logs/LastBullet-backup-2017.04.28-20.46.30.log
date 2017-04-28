@@ -1,0 +1,1204 @@
+﻿Log file open, 04/28/17 20:36:44
+LogInit:Display: Running engine for game: LastBullet
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1324355780) SRandInit(1324355794).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089834
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/EpicGames/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.28-18.36.45:513][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.28-18.36.45:513][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.28-18.36.45:541][  0]LogInit: Computer: DESKTOP-1OLBMPA
+[2017.04.28-18.36.45:541][  0]LogInit: User: julio
+[2017.04.28-18.36.45:541][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.28-18.36.45:541][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2017.04.28-18.36.45:541][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.04.28-18.36.45:541][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.28-18.36.45:541][  0]LogMemory: Process Physical Memory: 264.56 MB used, 264.56 MB peak
+[2017.04.28-18.36.45:541][  0]LogMemory: Process Virtual Memory: 262.93 MB used, 262.93 MB peak
+[2017.04.28-18.36.45:541][  0]LogMemory: Physical Memory: 5569.19 MB used,  2579.54 MB free, 8148.73 MB total
+[2017.04.28-18.36.45:541][  0]LogMemory: Virtual Memory: 645.23 MB used,  2579.54 MB free, 134217728.00 MB total
+[2017.04.28-18.36.45:633][  0]LogInit: Overriding culture en with editor configuration.
+[2017.04.28-18.36.46:427][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.28-18.36.46:444][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.04.28-18.36.46:444][  0]LogD3D11RHI:       3053/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.04.28-18.36.46:446][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.28-18.36.46:446][  0]LogD3D11RHI:       0/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.28-18.36.46:446][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.28-18.36.46:454][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.28-18.36.46:454][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.28-18.36.46:454][  0]LogWindows: EnumDisplayDevices:
+[2017.04.28-18.36.46:455][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.04.28-18.36.46:455][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.04.28-18.36.46:455][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.28-18.36.46:456][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.28-18.36.46:456][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.28-18.36.46:457][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.28-18.36.46:457][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.04.28-18.36.46:457][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.04.28-18.36.46:457][  0]LogD3D11RHI:   Driver Version: Crimson 16.6 (internal:21.19.137.514, unified:21.19.137.514)
+[2017.04.28-18.36.46:457][  0]LogD3D11RHI:      Driver Date: 11-21-2016
+[2017.04.28-18.36.46:457][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.28-18.36.46:524][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.28-18.36.46:540][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.04.28-18.36.46:541][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Intermediate/Shaders/WorkingDirectory/10212/).
+[2017.04.28-18.36.46:541][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/julio/AppData/Local/Temp/UnrealShaderWorkingDir/9E01A1AD490843D37281EBA28327DC04/'.
+[2017.04.28-18.36.46:541][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.28-18.36.48:153][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.28-18.36.48:228][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.28-18.36.48:300][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.28-18.36.48:380][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.28-18.36.48:454][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.28-18.36.48:529][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.28-18.36.48:603][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.28-18.36.48:676][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.28-18.36.48:734][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.28-18.36.48:807][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.28-18.36.48:878][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.28-18.36.48:949][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.28-18.36.49:029][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.28-18.36.49:099][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.28-18.36.49:174][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.28-18.36.49:321][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.28-18.36.49:321][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.28-18.36.49:374][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.28-18.36.49:493][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.28-18.36.49:544][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.28-18.36.49:615][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.28-18.36.49:688][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.28-18.36.49:765][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.28-18.36.49:836][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.28-18.36.49:837][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.28-18.36.50:397][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.28-18.36.50:517][  0]LogDerivedDataCache: Loaded boot cache 0.12s 61MB C:/Users/julio/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.28-18.36.50:517][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/julio/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.28-18.36.50:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.28-18.36.50:518][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.28-18.36.50:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.28-18.36.50:518][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.28-18.36.50:540][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.28-18.36.50:553][  0]LogDerivedDataCache: Using Local data cache path C:/Users/julio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.28-18.36.50:569][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.28-18.36.50:570][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.28-18.36.50:570][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.28-18.36.50:959][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.28-18.36.50:963][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.28-18.36.51:229][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.28-18.36.51:282][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.28-18.36.51:341][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.28-18.36.51:341][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.28-18.36.51:341][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.28-18.36.52:156][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lastbullet, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1522868599
+[2017.04.28-18.36.52:207][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.04.28-18.36.52:256][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.016660 seconds
+[2017.04.28-18.36.52:263][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.28-18.36.52:263][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.28-18.36.52:263][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.28-18.36.52:346][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.28-18.36.54:364][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.28-18.36.54:413][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.28-18.36.54:970][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.28-18.36.55:450][  0]SourceControl: Info Source control is disabled
+[2017.04.28-18.36.57:714][  0]LogEngine: Initializing Engine...
+[2017.04.28-18.36.57:715][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.04.28-18.36.58:031][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.28-18.36.58:047][  0]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.28-18.36.58:062][  0]LogInit: FAudioDevice initialized.
+[2017.04.28-18.36.58:129][  0]LogDerivedDataCache: Saved boot cache 0.07s 61MB C:/Users/julio/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.28-18.36.58:146][  0]LogInit: Texture streaming: Enabled
+[2017.04.28-18.36.58:272][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.28-18.36.58:386][  0]LogInit: Transaction tracking system initialized
+[2017.04.28-18.36.58:847][  0]BlueprintLog: New page: Editor Load
+[2017.04.28-18.37.00:003][  0]LocalizationService: Info Localization service is disabled
+[2017.04.28-18.37.00:902][  0]LogConsoleResponse:Display: 
+[2017.04.28-18.37.01:088][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.28-18.37.01:088][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.28-18.37.01:264][  0]LogFileCache: Scanning file cache for directory 'D:/4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/' took 0.02s
+[2017.04.28-18.37.02:545][  0]Cmd: MAP LOAD FILE="../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.28-18.37.02:546][  0]LightingResults: New page: Lighting Build
+[2017.04.28-18.37.02:601][  0]MapCheck: New page: Map Check
+[2017.04.28-18.37.02:601][  0]LightingResults: New page: Lighting Build
+[2017.04.28-18.37.02:655][  0]LogLinker:Warning: Asset '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Blueprints/modul_transporttransport_16_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.28-18.37.03:039][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_0.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.37.03:042][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_1.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.37.03:045][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_2.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.37.03:285][  0]LogBlueprint:Warning: [WeaponComponent] 'GunOffset' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:286][  0]LogBlueprint:Warning: [WeaponComponent] 'Sphere' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:286][  0]LogBlueprint:Warning: [WeaponComponent] 'FirstPersonCamera' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:286][  0]LogBlueprint:Warning: [WeaponComponent] 'Mesh2P' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:286][  0]LogBlueprint:Warning: [WeaponComponent] 'UsingMotionControllers?' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:286][  0]LogBlueprint:Warning: [WeaponComponent] 'VR_Marker' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:286][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'AmmoBar' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'AmmoBar' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'AmmoBar' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'AmmoBar' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:287][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:288][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.04.28-18.37.03:959][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.04.28-18.37.03:978][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0021.24] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 30 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.37.03:979][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0021.24] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.37.03:979][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0021.24] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.37.04:002][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.04.28-18.37.04:022][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0021.28] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 31 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.37.04:022][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0021.28] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.37.04:023][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0021.28] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.37.05:537][  0]LogLinker:Warning: Asset '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.28-18.37.05:554][  0]LogLinker:Warning: Asset '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.28-18.37.05:625][  0]LogLinker:Warning: Asset '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Meshes/Space/FX_Map_7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.28-18.37.05:636][  0]LogLinker:Warning: Asset '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.28-18.37.10:755][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:UserConstructionScript.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.37.11:447][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.28-18.37.11:503][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.28-18.37.11:504][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.28-18.37.11:599][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.16ms to complete.
+[2017.04.28-18.37.11:599][  0]LogFileHelpers: Loading map 'Minimal_Default' took 9.054
+[2017.04.28-18.37.11:683][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.28-18.37.12:123][  0]LogCollectionManager: Loaded 0 collections in 0.002789 seconds
+[2017.04.28-18.37.12:293][  0]LogFileCache: Scanning file cache for directory 'D:/4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Collections/' took 0.01s
+[2017.04.28-18.37.12:293][  0]LogFileCache: Scanning file cache for directory 'D:/4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Developers/julio/Collections/' took 0.01s
+[2017.04.28-18.37.12:293][  0]LogFileCache: Scanning file cache for directory 'D:/4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Collections/' took 0.01s
+[2017.04.28-18.37.12:293][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.04.28-18.37.12:314][  0]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 2245 classes and 453 folders.
+[2017.04.28-18.37.12:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.28-18.37.12:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.28-18.37.12:449][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.04.28-18.37.13:366][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.04.28-18.37.13:462][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.04.28-18.37.13:695][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.28-18.37.13:793][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.28-18.37.13:897][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.04.28-18.37.13:897][  0]LogLoad: (Engine Initialization) Total time: 31.16 seconds
+[2017.04.28-18.37.13:897][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.31 seconds
+[2017.04.28-18.37.13:897][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.28-18.37.13:897][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.28-18.37.13:907][  0]LogOcInput: OculusInput pre-init called
+[2017.04.28-18.37.14:012][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.28-18.37.14:014][  0]LogSlate: Took 0.000418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.28-18.37.14:022][  0]LogSlate: Took 0.000400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.28-18.37.14:056][  0]LogSlate: Took 0.009632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.28-18.37.14:439][  0]LogSlate: Took 0.014500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.28-18.37.14:499][  1]LogRenderer: Reallocating scene render targets to support 1016x592 NumSamples 1 (Frame:2).
+[2017.04.28-18.37.14:501][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/' took 0.58s
+[2017.04.28-18.37.14:813][  4]LogAssetRegistry: Asset discovery search completed in 22.6270 seconds
+[2017.04.28-18.37.14:813][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.04.28-18.37.14:813][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.04.28-18.37.14:814][  4]SourceControl: Info On branch FirstGameplayTry
+[2017.04.28-18.37.14:814][  4]SourceControl: Info Your branch is up-to-date with 'origin/FirstGameplayTry'.
+[2017.04.28-18.37.14:814][  4]SourceControl: Info You have unmerged paths.
+[2017.04.28-18.37.14:814][  4]SourceControl: Info   (fix conflicts and run "git commit")
+[2017.04.28-18.37.14:814][  4]SourceControl: Info   (use "git merge --abort" to abort the merge)
+[2017.04.28-18.37.14:814][  4]SourceControl: Info Changes to be committed:
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	modified:   LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Content/FirstPersonBP/IA/AIHealth.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Content/FirstPersonBP/IA/TargetActor.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	modified:   LastBullet/Content/FirstPersonBP/IA/Task/ComprobarZonas.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	modified:   LastBullet/Content/FirstPersonBP/IA/Task/MoveToLocation.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Content/FirstPersonBP/IA/zona_triggerbox_bp.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Content/TargetPoint_Blueprint.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Content/zona1_Blueprint.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	modified:   LastBullet/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	modified:   LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AICharacter_Auto1.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/AIHealth_Auto1.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Autosaves/Game/FirstPersonBP/IA/zona_triggerbox_bp_Auto2.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	modified:   LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto1.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	modified:   LastBullet/Saved/Autosaves/Game/FirstPersonBP/Maps/Ruben_Auto2.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Autosaves/Game/TargetPoint_Blueprint_Auto1.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Autosaves/Game/zona1_Blueprint_Auto1.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/AICharacter_2017-04-28-19-06-31.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/FirstPersonCharacter_2017-04-28-20-04-07.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	deleted:    LastBullet/Saved/Backup/MoveToLocation_2017-04-26-13-29-13.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/MoveToLocation_2017-04-28-19-17-40.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	deleted:    LastBullet/Saved/Backup/Ruben_2017-04-27-12-45-45.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	deleted:    LastBullet/Saved/Backup/Ruben_2017-04-27-13-00-31.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Backup/Ruben_2017-04-27-13-32-40.umap -> LastBullet/Saved/Backup/Ruben_2017-04-28-12-37-51.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Backup/Ruben_2017-04-26-20-11-45.umap -> LastBullet/Saved/Backup/Ruben_2017-04-28-13-14-42.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Backup/Ruben_2017-04-26-19-52-51.umap -> LastBullet/Saved/Backup/Ruben_2017-04-28-18-37-51.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Backup/Ruben_2017-04-26-20-03-33.umap -> LastBullet/Saved/Backup/Ruben_2017-04-28-18-58-04.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/Ruben_2017-04-28-19-17-40.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Backup/Ruben_2017-04-26-17-15-14.umap -> LastBullet/Saved/Backup/Ruben_2017-04-28-19-25-30.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Backup/Ruben_2017-04-26-13-29-13.umap -> LastBullet/Saved/Backup/Ruben_2017-04-28-19-39-27.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Backup/Ruben_2017-04-26-13-36-06.umap -> LastBullet/Saved/Backup/Ruben_2017-04-28-19-46-40.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Backup/Ruben_2017-04-26-17-04-23.umap -> LastBullet/Saved/Backup/Ruben_2017-04-28-20-01-45.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/Ruben_2017-04-28-20-08-32.umap
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/Ruben_BuiltData_2017-04-28-19-25-31.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	renamed:    LastBullet/Content/FirstPersonBP/IA/Zona.uasset -> LastBullet/Saved/Backup/Zona_2017-04-28-18-49-58.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/Zona_2017-04-28-18-58-04.uasset
+[2017.04.28-18.37.14:814][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/zona_triggerbox_bp_2017-04-28-19-17-40.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/zona_triggerbox_bp_2017-04-28-19-22-46.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/zona_triggerbox_bp_2017-04-28-19-28-22.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/zona_triggerbox_bp_2017-04-28-19-39-27.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/zona_triggerbox_bp_2017-04-28-19-46-40.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/zona_triggerbox_bp_2017-04-28-19-56-16.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/zona_triggerbox_bp_2017-04-28-20-01-45.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Backup/zona_triggerbox_bp_2017-04-28-20-08-32.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	modified:   LastBullet/Saved/Config/Windows/Engine.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Logs/LastBullet-backup-2017.04.28-11.31.25.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Logs/LastBullet-backup-2017.04.28-18.17.07.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	new file:   LastBullet/Saved/Logs/LastBullet-backup-2017.04.28-20.11.07.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	renamed:    LastBullet/Saved/Logs/UE4CC-Windows-9DE1B353421AA0B9C9442AA42FAA4523/CrashReportClient.ini -> LastBullet/Saved/Logs/UE4CC-Windows-617B70CD4A1A61B730C4988133FE9297/CrashReportClient.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	deleted:    LastBullet/Saved/Logs/UE4CC-Windows-E9B5916E4FFB24E06B4736A03E38BF64/CrashReportClient.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info Unmerged paths:
+[2017.04.28-18.37.14:815][  4]SourceControl: Info   (use "git add/rm <file>..." as appropriate to mark resolution)
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both modified:   LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both modified:   LastBullet/Content/FirstPersonBP/Maps/Ruben.umap
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both modified:   LastBullet/Intermediate/CachedAssetRegistry.bin
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both modified:   LastBullet/Saved/AutoScreenshot.png
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	added by them:   LastBullet/Saved/Backup/AICharacter_2017-04-28-12-37-51.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	added by them:   LastBullet/Saved/Backup/AICharacter_2017-04-28-13-14-42.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	added by them:   LastBullet/Saved/Backup/ComprobarZonas_2017-04-28-20-06-16.uasset
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both modified:   LastBullet/Saved/Config/Windows/Editor.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both modified:   LastBullet/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both modified:   LastBullet/Saved/Logs/LastBullet.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	added by us:     LastBullet/Saved/Logs/UE4CC-Windows-0646D64E465710312ED6D1A14518E109/CrashReportClient.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	added by them:   LastBullet/Saved/Logs/UE4CC-Windows-21A5790247DE9FC0506728A49CDCBC2D/CrashReportClient.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	added by us:     LastBullet/Saved/Logs/UE4CC-Windows-319F6D984FC7B9FFD01053BD9D8AD11D/CrashReportClient.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both deleted:    LastBullet/Saved/Logs/UE4CC-Windows-5099A2B24BAA38E708B468AFA783F116/CrashReportClient.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	added by them:   LastBullet/Saved/Logs/UE4CC-Windows-67B40B9A41E12BE55E3F3B91F4A01267/CrashReportClient.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	both deleted:    LastBullet/Saved/Logs/UE4CC-Windows-E0BB79AA446FE4CF7DE8048E2ADDA835/CrashReportClient.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info Changes not staged for commit:
+[2017.04.28-18.37.14:815][  4]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.04.28-18.37.14:815][  4]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	modified:   LastBullet/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	modified:   LastBullet/Saved/Config/Windows/Engine.ini
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	deleted:    LastBullet/Saved/Logs/LastBullet-backup-2017.04.27-20.31.01.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	deleted:    LastBullet/Saved/Logs/LastBullet-backup-2017.04.28-15.25.11.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	deleted:    LastBullet/Saved/Logs/LastBullet-backup-2017.04.28-16.38.37.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	deleted:    LastBullet/Saved/Logs/LastBullet-backup-2017.04.28-16.41.08.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info Untracked files:
+[2017.04.28-18.37.14:815][  4]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	LastBullet/Saved/Logs/LastBullet-backup-2017.04.28-20.36.44.log
+[2017.04.28-18.37.14:815][  4]SourceControl: Info 	LastBullet/Saved/Logs/UE4CC-Windows-0711850C4573586A7E8DD48D146DBB6A/
+[2017.04.28-18.37.24:869][151]LogHttp:Warning: 00000268B9A11900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.04.28-18.37.24:869][151]LogHttp:Warning: 00000268B9A11900: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.04.28-18.37.24:869][151]LogHttp:Warning: 00000268B9A11900: libcurl info message cache 1 (Closing connection 0)
+[2017.04.28-18.37.24:904][154]LogHttp:Warning: 00000268B2495300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.04.28-18.37.24:904][154]LogHttp:Warning: 00000268B2495300: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.04.28-18.37.24:904][154]LogHttp:Warning: 00000268B2495300: libcurl info message cache 1 (Closing connection 1)
+[2017.04.28-18.37.24:939][158]LogHttp:Warning: 00000268B2497B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.04.28-18.37.24:939][158]LogHttp:Warning: 00000268B2497B80: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.04.28-18.37.24:939][158]LogHttp:Warning: 00000268B2497B80: libcurl info message cache 1 (Closing connection 2)
+[2017.04.28-18.38.47:195][975]LogRenderer: Reallocating scene render targets to support 1264x632 NumSamples 1 (Frame:9942).
+[2017.04.28-18.39.37:334][255]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.28-18.39.37:362][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.28-18.39.37:390][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.28-18.39.37:407][255]PIE: New page: PIE session: Minimal_Default (Apr 28, 2017, 10:39:37 PM)
+[2017.04.28-18.39.37:407][255]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.04.28-18.39.37:438][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030602s)
+[2017.04.28-18.39.37:439][255]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.28-18.39.37:439][255]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.04.28-18.39.37:439][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.031789s)
+[2017.04.28-18.39.37:484][255]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.28-18.39.37:494][255]LogInit: FAudioDevice initialized.
+[2017.04.28-18.39.37:589][255]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.28-18.39.37:612][255]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.28-20.39.37
+[2017.04.28-18.39.37:613][255]LogWorld: Bringing up level for play took: 0.006752
+[2017.04.28-18.39.37:663][255]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.04.28-18.39.37:683][255]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.013
+[2017.04.28-18.39.37:683][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.28-18.40.16:958][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.28-18.40.17:065][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.04.28-18.40.28:011][355]LogSourceControl: Writed 'D:/4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Diff/temp-4077e97b538921db3d63b57f3fb824fecbee92a6-FirstPersonCharacter.uasset' (479156o)
+[2017.04.28-18.40.28:549][355]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.04.28-18.40.28:566][355]LogTemp:Display: Added material ShaderMap 0x00000268AD833200 with Material 0x00000268AAAAD480 to ShaderMapsBeingCompiled
+[2017.04.28-18.40.28:748][355]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x00000268AD833200
+[2017.04.28-18.40.28:841][355]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.04.28-18.40.28:844][355]LogTemp:Display: Added material ShaderMap 0x00000268F2684F00 with Material 0x00000268AAB49D80 to ShaderMapsBeingCompiled
+[2017.04.28-18.40.28:976][355]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body, GameThreadShaderMap 0x00000268F2684F00
+[2017.04.28-18.40.29:778][355]LogSlate: Took 0.023530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.28-18.40.35:029][566]LogSlate: Took 0.021131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.28-18.40.42:997][819]LogTemp:Display: Finished compile of shader map 0x00000268AD833200
+[2017.04.28-18.40.42:997][819]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x00000268AD833200, marking material M_UE4Man_Body as finished
+[2017.04.28-18.40.42:997][819]LogTemp:Display: Marking material as finished 0x00000268AAAAD480
+[2017.04.28-18.40.52:107][ 90]LogTemp:Display: Finished compile of shader map 0x00000268F2684F00
+[2017.04.28-18.40.52:107][ 90]LogTemp:Display: Shader map M_UE4Man_Body complete, GameThreadShaderMap 0x00000268F2684F00, marking material M_UE4Man_Body as finished
+[2017.04.28-18.40.52:107][ 90]LogTemp:Display: Marking material as finished 0x00000268AAB49D80
+[2017.04.28-18.41.07:788][751]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.28-18.41.08:488][751]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.28-18.41.08:627][751]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.04.28-18.42.24:370][388]LogSlate: Took 0.016297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.04.28-18.44.23:220][949]LogClass:Warning: Type mismatch in m_zona of SKEL_FirstPersonCharacter_C - Previous (IntProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.04.28-18.44.39:178][676]LogSavePackage: Save=204.74ms
+[2017.04.28-18.44.39:178][676]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/FirstPersonCharacter81AE2A8445FE7E2DCA8BE99D64FA8A53.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.04.28-18.44.39:183][676]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.28-18.44.58:997][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:015][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_1.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:038][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:038][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:038][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:038][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:039][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:040][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:041][573]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:064][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:086][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:105][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:111][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:113][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:118][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:120][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:121][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:143][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:145][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:146][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:148][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:150][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:155][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:157][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:157][573]LogSavePackage: Save=108.74ms
+[2017.04.28-18.44.59:158][573]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/MixamoCharacter_Master7DE6AE6A4766DC3C22E2868465F4B528.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.uasset'
+[2017.04.28-18.44.59:162][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:164][573]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:164][573]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/MixamoCharacter_Master.uasset
+[2017.04.28-18.44.59:255][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump'
+[2017.04.28-18.44.59:255][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:255][575]LoadErrors:Error: Error /Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha : Can't find file for asset. /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump
+[2017.04.28-18.44.59:255][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump'
+[2017.04.28-18.44.59:255][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:256][575]LoadErrors:Error: Error /Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha : Can't find file for asset. /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump
+[2017.04.28-18.44.59:256][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting'
+[2017.04.28-18.44.59:256][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:256][575]LoadErrors:Error: Error /Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha : Can't find file for asset. /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting
+[2017.04.28-18.44.59:256][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D'
+[2017.04.28-18.44.59:256][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:256][575]LoadErrors:Error: Error /Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha : Can't find file for asset. /Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D
+[2017.04.28-18.44.59:256][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:256][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:256][575]LoadErrors:Error: Error /Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha : Can't find file for asset. /Game/MixamoAnimPack/MixamoCharacter_Master
+[2017.04.28-18.44.59:256][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:257][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:257][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:257][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:261][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton'
+[2017.04.28-18.44.59:261][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:261][575]LoadErrors:Error: Error /Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha : Can't find file for asset. /Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton
+[2017.04.28-18.44.59:261][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump'
+[2017.04.28-18.44.59:261][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:261][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump'
+[2017.04.28-18.44.59:261][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:261][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting'
+[2017.04.28-18.44.59:261][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:262][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D'
+[2017.04.28-18.44.59:262][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:262][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:262][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:263][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton'
+[2017.04.28-18.44.59:263][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset.
+[2017.04.28-18.44.59:263][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton'
+[2017.04.28-18.44.59:263][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton.Mixamo_Alpha_Skeleton Referenced by MixamoAnimBP_Alpha_C
+[2017.04.28-18.44.59:264][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton' while loading NULL.
+[2017.04.28-18.44.59:265][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:265][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:265][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump'
+[2017.04.28-18.44.59:265][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump' while loading NULL.
+[2017.04.28-18.44.59:265][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump'
+[2017.04.28-18.44.59:265][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump' while loading NULL.
+[2017.04.28-18.44.59:265][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting'
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting' while loading NULL.
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D'
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D' while loading NULL.
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:266][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton'
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton' while loading NULL.
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump'
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump' while loading NULL.
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump'
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump' while loading NULL.
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting'
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting' while loading NULL.
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D'
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D' while loading NULL.
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:267][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:268][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton'
+[2017.04.28-18.44.59:268][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton' while loading NULL.
+[2017.04.28-18.44.59:268][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump'
+[2017.04.28-18.44.59:268][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump.mixamo_runningJump Referenced by Default__MixamoAnimBP_Alpha_C
+[2017.04.28-18.44.59:268][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump' while loading NULL.
+[2017.04.28-18.44.59:268][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting'
+[2017.04.28-18.44.59:268][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting.mixamo_Shooting Referenced by Default__MixamoAnimBP_Alpha_C
+[2017.04.28-18.44.59:268][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting' while loading NULL.
+[2017.04.28-18.44.59:268][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump'
+[2017.04.28-18.44.59:268][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump.mixamo_jump Referenced by Default__MixamoAnimBP_Alpha_C
+[2017.04.28-18.44.59:269][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump' while loading NULL.
+[2017.04.28-18.44.59:269][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D'
+[2017.04.28-18.44.59:269][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D.MixamoBlend_Alpha_1D Referenced by Default__MixamoAnimBP_Alpha_C
+[2017.04.28-18.44.59:269][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D' while loading NULL.
+[2017.04.28-18.44.59:269][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton'
+[2017.04.28-18.44.59:269][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton.Mixamo_Alpha_Skeleton Referenced by MixamoAnimBP_Alpha
+[2017.04.28-18.44.59:269][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/Mixamo_Alpha_Skeleton' while loading NULL.
+[2017.04.28-18.44.59:272][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:273][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C Referenced by K2Node_DynamicCast_120
+[2017.04.28-18.44.59:273][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:273][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:273][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C Referenced by EdGraphPin_4951
+[2017.04.28-18.44.59:273][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:274][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:274][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C Referenced by K2Node_VariableGet_1007
+[2017.04.28-18.44.59:274][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:275][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:275][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C Referenced by EdGraphPin_4963
+[2017.04.28-18.44.59:275][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:278][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:278][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C Referenced by K2Node_VariableGet_1157
+[2017.04.28-18.44.59:278][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:279][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/MixamoCharacter_Master'
+[2017.04.28-18.44.59:279][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master_C Referenced by EdGraphPin_4969
+[2017.04.28-18.44.59:279][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/MixamoCharacter_Master' while loading NULL.
+[2017.04.28-18.44.59:283][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D'
+[2017.04.28-18.44.59:283][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D.MixamoBlend_Alpha_1D Referenced by AnimGraphNode_BlendSpacePlayer_9
+[2017.04.28-18.44.59:283][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoBlend_Alpha_1D' while loading NULL.
+[2017.04.28-18.44.59:284][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump'
+[2017.04.28-18.44.59:284][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump.mixamo_jump Referenced by AnimGraphNode_SequencePlayer_483
+[2017.04.28-18.44.59:285][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_jump' while loading NULL.
+[2017.04.28-18.44.59:287][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting'
+[2017.04.28-18.44.59:287][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting.mixamo_Shooting Referenced by AnimGraphNode_SequencePlayer_153
+[2017.04.28-18.44.59:287][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_Shooting' while loading NULL.
+[2017.04.28-18.44.59:292][575]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump'
+[2017.04.28-18.44.59:292][575]LoadErrors: Info Failed to load /Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump.mixamo_runningJump Referenced by AnimGraphNode_SequencePlayer_34
+[2017.04.28-18.44.59:292][575]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Alpha/Anims/mixamo_runningJump' while loading NULL.
+[2017.04.28-18.44.59:325][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:325][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:325][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:325][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:325][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_0.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:327][575]LogBlueprint:Warning: [MixamoAnimBP_Alpha] 'attacking?' variable not found. Base class was probably changed.
+[2017.04.28-18.44.59:328][575]LogBlueprint:Warning: [MixamoAnimBP_Alpha] 'bJumpButtonDown' variable not found. Base class was probably changed.
+[2017.04.28-18.44.59:343][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning Could not find a variable named "bJumpButtonDown" in 'MixamoAnimBP_Alpha'.
+Make sure 'MixamoAnimBP_Alpha' has been compiled for  Get bJumpButtonDown
+[2017.04.28-18.44.59:343][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.04.28-18.44.59:343][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning Could not find a variable named "attacking?" in 'MixamoAnimBP_Alpha'.
+Make sure 'MixamoAnimBP_Alpha' has been compiled for  Get attacking?
+[2017.04.28-18.44.59:343][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.04.28-18.44.59:343][575]LogBlueprint:Error: [Compiler MixamoAnimBP_Alpha] Error  MixamoAnimBP_Alpha  - The skeleton asset for this animation Blueprint is missing, so it cannot be compiled!
+[2017.04.28-18.44.59:344][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning Could not find a variable named "bJumpButtonDown" in 'MixamoAnimBP_Alpha'.
+Make sure 'MixamoAnimBP_Alpha' has been compiled for  Get bJumpButtonDown
+[2017.04.28-18.44.59:344][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.04.28-18.44.59:344][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning Could not find a variable named "attacking?" in 'MixamoAnimBP_Alpha'.
+Make sure 'MixamoAnimBP_Alpha' has been compiled for  Get attacking?
+[2017.04.28-18.44.59:344][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.04.28-18.44.59:345][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_1.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:345][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_1.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:345][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_1.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:345][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_1.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:345][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_1.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:345][575]LogBlueprint:Error: [Compiler MixamoAnimBP_Alpha] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.04.28-18.44.59:345][575]LogBlueprint:Error: [Compiler MixamoAnimBP_Alpha] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.04.28-18.44.59:345][575]LogBlueprint:Error: [Compiler MixamoAnimBP_Alpha] Error The property associated with  Attacking?  could not be found
+[2017.04.28-18.44.59:346][575]LogBlueprint:Error: [Compiler MixamoAnimBP_Alpha] Error The property associated with  Jump Button Down  could not be found
+[2017.04.28-18.44.59:364][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_2.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:365][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_2.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:365][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_2.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:365][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_2.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:365][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EdGraph_2.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:366][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning [0496.62] Compile of MixamoAnimBP_Alpha failed. 5 Fatal Issue(s) 8 Warning(s) [in 36 ms] (/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha)
+[2017.04.28-18.44.59:366][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning [0496.62] Compile of MixamoAnimBP_Alpha failed. 5 Fatal Issue(s) 9 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha)
+[2017.04.28-18.44.59:366][575]LogBlueprint:Warning: [Compiler MixamoAnimBP_Alpha] Warning [0496.62] Compile of MixamoAnimBP_Alpha failed. 5 Fatal Issue(s) 10 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha)
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_SequencePlayer_483' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_SequencePlayer_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.AnimGraphNode_StateResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2.Run Jump.AnimGraphNode_StateResult_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3.Jump.AnimGraphNode_StateResult_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7.attacking.AnimGraphNode_StateResult_188' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_20' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.AnimGraphNode_TransitionResult_467' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_142' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.AnimGraphNode_TransitionResult_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:397][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.EdGraphNode_Comment_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.EdGraphNode_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:398][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.EdGraphNode_Comment_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:399][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_CallFunction_91451' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:399][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CallFunction_11224' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:399][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_224620' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:399][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_2831' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_CallFunction_92056' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_225505' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_CallFunction_102548' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_108580' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_162498' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_169492' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_227144' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_29781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_29886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_45546' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CallFunction_45889' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_CommutativeAssociativeBinaryOperator_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_CommutativeAssociativeBinaryOperator_77' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_CommutativeAssociativeBinaryOperator_2253' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_521' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_DynamicCast_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:400][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_DynamicCast_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_DynamicCast_99' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_Event_1003' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_Event_2429' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_Event_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_ExecutionSequence_180' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_FunctionEntry_139' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_FunctionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_IfThenElse_332' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_IfThenElse_413' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_12.Transition.K2Node_TransitionRuleGetter_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_6.AnimationTransitionGraph_65.K2Node_TransitionRuleGetter_182' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateNode_1.Locomotion/Idle.K2Node_VariableGet_589' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_2.Transition.K2Node_VariableGet_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_1066' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_7.Transition.K2Node_VariableGet_1084' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:AnimGraph.AnimGraphNode_StateMachine_6.Default.AnimStateTransitionNode_8.Transition.K2Node_VariableGet_624' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:CanJump.K2Node_VariableGet_2488' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableGet_1007' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableGet_1157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableGet_3156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableSet_1402' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:401][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableSet_2289' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:402][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableSet_2465' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:402][575]LogBlueprint:Warning: Node '/Game/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.MixamoAnimBP_Alpha:EventGraph.K2Node_VariableSet_74' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.04.28-18.44.59:429][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:457][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:473][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:474][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:475][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:476][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:477][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:479][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:484][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:486][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:488][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:490][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:493][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:503][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:505][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:505][575]LogSavePackage: Save=95.43ms
+[2017.04.28-18.44.59:505][575]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/MixamoAnimBP_Alpha6EB507AA4A731C5C357C888682874A20.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset'
+[2017.04.28-18.44.59:508][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:510][575]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.44.59:510][575]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Assets/MixamoAnimPack/Mixamo_Alpha/Anims/MixamoAnimBP_Alpha.uasset
+[2017.04.28-18.45.00:176][576]LogMaterial: Missing cached shader map for material M_LightStage_Arrows, compiling. 
+[2017.04.28-18.45.00:191][576]LogTemp:Display: Added material ShaderMap 0x000002692F486400 with Material 0x000002692F93A380 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.00:195][576]LogTemp:Display: Kicking off shader compilation for M_LightStage_Arrows, GameThreadShaderMap 0x000002692F486400
+[2017.04.28-18.45.00:197][576]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2017.04.28-18.45.00:197][576]LogTemp:Display: Added material ShaderMap 0x000002691D44B900 with Material 0x000002692F938B80 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.00:202][576]LogTemp:Display: Kicking off shader compilation for M_LightStage_Skybox_Master, GameThreadShaderMap 0x000002691D44B900
+[2017.04.28-18.45.00:203][576]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2017.04.28-18.45.00:211][576]LogTemp:Display: Added material ShaderMap 0x000002691D448F00 with Material 0x000002692F432800 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.00:216][576]LogTemp:Display: Kicking off shader compilation for M_LightStage_Skybox_Master, GameThreadShaderMap 0x000002691D448F00
+[2017.04.28-18.45.00:347][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:447][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:499][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:502][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:503][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:505][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:507][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:509][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:536][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:538][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:539][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:541][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:548][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:573][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:575][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:576][576]LogSavePackage: Save=247.02ms
+[2017.04.28-18.45.00:577][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:577][576]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/BP_LightStudio751F46104B576A3D47029A8872FC9A55.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2017.04.28-18.45.00:588][576]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:588][576]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.04.28-18.45.00:854][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:877][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:896][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:898][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:899][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:901][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:903][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:904][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:912][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:914][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:915][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:917][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:919][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:929][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:930][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:931][577]LogSavePackage: Save=94.85ms
+[2017.04.28-18.45.00:931][577]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/ThirdPerson_AnimBPC5FC211C4707C32304F2318ECAF0F3DC.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2017.04.28-18.45.00:956][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:958][577]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.00:958][577]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.04.28-18.45.01:120][578]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2017.04.28-18.45.01:121][578]LogTemp:Display: Added material ShaderMap 0x0000026932856400 with Material 0x000002692FA39F00 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.01:177][578]LogTemp:Display: Kicking off shader compilation for M_Lamp, GameThreadShaderMap 0x0000026932856400
+[2017.04.28-18.45.01:206][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:217][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:226][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:229][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:232][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:234][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:236][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:237][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:247][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:249][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:251][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:252][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:254][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:257][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:259][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:259][578]LogSavePackage: Save=71.02ms
+[2017.04.28-18.45.01:260][578]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Blueprint_CeilingLight1049D751472B673348CEA2BD82E93F84.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2017.04.28-18.45.01:263][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:265][578]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:265][578]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.04.28-18.45.01:530][579]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.04.28-18.45.01:541][579]LogTemp:Display: Added material ShaderMap 0x0000026921AF4100 with Material 0x0000026921ADAF80 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.01:629][579]LogTemp:Display: Kicking off shader compilation for M_smoke_subUV, GameThreadShaderMap 0x0000026921AF4100
+[2017.04.28-18.45.01:632][579]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
+[2017.04.28-18.45.01:633][579]LogTemp:Display: Added material ShaderMap 0x0000026933156B00 with Material 0x0000026921AF1D80 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.01:665][579]LogTemp:Display: Kicking off shader compilation for M_radial_ramp, GameThreadShaderMap 0x0000026933156B00
+[2017.04.28-18.45.01:668][579]LogMaterial: Missing cached shader map for material m_flare_01, compiling. 
+[2017.04.28-18.45.01:669][579]LogTemp:Display: Added material ShaderMap 0x0000026932F1A400 with Material 0x0000026921AF3E80 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.01:708][579]LogTemp:Display: Kicking off shader compilation for m_flare_01, GameThreadShaderMap 0x0000026932F1A400
+[2017.04.28-18.45.01:711][579]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2017.04.28-18.45.01:713][579]LogTemp:Display: Added material ShaderMap 0x0000026932C5E400 with Material 0x0000026930729780 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.01:738][579]LogTemp:Display: Kicking off shader compilation for M_explosion_subUV, GameThreadShaderMap 0x0000026932C5E400
+[2017.04.28-18.45.01:742][579]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2017.04.28-18.45.01:744][579]LogTemp:Display: Added material ShaderMap 0x0000026932B2D980 with Material 0x0000026932605780 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.01:780][579]LogTemp:Display: Kicking off shader compilation for M_Burst, GameThreadShaderMap 0x0000026932B2D980
+[2017.04.28-18.45.01:856][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:860][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:866][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:869][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:871][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:873][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:875][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:878][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:889][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:891][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:894][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:896][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:898][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:900][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:902][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:902][579]LogSavePackage: Save=68.66ms
+[2017.04.28-18.45.01:903][579]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Blueprint_Effect_Explosion62F1A3B946D29E4B5790DEA4B874DEF6.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2017.04.28-18.45.01:907][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:909][579]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.01:910][579]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.04.28-18.45.01:926][580]LogTemp:Display: Finished compile of shader map 0x000002691D448F00
+[2017.04.28-18.45.01:926][580]LogTemp:Display: Shader map M_LightStage_Skybox_Master complete, GameThreadShaderMap 0x000002691D448F00, marking material M_LightStage_Skybox_Master as finished
+[2017.04.28-18.45.01:926][580]LogTemp:Display: Marking material as finished 0x000002692F432800
+[2017.04.28-18.45.02:228][580]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2017.04.28-18.45.02:230][580]LogTemp:Display: Added material ShaderMap 0x0000026930E26E80 with Material 0x000002691AB0EB00 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.02:267][580]LogTemp:Display: Kicking off shader compilation for M_Heat_Distortion, GameThreadShaderMap 0x0000026930E26E80
+[2017.04.28-18.45.02:270][580]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2017.04.28-18.45.02:271][580]LogTemp:Display: Added material ShaderMap 0x0000026934387900 with Material 0x000002691AB0C700 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.02:307][580]LogTemp:Display: Kicking off shader compilation for M_Radial_Gradient, GameThreadShaderMap 0x0000026934387900
+[2017.04.28-18.45.02:325][580]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2017.04.28-18.45.02:327][580]LogTemp:Display: Added material ShaderMap 0x0000026933FE7900 with Material 0x0000026932609D80 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.02:357][580]LogTemp:Display: Kicking off shader compilation for M_Fire_SubUV, GameThreadShaderMap 0x0000026933FE7900
+[2017.04.28-18.45.02:393][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:398][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:406][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:410][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:412][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:414][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:416][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:418][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:429][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:431][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:433][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:435][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:437][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:440][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:442][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:442][580]LogSavePackage: Save=67.81ms
+[2017.04.28-18.45.02:443][580]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Blueprint_Effect_Fire6485644440BD3BCBFE6BFB8F558E784D.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2017.04.28-18.45.02:447][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:450][580]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:450][580]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.04.28-18.45.02:467][581]LogTemp:Display: Finished compile of shader map 0x000002691D44B900
+[2017.04.28-18.45.02:467][581]LogTemp:Display: Shader map M_LightStage_Skybox_Master complete, GameThreadShaderMap 0x000002691D44B900, marking material M_LightStage_Skybox_Master as finished
+[2017.04.28-18.45.02:467][581]LogTemp:Display: Marking material as finished 0x000002692F938B80
+[2017.04.28-18.45.02:471][581]LogTemp:Display: Finished compile of shader map 0x000002692F486400
+[2017.04.28-18.45.02:471][581]LogTemp:Display: Shader map M_LightStage_Arrows complete, GameThreadShaderMap 0x000002692F486400, marking material M_LightStage_Arrows as finished
+[2017.04.28-18.45.02:471][581]LogTemp:Display: Marking material as finished 0x000002692F93A380
+[2017.04.28-18.45.02:611][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:616][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:622][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:624][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:626][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:629][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:631][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:634][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:645][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:648][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:650][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:653][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:656][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:658][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:659][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:660][581]LogSavePackage: Save=74.70ms
+[2017.04.28-18.45.02:661][581]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Blueprint_Effect_Smoke9C63967F4704336D2A9C968CDAF8062B.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2017.04.28-18.45.02:665][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:668][581]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:669][581]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.04.28-18.45.02:792][582]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2017.04.28-18.45.02:794][582]LogTemp:Display: Added material ShaderMap 0x0000026933E98480 with Material 0x000002692E624280 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.02:822][582]LogTemp:Display: Kicking off shader compilation for M_Spark, GameThreadShaderMap 0x0000026933E98480
+[2017.04.28-18.45.02:890][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:894][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:900][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:902][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:904][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:906][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:908][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:910][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:923][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:927][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:930][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:933][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:935][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:938][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:940][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:940][582]LogSavePackage: Save=74.19ms
+[2017.04.28-18.45.02:941][582]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Blueprint_Effect_SparksBCAF921C4C0F7D6AB8D221B59372DF1C.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2017.04.28-18.45.02:966][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:968][582]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.02:968][582]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.04.28-18.45.03:138][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:147][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:156][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:163][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:168][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:176][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:185][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:197][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:214][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:224][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:233][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:241][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:251][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:262][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:271][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:273][583]LogSavePackage: Save=160.64ms
+[2017.04.28-18.45.03:276][583]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Blueprint_Effect_SteamA358DDB44B0C012C902F559B9B3E3C42.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2017.04.28-18.45.03:281][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:289][583]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:290][583]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.04.28-18.45.03:434][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:453][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:468][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:473][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:477][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:480][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:483][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:486][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:498][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:502][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:504][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:508][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:513][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:518][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:521][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:521][584]LogSavePackage: Save=117.21ms
+[2017.04.28-18.45.03:523][584]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/Blueprint_WallSconce48AE2E6C44E59FB3066650933D5E0987.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2017.04.28-18.45.03:528][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:530][584]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.04.28-18.45.03:531][584]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.04.28-18.45.06:281][685]LogTemp:Display: Finished compile of shader map 0x0000026932856400
+[2017.04.28-18.45.06:281][685]LogTemp:Display: Shader map M_Lamp complete, GameThreadShaderMap 0x0000026932856400, marking material M_Lamp as finished
+[2017.04.28-18.45.06:281][685]LogTemp:Display: Marking material as finished 0x000002692FA39F00
+[2017.04.28-18.45.15:201][ 27]LogTemp:Display: Finished compile of shader map 0x0000026921AF4100
+[2017.04.28-18.45.15:201][ 27]LogTemp:Display: Shader map M_smoke_subUV complete, GameThreadShaderMap 0x0000026921AF4100, marking material M_smoke_subUV as finished
+[2017.04.28-18.45.15:201][ 27]LogTemp:Display: Marking material as finished 0x0000026921ADAF80
+[2017.04.28-18.45.18:558][122]LogTemp:Display: Finished compile of shader map 0x0000026933156B00
+[2017.04.28-18.45.18:558][122]LogTemp:Display: Shader map M_radial_ramp complete, GameThreadShaderMap 0x0000026933156B00, marking material M_radial_ramp as finished
+[2017.04.28-18.45.18:558][122]LogTemp:Display: Marking material as finished 0x0000026921AF1D80
+[2017.04.28-18.45.19:300][144]LogTemp:Display: Finished compile of shader map 0x0000026932F1A400
+[2017.04.28-18.45.19:300][144]LogTemp:Display: Shader map m_flare_01 complete, GameThreadShaderMap 0x0000026932F1A400, marking material m_flare_01 as finished
+[2017.04.28-18.45.19:300][144]LogTemp:Display: Marking material as finished 0x0000026921AF3E80
+[2017.04.28-18.45.22:263][202]LogTemp:Display: Finished compile of shader map 0x0000026932C5E400
+[2017.04.28-18.45.22:263][202]LogTemp:Display: Shader map M_explosion_subUV complete, GameThreadShaderMap 0x0000026932C5E400, marking material M_explosion_subUV as finished
+[2017.04.28-18.45.22:263][202]LogTemp:Display: Marking material as finished 0x0000026930729780
+[2017.04.28-18.45.24:234][286]LogTemp:Display: Finished compile of shader map 0x0000026932B2D980
+[2017.04.28-18.45.24:234][286]LogTemp:Display: Shader map M_Burst complete, GameThreadShaderMap 0x0000026932B2D980, marking material M_Burst as finished
+[2017.04.28-18.45.24:234][286]LogTemp:Display: Marking material as finished 0x0000026932605780
+[2017.04.28-18.45.27:384][349]LogTemp:Display: Finished compile of shader map 0x0000026930E26E80
+[2017.04.28-18.45.27:384][349]LogTemp:Display: Shader map M_Heat_Distortion complete, GameThreadShaderMap 0x0000026930E26E80, marking material M_Heat_Distortion as finished
+[2017.04.28-18.45.27:384][349]LogTemp:Display: Marking material as finished 0x000002691AB0EB00
+[2017.04.28-18.45.29:055][354]LogTemp:Display: Finished compile of shader map 0x0000026934387900
+[2017.04.28-18.45.29:055][354]LogTemp:Display: Shader map M_Radial_Gradient complete, GameThreadShaderMap 0x0000026934387900, marking material M_Radial_Gradient as finished
+[2017.04.28-18.45.29:055][354]LogTemp:Display: Marking material as finished 0x000002691AB0C700
+[2017.04.28-18.45.32:051][363]LogTemp:Display: Finished compile of shader map 0x0000026933FE7900
+[2017.04.28-18.45.32:051][363]LogTemp:Display: Shader map M_Fire_SubUV complete, GameThreadShaderMap 0x0000026933FE7900, marking material M_Fire_SubUV as finished
+[2017.04.28-18.45.32:051][363]LogTemp:Display: Marking material as finished 0x0000026932609D80
+[2017.04.28-18.45.32:383][364]LogTemp:Display: Finished compile of shader map 0x0000026933E98480
+[2017.04.28-18.45.32:383][364]LogTemp:Display: Shader map M_Spark complete, GameThreadShaderMap 0x0000026933E98480, marking material M_Spark as finished
+[2017.04.28-18.45.32:383][364]LogTemp:Display: Marking material as finished 0x000002692E624280
+[2017.04.28-18.45.41:889][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:889][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap.
+[2017.04.28-18.45.41:889][855]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/Ruben : Can't find file for asset. /Game/FirstPersonBP/IA/Zona
+[2017.04.28-18.45.41:942][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:943][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap.
+[2017.04.28-18.45.41:966][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:966][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap.
+[2017.04.28-18.45.41:970][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:970][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:970][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:971][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by Default__Ruben_C
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:971][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:972][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:972][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:972][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:973][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:973][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by Ruben
+[2017.04.28-18.45.41:973][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:979][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:979][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_VariableGet_118
+[2017.04.28-18.45.41:979][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:979][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:979][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_CallFunction_183
+[2017.04.28-18.45.41:979][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:980][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:980][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_CallArrayFunction_26
+[2017.04.28-18.45.41:980][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:980][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:980][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:980][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:980][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:980][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:980][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_Literal_7
+[2017.04.28-18.45.41:980][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:981][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:981][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:982][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:983][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:983][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:983][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:983][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:983][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:983][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:983][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_CallFunction_65
+[2017.04.28-18.45.41:983][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:984][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:984][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:984][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:984][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_VariableGet_123
+[2017.04.28-18.45.41:984][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:984][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:984][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by K2Node_CallArrayFunction_17
+[2017.04.28-18.45.41:985][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:985][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.41:985][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.41:998][855]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Can't connect pins    and  Zone : Reference is not compatible with Zona Triggerbox Bp Reference.
+[2017.04.28-18.45.41:998][855]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Can't connect pins  Zone  and   : Zona Triggerbox Bp Reference is not compatible with Reference.
+[2017.04.28-18.45.42:000][855]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Could not find a function named "setTargets" in 'Ruben'.
+Make sure 'Ruben' has been compiled for  Set Targets
+[2017.04.28-18.45.42:013][855]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning Node  Unknown  is not referencing a valid level actor
+[2017.04.28-18.45.42:013][855]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (2) of the ' Zona ' pin is invalid: String NewDefaultValue '2' specified on object pin 'Zona'
+[2017.04.28-18.45.42:013][855]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (3) of the ' Zona ' pin is invalid: String NewDefaultValue '3' specified on object pin 'Zona'
+[2017.04.28-18.45.42:013][855]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (1) of the ' Zona ' pin is invalid: String NewDefaultValue '1' specified on object pin 'Zona'
+[2017.04.28-18.45.42:013][855]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (0) of the ' Zona ' pin is invalid: String NewDefaultValue '0' specified on object pin 'Zona'
+[2017.04.28-18.45.42:013][855]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (5) of the ' Zona ' pin is invalid: String NewDefaultValue '5' specified on object pin 'Zona'
+[2017.04.28-18.45.42:023][855]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [0539.28] Compile of PersistentLevel.Ruben failed. 8 Fatal Issue(s) 1 Warning(s) [in 29 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.28-18.45.42:023][855]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [0539.28] Compile of PersistentLevel.Ruben failed. 8 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.28-18.45.42:023][855]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning [0539.28] Compile of PersistentLevel.Ruben failed. 8 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben)
+[2017.04.28-18.45.42:041][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.42:041][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.42:041][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.42:041][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.42:045][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.42:045][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.42:045][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.42:045][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.42:051][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.42:051][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.42:051][855]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/IA/Zona'
+[2017.04.28-18.45.42:052][855]LoadErrors: Info Failed to load /Game/FirstPersonBP/IA/Zona.Zona_C Referenced by PersistentLevel
+[2017.04.28-18.45.42:052][855]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/IA/Zona' while loading NULL.
+[2017.04.28-18.45.42:083][855]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.04.28-18.45.42:085][855]LogTemp:Display: Added material ShaderMap 0x0000026933155D00 with Material 0x0000026936B96F80 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.42:089][855]LogTemp:Display: Kicking off shader compilation for M_Sky_Panning_Clouds2, GameThreadShaderMap 0x0000026933155D00
+[2017.04.28-18.45.42:093][855]LogMaterial: Missing cached shader map for material AntiAliasedTextMaterialTranslucent, compiling. 
+[2017.04.28-18.45.42:106][855]LogTemp:Display: Added material ShaderMap 0x0000026936EA5D00 with Material 0x00000269369A8E80 to ShaderMapsBeingCompiled
+[2017.04.28-18.45.42:129][855]LogTemp:Display: Kicking off shader compilation for AntiAliasedTextMaterialTranslucent, GameThreadShaderMap 0x0000026936EA5D00
+[2017.04.28-18.45.42:334][855]LogAIModule: Creating AISystem for world Ruben
+[2017.04.28-18.45.44:311][855]LogSavePackage: Save=207.23ms
+[2017.04.28-18.45.44:311][855]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/FirstPersonCharacterC59FBC424E7FC1666D5749AA9167AB31.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.04.28-18.45.44:317][855]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.04.28-18.45.44:318][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/zona_triggerbox_bp" FILE="../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/zona_triggerbox_bp.uasset" SILENT=true
+[2017.04.28-18.45.44:368][855]LogSavePackage: Save=40.77ms
+[2017.04.28-18.45.44:368][855]LogSavePackage: Moving '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Saved/zona_triggerbox_bp67A89A124A8E9A2306D4D896F532A7ED.tmp' to '../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/zona_triggerbox_bp.uasset'
+[2017.04.28-18.45.44:373][855]LogSavePackage:Display: Finished SavePackage ../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/IA/zona_triggerbox_bp.uasset
+[2017.04.28-18.45.44:382][855]Cmd: MAP LOAD FILE="../../../../../4ºcurso/Repositorios/LastBulletVR/LastBullet/Content/FirstPersonBP/Maps/Ruben.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.28-18.45.44:382][855]LightingResults: New page: Lighting Build
+[2017.04.28-18.45.44:385][855]LoadErrors: New page: Loading map: Ruben.umap
+[2017.04.28-18.45.44:389][855]MapCheck: New page: Map Check
+[2017.04.28-18.45.44:389][855]LightingResults: New page: Lighting Build
+[2017.04.28-18.45.44:429][855]LogTemp:Display: Finished compile of shader map 0x0000026933155D00
+[2017.04.28-18.45.44:429][855]LogTemp:Display: Shader map M_Sky_Panning_Clouds2 complete, GameThreadShaderMap 0x0000026933155D00, marking material M_Sky_Panning_Clouds2 as finished
+[2017.04.28-18.45.44:430][855]LogTemp:Display: Marking material as finished 0x0000026936B96F80
+[2017.04.28-18.45.44:627][855]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.28-18.45.44:716][855]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.28-18.45.44:856][855]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.558ms to complete.
+[2017.04.28-18.45.44:857][855]LogFileHelpers: Loading map 'Ruben' took 0.484
+[2017.04.28-18.45.44:882][855]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Zona_C /Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Zona0
+[2017.04.28-18.45.46:266][938]LogTemp:Display: Finished compile of shader map 0x0000026936EA5D00
+[2017.04.28-18.45.46:266][938]LogTemp:Display: Shader map AntiAliasedTextMaterialTranslucent complete, GameThreadShaderMap 0x0000026936EA5D00, marking material AntiAliasedTextMaterialTranslucent as finished
+[2017.04.28-18.45.46:266][938]LogTemp:Display: Marking material as finished 0x00000269369A8E80
+[2017.04.28-18.45.47:408][ 15]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.28-18.45.47:463][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.28-18.45.47:463][ 15]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.28-18.45.47:463][ 15]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2017.04.28-18.45.47:556][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.04.28-18.45.47:572][ 15]LogClass:Warning: Type mismatch in m_zona of FirstPersonCharacter_C - Previous (IntProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.04.28-18.45.47:680][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0544.94] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 151 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.45.47:682][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0544.94] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 1 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.45.47:682][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0544.94] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.45.47:682][ 15]LogPlayLevel: [PlayLevel]   Compiling AICharacter as a dependent...
+[2017.04.28-18.45.47:735][ 15]LogPlayLevel: [PlayLevel]   Compiling AIControllerVR as a dependent...
+[2017.04.28-18.45.47:739][ 15]LogPlayLevel: [PlayLevel]   Compiling zona_triggerbox_bp as a dependent...
+[2017.04.28-18.45.47:770][ 15]LogPlayLevel: [PlayLevel]   Compiling FirstPersonCharacter as a dependent...
+[2017.04.28-18.45.47:834][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning Could not find a variable named "m_zona" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set m_zona
+[2017.04.28-18.45.47:930][ 15]LogPlayLevel: [PlayLevel]   Compiling ComprobarZonas as a dependent...
+[2017.04.28-18.45.47:939][ 15]LogPlayLevel: [PlayLevel]   Compiling Ruben as a dependent...
+[2017.04.28-18.45.47:976][ 15]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Can't connect pins    and  Zone : Reference is not compatible with Zona Triggerbox Bp Reference.
+[2017.04.28-18.45.47:976][ 15]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Can't connect pins  Zone  and   : Zona Triggerbox Bp Reference is not compatible with Reference.
+[2017.04.28-18.45.47:978][ 15]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error Could not find a function named "setTargets" in 'Ruben'.
+Make sure 'Ruben' has been compiled for  Set Targets
+[2017.04.28-18.45.47:978][ 15]LogBlueprint:Warning: [Compiler PersistentLevel.Ruben] Warning Node  Unknown  is not referencing a valid level actor
+[2017.04.28-18.45.47:978][ 15]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (2) of the ' Zona ' pin is invalid: String NewDefaultValue '2' specified on object pin 'Zona'
+[2017.04.28-18.45.47:978][ 15]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (3) of the ' Zona ' pin is invalid: String NewDefaultValue '3' specified on object pin 'Zona'
+[2017.04.28-18.45.47:978][ 15]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (1) of the ' Zona ' pin is invalid: String NewDefaultValue '1' specified on object pin 'Zona'
+[2017.04.28-18.45.47:979][ 15]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (0) of the ' Zona ' pin is invalid: String NewDefaultValue '0' specified on object pin 'Zona'
+[2017.04.28-18.45.47:979][ 15]LogBlueprint:Error: [Compiler PersistentLevel.Ruben] Error The current value (5) of the ' Zona ' pin is invalid: String NewDefaultValue '5' specified on object pin 'Zona'
+[2017.04.28-18.45.48:020][ 15]LogPlayLevel: [PlayLevel]   Compiling Disparar as a dependent...
+[2017.04.28-18.45.48:025][ 15]LogPlayLevel: [PlayLevel]   Compiling FocusPlayer as a dependent...
+[2017.04.28-18.45.48:030][ 15]LogPlayLevel: [PlayLevel]   Compiling MoveToLocation as a dependent...
+[2017.04.28-18.45.48:088][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.04.28-18.45.50:028][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0547.29] Compile of FirstPersonCharacter successful, but with 4 Warning(s) [in 2,345 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.45.50:048][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0547.31] Compile of FirstPersonCharacter successful, but with 5 Warning(s) [in 20 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.45.50:048][ 15]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0547.31] Compile of FirstPersonCharacter successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.04.28-18.45.50:093][ 15]LogPlayLevel: PlayLevel: Blueprint regeneration took 2629 ms (10 blueprints)
+[2017.04.28-18.45.50:093][ 15]BlueprintLog: Info Blueprint Ruben failed to compile
+[2017.04.28-18.45.53:145][ 15]PIE: New page: PIE session: Ruben (Apr 28, 2017, 10:45:53 PM)
+[2017.04.28-18.45.53:145][ 15]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben
+[2017.04.28-18.45.53:205][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059912s)
+[2017.04.28-18.45.53:206][ 15]LogAIModule: Creating AISystem for world Ruben
+[2017.04.28-18.45.53:206][ 15]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2017.04.28-18.45.53:206][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Ruben.Ruben to /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben (0.061557s)
+[2017.04.28-18.45.53:246][ 15]LogInit: XAudio2 using '1 - BenQ GL2250H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.28-18.45.53:257][ 15]LogInit: FAudioDevice initialized.
+[2017.04.28-18.45.53:295][ 15]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.04.28-18.45.53:304][ 15]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben.Ruben up for play (max tick rate 0) at 2017.04.28-20.45.53
+[2017.04.28-18.45.53:408][ 15]LogWorld: Bringing up level for play took: 0.109921
+[2017.04.28-18.45.53:411][ 15]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Ruben 6.741
+[2017.04.28-18.45.53:411][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben' with GeneratedClass '/Game/FirstPersonBP/Maps/Ruben.Ruben_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Ruben.Ruben:PersistentLevel.Ruben'
+[2017.04.28-18.45.58:598][ 15]LogCrashTracker: 
+
+
+[2017.04.28-18.45.58:598][ 15]LogCrashTracker: 
+
+
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: === Critical error: ===
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: 
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: Fatal error!
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: 
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: 
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-CoreUObject.dll!0x0000000015B714D5
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-BlueprintGraph.dll!0x00000000143DEFA7
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-Kismet.dll!0x000000000A556358
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-Kismet.dll!0x000000000A47697F
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-Kismet.dll!0x000000000A479429
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-Kismet.dll!0x000000000A5089C9
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-KismetWidgets.dll!0x000000001975F8D5
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-KismetWidgets.dll!0x000000001976741A
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-KismetWidgets.dll!0x000000001976ED70
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-KismetWidgets.dll!0x00000000197609C6
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-Slate.dll!0x00000000155756B5
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-Slate.dll!0x0000000015549FD5
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x00000000193CE65A
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:598][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000001945854D
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-Slate.dll!0x0000000015419E98
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-Slate.dll!0x00000000153E2DCF
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-Slate.dll!0x000000001541CB8F
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-Slate.dll!0x00000000153E41C0
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-Slate.dll!0x0000000015442674
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor-Slate.dll!0x00000000154415C0
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor.exe!0x000000006499EA1D
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor.exe!0x000000006498EB40
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor.exe!0x000000006498EBBA
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor.exe!0x00000000649A0A29
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: UE4Editor.exe!0x00000000649A22B6
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: KERNEL32.DLL!0x0000000043DC8364
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: ntdll.dll!0x00000000441770D1
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: ntdll.dll!0x00000000441770D1
+[2017.04.28-18.45.58:599][ 15]LogWindows:Error: 
+[2017.04.28-18.45.58:634][ 15]LogExit: Executing StaticShutdownAfterError
+[2017.04.28-18.45.58:640][ 15]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.04.28-18.45.58:687][ 15]Log file closed, 04/28/17 20:45:58
