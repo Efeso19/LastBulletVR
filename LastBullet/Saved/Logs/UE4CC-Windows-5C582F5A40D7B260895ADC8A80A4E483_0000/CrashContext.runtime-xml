@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-5C582F5A40D7B260895ADC8A80A4E483_0000</CrashGUID>
+		<ProcessId>9952</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>1495</SecondsSinceStart>
+		<GameName>UE4-LastBullet</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.1-3348071+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;D:/Github/LastBulletVR/LastBullet/LastBullet.uproject&quot;-EpicPortal</CommandLine>
+		<LanguageLCID>3082</LanguageLCID>
+		<AppDefaultLocale>es_ES</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3348071</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Enrique</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>D34F896D4DDBFE3701377AA1492CB18D</MachineId>
+		<LoginId>d34f896d4ddbfe3701377aa1492cb18d</LoginId>
+		<EpicAccountId>a0eba3d5c91c4c73a1808c2621c7766b</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint>Layout=&quot;ContentBrowserTab1&quot; Label=&quot;Content Browser&quot; Content=SBox</UserActivityHint>
+		<ErrorMessage>Fatal error: [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\BlueprintGeneratedClass.cpp] [Line: 157] &nl;UBlueprintGeneratedClass::GetAuthoritativeClass: ClassGeneratedBy is null. class &apos;/Engine/Transient.DEADCLASS_SpawnAI_C_0&apos;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 970</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17119780864</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>9726959616</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140732413124608</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>2801688576</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>2852823040</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>4192538624</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>4194439168</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636292320230640000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
