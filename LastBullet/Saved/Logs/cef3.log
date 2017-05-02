@@ -1,0 +1,8 @@
+[0502/163451:WARNING:raw_channel_win.cc(532)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0502/163451:WARNING:channel.cc(359)] RawChannel write error
+[0502/163453:WARNING:raw_channel_win.cc(532)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0502/163453:WARNING:channel.cc(359)] RawChannel write error
+[0502/163455:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[0502/170158:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[0502/170158:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[0502/173825:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
