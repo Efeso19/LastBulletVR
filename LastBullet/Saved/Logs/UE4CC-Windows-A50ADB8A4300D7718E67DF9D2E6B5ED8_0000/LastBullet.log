@@ -1,0 +1,697 @@
+﻿Log file open, 05/02/17 11:59:44
+LogInit:Display: Running engine for game: LastBullet
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-652123893) SRandInit(-652123785).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069539
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.14.0(build = 378771) feature version = 0. Client runs version (prod = 1).1.14.0(build = 378771) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.02-09.59.46:274][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.02-09.59.46:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.02-09.59.46:285][  0]LogInit: Computer: TONIMASTERRACE
+[2017.05.02-09.59.46:285][  0]LogInit: User: Toni
+[2017.05.02-09.59.46:285][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.02-09.59.46:285][  0]LogInit: High frequency timer resolution =24.000000 MHz
+[2017.05.02-09.59.46:285][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.02-09.59.46:285][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.02-09.59.46:285][  0]LogMemory: Process Physical Memory: 269.04 MB used, 269.04 MB peak
+[2017.05.02-09.59.46:285][  0]LogMemory: Process Virtual Memory: 265.56 MB used, 265.56 MB peak
+[2017.05.02-09.59.46:285][  0]LogMemory: Physical Memory: 5201.20 MB used,  2944.24 MB free, 8145.44 MB total
+[2017.05.02-09.59.46:285][  0]LogMemory: Virtual Memory: 685.21 MB used,  2944.24 MB free, 134217728.00 MB total
+[2017.05.02-09.59.46:352][  0]LogInit: Overriding culture en with editor configuration.
+[2017.05.02-09.59.46:871][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.02-09.59.47:331][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.05.02-09.59.47:331][  0]LogD3D11RHI:       8119/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.02-09.59.47:333][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.02-09.59.47:333][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.02-09.59.47:333][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.02-09.59.47:337][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.02-09.59.47:337][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.02-09.59.47:337][  0]LogWindows: EnumDisplayDevices:
+[2017.05.02-09.59.47:337][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.05.02-09.59.47:338][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.02-09.59.47:338][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.02-09.59.47:339][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.02-09.59.47:341][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.02-09.59.47:341][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.05.02-09.59.47:341][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.05.02-09.59.47:341][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.05.02-09.59.47:341][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.02-09.59.47:767][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.02-09.59.47:847][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.02-09.59.47:899][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../../LastBulletVR/LastBullet/Intermediate/Shaders/WorkingDirectory/7536/).
+[2017.05.02-09.59.47:899][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Toni/AppData/Local/Temp/UnrealShaderWorkingDir/3D4B0C544C1F8F8F0D75968CD9DF8327/'.
+[2017.05.02-09.59.47:899][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.02-09.59.49:240][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.02-09.59.49:273][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.02-09.59.49:304][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.02-09.59.49:336][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.02-09.59.49:368][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.02-09.59.49:400][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.02-09.59.49:433][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.02-09.59.49:465][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.02-09.59.49:490][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.02-09.59.49:523][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.02-09.59.49:555][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.02-09.59.49:586][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.02-09.59.49:617][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.02-09.59.49:649][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.02-09.59.49:681][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.02-09.59.49:744][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.02-09.59.49:744][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.02-09.59.49:765][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.02-09.59.49:830][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.02-09.59.49:849][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.02-09.59.49:882][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.02-09.59.49:914][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.02-09.59.49:946][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.02-09.59.49:978][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.02-09.59.49:978][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.02-09.59.50:212][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.02-09.59.50:258][  0]LogDerivedDataCache: Loaded boot cache 0.05s 51MB C:/Users/Toni/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.02-09.59.50:258][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Toni/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.02-09.59.50:258][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../LastBulletVR/LastBullet/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.02-09.59.50:258][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.02-09.59.50:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../LastBulletVR/LastBullet/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.02-09.59.50:259][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.02-09.59.50:272][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.02-09.59.50:284][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Toni/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.02-09.59.50:291][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.02-09.59.50:291][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.02-09.59.50:291][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.02-09.59.50:514][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.02-09.59.50:516][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.02-09.59.50:677][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.02-09.59.50:701][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.02-09.59.50:729][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.02-09.59.50:729][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.02-09.59.50:729][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.02-09.59.51:353][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lastbullet, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1522868599
+[2017.05.02-09.59.51:391][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2017.05.02-09.59.51:416][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.013723 seconds
+[2017.05.02-09.59.51:420][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.02-09.59.51:420][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.02-09.59.51:420][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.02-09.59.51:451][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.02-09.59.52:512][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.02-09.59.52:540][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.02-09.59.52:890][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.02-09.59.53:162][  0]SourceControl: Info Source control is disabled
+[2017.05.02-09.59.53:992][  0]LogEngine: Initializing Engine...
+[2017.05.02-09.59.53:992][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.14.0, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.05.02-09.59.54:198][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.02-09.59.54:210][  0]LogInit: XAudio2 using 'BenQ GL2250H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.02-09.59.54:223][  0]LogInit: FAudioDevice initialized.
+[2017.05.02-09.59.54:249][  0]LogDerivedDataCache: Saved boot cache 0.03s 51MB C:/Users/Toni/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.02-09.59.54:263][  0]LogInit: Texture streaming: Enabled
+[2017.05.02-09.59.54:332][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.02-09.59.54:388][  0]LogInit: Transaction tracking system initialized
+[2017.05.02-09.59.54:592][  0]BlueprintLog: New page: Editor Load
+[2017.05.02-09.59.55:097][  0]LocalizationService: Info Localization service is disabled
+[2017.05.02-09.59.55:511][  0]LogConsoleResponse:Display: 
+[2017.05.02-09.59.55:669][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.02-09.59.55:669][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.02-09.59.56:275][  0]LogFileCache: Scanning file cache for directory 'D:/LastBulletVR/LastBullet/Content/' took 0.02s
+[2017.05.02-09.59.56:275][  0]Cmd: MAP LOAD FILE="../../../../../../LastBulletVR/LastBullet/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.02-09.59.56:275][  0]LightingResults: New page: Lighting Build
+[2017.05.02-09.59.56:300][  0]MapCheck: New page: Map Check
+[2017.05.02-09.59.56:300][  0]LightingResults: New page: Lighting Build
+[2017.05.02-09.59.56:500][  0]LogBlueprint:Warning: [WeaponComponent] 'GunOffset' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'AmmoBar' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'AmmoBar' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'Mesh2P' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'Sphere' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'FirstPersonCamera' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'UsingMotionControllers?' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'VR_Marker' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'AmmoBar' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'AmmoBar' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:501][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.56:502][  0]LogBlueprint:Warning: [WeaponComponent] 'WeaponComponent' variable not found. Base class was probably changed.
+[2017.05.02-09.59.57:104][  0]LogBlueprint:Warning: [PistolActor_Blueprint] 'VR_Marker' variable not found. Base class was probably changed.
+[2017.05.02-09.59.57:986][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.02-09.59.58:004][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0013.82] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 36 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.02-09.59.58:005][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0013.82] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 1 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.02-09.59.58:005][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0013.82] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.02-09.59.58:044][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.05.02-09.59.58:062][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0013.87] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 25 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.02-09.59.58:062][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0013.87] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.02-09.59.58:064][  0]LogBlueprint:Warning: [Compiler FirstPersonCharacter] Warning [0013.88] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 1 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.05.02-09.59.58:193][  0]LogLinker:Warning: Asset '../../../../../../LastBulletVR/LastBullet/Content/Blueprints/modul_transporttransport_16_Blueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.02-09.59.58:246][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_0.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.05.02-09.59.58:248][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_1.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.05.02-09.59.58:251][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:EdGraph_2.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.05.02-09.59.58:403][  0]LogLinker:Warning: Asset '../../../../../../LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1_Mat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.02-09.59.58:405][  0]LogLinker:Warning: Asset '../../../../../../LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_Nebula_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.02-09.59.58:418][  0]LogLinker:Warning: Asset '../../../../../../LastBulletVR/LastBullet/Content/Meshes/Space/FX_Map_7.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.02-09.59.58:419][  0]LogLinker:Warning: Asset '../../../../../../LastBulletVR/LastBullet/Content/Meshes/Space/StarMap_1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.02-09.59.59:876][  0]LogTexture:Display: Building textures: T_Spark_Bits_2X2 (AutoDXT, 1024X1024) - 111 MB total VRAM
+[2017.05.02-10.00.00:086][  0]LogTexture:Display: Building textures: T_SparkCore_2X2 (G8, 2048X2048) - 111 MB total VRAM
+[2017.05.02-10.00.00:482][  0]LogMaterial: Missing cached shader map for material M_Spark_Core_Master, compiling. 
+[2017.05.02-10.00.00:547][  0]LogTemp:Display: Added material ShaderMap 0x000001E9F06C4F00 with Material 0x000001E9E341C580 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.00:612][  0]LogTemp:Display: Kicking off shader compilation for M_Spark_Core_Master, GameThreadShaderMap 0x000001E9F06C4F00
+[2017.05.02-10.00.00:618][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 111 MB total VRAM
+[2017.05.02-10.00.00:668][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 111 MB total VRAM
+[2017.05.02-10.00.00:756][  0]LogBlueprint:Warning: Node '/Game/Blueprints/modul_transporttransport_16_Blueprint.modul_transporttransport_16_Blueprint:UserConstructionScript.K2Node_FunctionEntry_359' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.05.02-10.00.00:943][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.02-10.00.01:101][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.02-10.00.01:209][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.02-10.00.01:298][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.025ms to complete.
+[2017.05.02-10.00.01:298][  0]LogFileHelpers: Loading map 'Minimal_Default' took 5.023
+[2017.05.02-10.00.01:441][  0]LogCollectionManager: Loaded 0 collections in 0.000779 seconds
+[2017.05.02-10.00.01:506][  0]LogFileCache: Scanning file cache for directory 'D:/LastBulletVR/LastBullet/Saved/Collections/' took 0.01s
+[2017.05.02-10.00.01:506][  0]LogFileCache: Scanning file cache for directory 'D:/LastBulletVR/LastBullet/Content/Developers/Toni/Collections/' took 0.01s
+[2017.05.02-10.00.01:506][  0]LogFileCache: Scanning file cache for directory 'D:/LastBulletVR/LastBullet/Content/Collections/' took 0.01s
+[2017.05.02-10.00.01:506][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.05.02-10.00.01:514][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2245 classes and 453 folders.
+[2017.05.02-10.00.01:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.02-10.00.01:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.02-10.00.01:555][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.02-10.00.01:599][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.02-10.00.01:630][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.02-10.00.01:660][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.02-10.00.01:681][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.02-10.00.01:735][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.02-10.00.01:735][  0]LogLoad: (Engine Initialization) Total time: 17.55 seconds
+[2017.05.02-10.00.01:735][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.42 seconds
+[2017.05.02-10.00.01:735][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.02-10.00.01:735][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.02-10.00.02:075][  0]LogOcInput: OculusInput pre-init called
+[2017.05.02-10.00.02:087][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.14.0
+[2017.05.02-10.00.02:166][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.02-10.00.02:167][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.02-10.00.02:173][  0]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.02-10.00.02:177][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.02-10.00.02:368][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.02-10.00.02:407][  0]LogRenderer: Reallocating scene render targets to support 1208x660 NumSamples 1 (Frame:2).
+[2017.05.02-10.00.02:496][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/LastBulletVR/LastBullet/Content/' took 0.40s
+[2017.05.02-10.00.03:172][  3]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.02-10.00.04:508][  7]LogTemp:Display: Finished compile of shader map 0x000001E9F06C4F00
+[2017.05.02-10.00.04:508][  7]LogTemp:Display: Shader map M_Spark_Core_Master complete, GameThreadShaderMap 0x000001E9F06C4F00, marking material M_Spark_Core_Master as finished
+[2017.05.02-10.00.04:508][  7]LogTemp:Display: Marking material as finished 0x000001E9E341C580
+[2017.05.02-10.00.09:501][ 22]LogAssetRegistry: Asset discovery search completed in 18.1326 seconds
+[2017.05.02-10.00.09:501][ 22]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.05.02-10.00.09:501][ 22]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.05.02-10.00.28:468][ 72]MapCheck: New page: Map Check
+[2017.05.02-10.00.28:650][ 72]Cmd: MAP REBUILD ALLVISIBLE
+[2017.05.02-10.00.28:651][ 72]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.05.02-10.00.28:982][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.05.02-10.00.28:996][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9A232B900 with Material 0x000001E9E3E55000 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.28:998][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000001E9A232B900
+[2017.05.02-10.00.29:005][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Barrera_Diffuse, compiling. 
+[2017.05.02-10.00.29:006][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9A232A780 with Material 0x000001E9E3E56800 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:007][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Barrera_Diffuse, GameThreadShaderMap 0x000001E9A232A780
+[2017.05.02-10.00.29:009][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Barril_Diffuse, compiling. 
+[2017.05.02-10.00.29:010][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9A2329980 with Material 0x000001E9E3E54700 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:011][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Barril_Diffuse, GameThreadShaderMap 0x000001E9A2329980
+[2017.05.02-10.00.29:014][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pantalla_Diffuse, compiling. 
+[2017.05.02-10.00.29:014][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9A232A400 with Material 0x000001E9E3E56200 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:016][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Pantalla_Diffuse, GameThreadShaderMap 0x000001E9A232A400
+[2017.05.02-10.00.29:019][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Conector_Diffuse, compiling. 
+[2017.05.02-10.00.29:019][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9A2329280 with Material 0x000001E9E4167100 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:021][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Conector_Diffuse, GameThreadShaderMap 0x000001E9A2329280
+[2017.05.02-10.00.29:023][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Contenedor_2, compiling. 
+[2017.05.02-10.00.29:024][ 72]LogTemp:Display: Added material ShaderMap 0x000001E981516B00 with Material 0x000001E9E4164400 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:025][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Contenedor_2, GameThreadShaderMap 0x000001E981516B00
+[2017.05.02-10.00.29:028][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChannelCT2WindowDiffuse, compiling. 
+[2017.05.02-10.00.29:028][ 72]LogTemp:Display: Added material ShaderMap 0x000001E981517200 with Material 0x000001E9E4201F00 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:030][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy ChannelCT2WindowDiffuse, GameThreadShaderMap 0x000001E981517200
+[2017.05.02-10.00.29:033][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChannelCTMidDiffuse, compiling. 
+[2017.05.02-10.00.29:033][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9D0363200 with Material 0x000001E9E4201300 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:034][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy ChannelCTMidDiffuse, GameThreadShaderMap 0x000001E9D0363200
+[2017.05.02-10.00.29:037][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ChannelCT2ADiffuse, compiling. 
+[2017.05.02-10.00.29:038][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9D0363900 with Material 0x000001E9E4201900 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:039][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy ChannelCT2ADiffuse, GameThreadShaderMap 0x000001E9D0363900
+[2017.05.02-10.00.29:041][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Extintor_Diffuse, compiling. 
+[2017.05.02-10.00.29:042][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9D0361980 with Material 0x000001E9E4203700 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:043][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Extintor_Diffuse, GameThreadShaderMap 0x000001E9D0361980
+[2017.05.02-10.00.29:046][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mid, compiling. 
+[2017.05.02-10.00.29:047][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9D0538100 with Material 0x000001E9E4203A00 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:048][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Mid, GameThreadShaderMap 0x000001E9D0538100
+[2017.05.02-10.00.29:051][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pipe_Diffuse, compiling. 
+[2017.05.02-10.00.29:051][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9D0538B80 with Material 0x000001E9E4202B00 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:053][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Pipe_Diffuse, GameThreadShaderMap 0x000001E9D0538B80
+[2017.05.02-10.00.29:055][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PtoA, compiling. 
+[2017.05.02-10.00.29:056][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E3E64B80 with Material 0x000001E9E34BA800 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:057][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy PtoA, GameThreadShaderMap 0x000001E9E3E64B80
+[2017.05.02-10.00.29:060][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TanqueGas_Diffuse, compiling. 
+[2017.05.02-10.00.29:060][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E3E66780 with Material 0x000001E9E34B9000 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:062][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy TanqueGas_Diffuse, GameThreadShaderMap 0x000001E9E3E66780
+[2017.05.02-10.00.29:064][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Torito_Diffuse, compiling. 
+[2017.05.02-10.00.29:065][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E3E67200 with Material 0x000001E9E34B9600 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:066][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Torito_Diffuse, GameThreadShaderMap 0x000001E9E3E67200
+[2017.05.02-10.00.29:069][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Valla, compiling. 
+[2017.05.02-10.00.29:069][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E40C8480 with Material 0x000001E9E34B9F00 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:071][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Valla, GameThreadShaderMap 0x000001E9E40C8480
+[2017.05.02-10.00.29:073][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Window4K, compiling. 
+[2017.05.02-10.00.29:074][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E40CBC80 with Material 0x000001E9E42A0100 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:075][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Window4K, GameThreadShaderMap 0x000001E9E40CBC80
+[2017.05.02-10.00.29:080][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Chrome, compiling. 
+[2017.05.02-10.00.29:080][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E4189980 with Material 0x000001E9E42A0700 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:082][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Chrome, GameThreadShaderMap 0x000001E9E4189980
+[2017.05.02-10.00.29:085][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lights_red, compiling. 
+[2017.05.02-10.00.29:085][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E418AB00 with Material 0x000001E9E42A3A00 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:087][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy lights_red, GameThreadShaderMap 0x000001E9E418AB00
+[2017.05.02-10.00.29:089][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lights_blue, compiling. 
+[2017.05.02-10.00.29:089][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E418BC80 with Material 0x000001E9E42A0D00 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:090][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy lights_blue, GameThreadShaderMap 0x000001E9E418BC80
+[2017.05.02-10.00.29:094][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Steel_9, compiling. 
+[2017.05.02-10.00.29:095][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E41CC800 with Material 0x000001E9CD5C5F00 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:096][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Steel_9, GameThreadShaderMap 0x000001E9E41CC800
+[2017.05.02-10.00.29:098][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy StarMap_1_Mat, compiling. 
+[2017.05.02-10.00.29:099][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E41CF580 with Material 0x000001E9CD5C6500 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:100][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy StarMap_1_Mat, GameThreadShaderMap 0x000001E9E41CF580
+[2017.05.02-10.00.29:103][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy StarMap_Nebula_1_Mat, compiling. 
+[2017.05.02-10.00.29:103][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E4338800 with Material 0x000001E9E2E31300 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:105][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy StarMap_Nebula_1_Mat, GameThreadShaderMap 0x000001E9E4338800
+[2017.05.02-10.00.29:107][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CajasConector, compiling. 
+[2017.05.02-10.00.29:108][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E4338F00 with Material 0x000001E9E2E30400 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:109][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy CajasConector, GameThreadShaderMap 0x000001E9E4338F00
+[2017.05.02-10.00.29:112][ 72]LogTemp:Display: Added shader map 0x000001E9E41CC800 from material 0x000001E9E2E31C00
+[2017.05.02-10.00.29:117][ 72]LogTemp:Display: Found existing compiling shader for material FDebugViewModeMaterialProxy Steel_15, linking to other GameThreadShaderMap 0x000001E9E41CC800
+[2017.05.02-10.00.29:119][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LuzMat, compiling. 
+[2017.05.02-10.00.29:120][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E433A780 with Material 0x000001E9E30CC400 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:121][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy LuzMat, GameThreadShaderMap 0x000001E9E433A780
+[2017.05.02-10.00.29:124][ 72]LogTemp:Display: Added shader map 0x000001E9E41CC800 from material 0x000001E9E30CCA00
+[2017.05.02-10.00.29:124][ 72]LogTemp:Display: Found existing compiling shader for material FDebugViewModeMaterialProxy Steel_3, linking to other GameThreadShaderMap 0x000001E9E41CC800
+[2017.05.02-10.00.29:127][ 72]LogTemp:Display: Added shader map 0x000001E9E41CC800 from material 0x000001E9E30CD900
+[2017.05.02-10.00.29:127][ 72]LogTemp:Display: Found existing compiling shader for material FDebugViewModeMaterialProxy Steel_1, linking to other GameThreadShaderMap 0x000001E9E41CC800
+[2017.05.02-10.00.29:131][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Steel_14, compiling. 
+[2017.05.02-10.00.29:132][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E4540480 with Material 0x000001E9E30CF100 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:133][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Steel_14, GameThreadShaderMap 0x000001E9E4540480
+[2017.05.02-10.00.29:135][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Part_Iskra, compiling. 
+[2017.05.02-10.00.29:136][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E394EB00 with Material 0x000001E9E30CC100 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:137][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Part_Iskra, GameThreadShaderMap 0x000001E9E394EB00
+[2017.05.02-10.00.29:139][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Spark, compiling. 
+[2017.05.02-10.00.29:140][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E394D600 with Material 0x000001E9E315C100 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:141][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Spark, GameThreadShaderMap 0x000001E9E394D600
+[2017.05.02-10.00.29:143][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FX_engine2, compiling. 
+[2017.05.02-10.00.29:144][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E394FC80 with Material 0x000001E9E315CD00 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:145][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy FX_engine2, GameThreadShaderMap 0x000001E9E394FC80
+[2017.05.02-10.00.29:148][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_clear, compiling. 
+[2017.05.02-10.00.29:148][ 72]LogTemp:Display: Added material ShaderMap 0x000001E9E3A38800 with Material 0x000001E9E315C700 to ShaderMapsBeingCompiled
+[2017.05.02-10.00.29:150][ 72]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Glass_clear, GameThreadShaderMap 0x000001E9E3A38800
+[2017.05.02-10.00.29:351][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9A232A780
+[2017.05.02-10.00.29:351][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Barrera_Diffuse complete, GameThreadShaderMap 0x000001E9A232A780, marking material FDebugViewModeMaterialProxy Barrera_Diffuse as finished
+[2017.05.02-10.00.29:351][ 72]LogTemp:Display: Marking material as finished 0x000001E9E3E56800
+[2017.05.02-10.00.29:385][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9A2329980
+[2017.05.02-10.00.29:385][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Barril_Diffuse complete, GameThreadShaderMap 0x000001E9A2329980, marking material FDebugViewModeMaterialProxy Barril_Diffuse as finished
+[2017.05.02-10.00.29:385][ 72]LogTemp:Display: Marking material as finished 0x000001E9E3E54700
+[2017.05.02-10.00.29:418][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9A232B900
+[2017.05.02-10.00.29:419][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000001E9A232B900, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.05.02-10.00.29:419][ 72]LogTemp:Display: Marking material as finished 0x000001E9E3E55000
+[2017.05.02-10.00.29:518][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9A232A400
+[2017.05.02-10.00.29:518][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Pantalla_Diffuse complete, GameThreadShaderMap 0x000001E9A232A400, marking material FDebugViewModeMaterialProxy Pantalla_Diffuse as finished
+[2017.05.02-10.00.29:518][ 72]LogTemp:Display: Marking material as finished 0x000001E9E3E56200
+[2017.05.02-10.00.29:531][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9A2329280
+[2017.05.02-10.00.29:531][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Conector_Diffuse complete, GameThreadShaderMap 0x000001E9A2329280, marking material FDebugViewModeMaterialProxy Conector_Diffuse as finished
+[2017.05.02-10.00.29:531][ 72]LogTemp:Display: Marking material as finished 0x000001E9E4167100
+[2017.05.02-10.00.29:575][ 72]LogTemp:Display: Finished compile of shader map 0x000001E981516B00
+[2017.05.02-10.00.29:575][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Contenedor_2 complete, GameThreadShaderMap 0x000001E981516B00, marking material FDebugViewModeMaterialProxy Contenedor_2 as finished
+[2017.05.02-10.00.29:575][ 72]LogTemp:Display: Marking material as finished 0x000001E9E4164400
+[2017.05.02-10.00.29:684][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9D0363200
+[2017.05.02-10.00.29:684][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy ChannelCTMidDiffuse complete, GameThreadShaderMap 0x000001E9D0363200, marking material FDebugViewModeMaterialProxy ChannelCTMidDiffuse as finished
+[2017.05.02-10.00.29:684][ 72]LogTemp:Display: Marking material as finished 0x000001E9E4201300
+[2017.05.02-10.00.29:728][ 72]LogTemp:Display: Finished compile of shader map 0x000001E981517200
+[2017.05.02-10.00.29:729][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy ChannelCT2WindowDiffuse complete, GameThreadShaderMap 0x000001E981517200, marking material FDebugViewModeMaterialProxy ChannelCT2WindowDiffuse as finished
+[2017.05.02-10.00.29:729][ 72]LogTemp:Display: Marking material as finished 0x000001E9E4201F00
+[2017.05.02-10.00.29:772][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9D0363900
+[2017.05.02-10.00.29:772][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy ChannelCT2ADiffuse complete, GameThreadShaderMap 0x000001E9D0363900, marking material FDebugViewModeMaterialProxy ChannelCT2ADiffuse as finished
+[2017.05.02-10.00.29:772][ 72]LogTemp:Display: Marking material as finished 0x000001E9E4201900
+[2017.05.02-10.00.29:848][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9D0361980
+[2017.05.02-10.00.29:848][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Extintor_Diffuse complete, GameThreadShaderMap 0x000001E9D0361980, marking material FDebugViewModeMaterialProxy Extintor_Diffuse as finished
+[2017.05.02-10.00.29:848][ 72]LogTemp:Display: Marking material as finished 0x000001E9E4203700
+[2017.05.02-10.00.29:924][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9D0538B80
+[2017.05.02-10.00.29:924][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Pipe_Diffuse complete, GameThreadShaderMap 0x000001E9D0538B80, marking material FDebugViewModeMaterialProxy Pipe_Diffuse as finished
+[2017.05.02-10.00.29:924][ 72]LogTemp:Display: Marking material as finished 0x000001E9E4202B00
+[2017.05.02-10.00.29:936][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9D0538100
+[2017.05.02-10.00.29:936][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Mid complete, GameThreadShaderMap 0x000001E9D0538100, marking material FDebugViewModeMaterialProxy Mid as finished
+[2017.05.02-10.00.29:937][ 72]LogTemp:Display: Marking material as finished 0x000001E9E4203A00
+[2017.05.02-10.00.30:023][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E3E64B80
+[2017.05.02-10.00.30:023][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy PtoA complete, GameThreadShaderMap 0x000001E9E3E64B80, marking material FDebugViewModeMaterialProxy PtoA as finished
+[2017.05.02-10.00.30:023][ 72]LogTemp:Display: Marking material as finished 0x000001E9E34BA800
+[2017.05.02-10.00.30:079][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E3E66780
+[2017.05.02-10.00.30:079][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy TanqueGas_Diffuse complete, GameThreadShaderMap 0x000001E9E3E66780, marking material FDebugViewModeMaterialProxy TanqueGas_Diffuse as finished
+[2017.05.02-10.00.30:079][ 72]LogTemp:Display: Marking material as finished 0x000001E9E34B9000
+[2017.05.02-10.00.30:102][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E3E67200
+[2017.05.02-10.00.30:102][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Torito_Diffuse complete, GameThreadShaderMap 0x000001E9E3E67200, marking material FDebugViewModeMaterialProxy Torito_Diffuse as finished
+[2017.05.02-10.00.30:102][ 72]LogTemp:Display: Marking material as finished 0x000001E9E34B9600
+[2017.05.02-10.00.30:213][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E40C8480
+[2017.05.02-10.00.30:213][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Valla complete, GameThreadShaderMap 0x000001E9E40C8480, marking material FDebugViewModeMaterialProxy Valla as finished
+[2017.05.02-10.00.30:213][ 72]LogTemp:Display: Marking material as finished 0x000001E9E34B9F00
+[2017.05.02-10.00.30:258][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E40CBC80
+[2017.05.02-10.00.30:258][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Window4K complete, GameThreadShaderMap 0x000001E9E40CBC80, marking material FDebugViewModeMaterialProxy Window4K as finished
+[2017.05.02-10.00.30:258][ 72]LogTemp:Display: Marking material as finished 0x000001E9E42A0100
+[2017.05.02-10.00.30:271][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E4189980
+[2017.05.02-10.00.30:271][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Chrome complete, GameThreadShaderMap 0x000001E9E4189980, marking material FDebugViewModeMaterialProxy Chrome as finished
+[2017.05.02-10.00.30:271][ 72]LogTemp:Display: Marking material as finished 0x000001E9E42A0700
+[2017.05.02-10.00.30:379][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E418AB00
+[2017.05.02-10.00.30:379][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy lights_red complete, GameThreadShaderMap 0x000001E9E418AB00, marking material FDebugViewModeMaterialProxy lights_red as finished
+[2017.05.02-10.00.30:379][ 72]LogTemp:Display: Marking material as finished 0x000001E9E42A3A00
+[2017.05.02-10.00.30:403][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E418BC80
+[2017.05.02-10.00.30:403][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy lights_blue complete, GameThreadShaderMap 0x000001E9E418BC80, marking material FDebugViewModeMaterialProxy lights_blue as finished
+[2017.05.02-10.00.30:403][ 72]LogTemp:Display: Marking material as finished 0x000001E9E42A0D00
+[2017.05.02-10.00.30:479][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E41CC800
+[2017.05.02-10.00.30:479][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Steel_9 complete, GameThreadShaderMap 0x000001E9E41CC800, marking material FDebugViewModeMaterialProxy Steel_9 as finished
+[2017.05.02-10.00.30:480][ 72]LogTemp:Display: Marking material as finished 0x000001E9CD5C5F00
+[2017.05.02-10.00.30:481][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Steel_9 complete, GameThreadShaderMap 0x000001E9E41CC800, marking material FDebugViewModeMaterialProxy Steel_15 as finished
+[2017.05.02-10.00.30:481][ 72]LogTemp:Display: Marking material as finished 0x000001E9E2E31C00
+[2017.05.02-10.00.30:482][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Steel_9 complete, GameThreadShaderMap 0x000001E9E41CC800, marking material FDebugViewModeMaterialProxy Steel_3 as finished
+[2017.05.02-10.00.30:482][ 72]LogTemp:Display: Marking material as finished 0x000001E9E30CCA00
+[2017.05.02-10.00.30:483][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Steel_9 complete, GameThreadShaderMap 0x000001E9E41CC800, marking material FDebugViewModeMaterialProxy Steel_1 as finished
+[2017.05.02-10.00.30:483][ 72]LogTemp:Display: Marking material as finished 0x000001E9E30CD900
+[2017.05.02-10.00.30:591][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E41CF580
+[2017.05.02-10.00.30:591][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy StarMap_1_Mat complete, GameThreadShaderMap 0x000001E9E41CF580, marking material FDebugViewModeMaterialProxy StarMap_1_Mat as finished
+[2017.05.02-10.00.30:591][ 72]LogTemp:Display: Marking material as finished 0x000001E9CD5C6500
+[2017.05.02-10.00.30:657][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E4338F00
+[2017.05.02-10.00.30:657][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy CajasConector complete, GameThreadShaderMap 0x000001E9E4338F00, marking material FDebugViewModeMaterialProxy CajasConector as finished
+[2017.05.02-10.00.30:657][ 72]LogTemp:Display: Marking material as finished 0x000001E9E2E30400
+[2017.05.02-10.00.30:702][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E4338800
+[2017.05.02-10.00.30:702][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy StarMap_Nebula_1_Mat complete, GameThreadShaderMap 0x000001E9E4338800, marking material FDebugViewModeMaterialProxy StarMap_Nebula_1_Mat as finished
+[2017.05.02-10.00.30:702][ 72]LogTemp:Display: Marking material as finished 0x000001E9E2E31300
+[2017.05.02-10.00.30:834][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E433A780
+[2017.05.02-10.00.30:834][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy LuzMat complete, GameThreadShaderMap 0x000001E9E433A780, marking material FDebugViewModeMaterialProxy LuzMat as finished
+[2017.05.02-10.00.30:834][ 72]LogTemp:Display: Marking material as finished 0x000001E9E30CC400
+[2017.05.02-10.00.30:857][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E4540480
+[2017.05.02-10.00.30:857][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Steel_14 complete, GameThreadShaderMap 0x000001E9E4540480, marking material FDebugViewModeMaterialProxy Steel_14 as finished
+[2017.05.02-10.00.30:857][ 72]LogTemp:Display: Marking material as finished 0x000001E9E30CF100
+[2017.05.02-10.00.30:869][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E394EB00
+[2017.05.02-10.00.30:869][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Part_Iskra complete, GameThreadShaderMap 0x000001E9E394EB00, marking material FDebugViewModeMaterialProxy Part_Iskra as finished
+[2017.05.02-10.00.30:869][ 72]LogTemp:Display: Marking material as finished 0x000001E9E30CC100
+[2017.05.02-10.00.30:999][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E394FC80
+[2017.05.02-10.00.30:999][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy FX_engine2 complete, GameThreadShaderMap 0x000001E9E394FC80, marking material FDebugViewModeMaterialProxy FX_engine2 as finished
+[2017.05.02-10.00.30:999][ 72]LogTemp:Display: Marking material as finished 0x000001E9E315CD00
+[2017.05.02-10.00.31:011][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E394D600
+[2017.05.02-10.00.31:011][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Spark complete, GameThreadShaderMap 0x000001E9E394D600, marking material FDebugViewModeMaterialProxy M_Spark as finished
+[2017.05.02-10.00.31:011][ 72]LogTemp:Display: Marking material as finished 0x000001E9E315C100
+[2017.05.02-10.00.31:023][ 72]LogTemp:Display: Finished compile of shader map 0x000001E9E3A38800
+[2017.05.02-10.00.31:023][ 72]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Glass_clear complete, GameThreadShaderMap 0x000001E9E3A38800, marking material FDebugViewModeMaterialProxy Glass_clear as finished
+[2017.05.02-10.00.31:023][ 72]LogTemp:Display: Marking material as finished 0x000001E9E315C700
+[2017.05.02-10.00.31:025][ 72]TextureStreamingBuild:Display: Compiling optional shaders took 2.055 seconds.
+[2017.05.02-10.00.31:102][ 72]LogLevel:Display: Export Material TexCoord Scales took 0.077 seconds.
+[2017.05.02-10.00.31:142][ 72]TextureStreamingBuild:Display: Build Texture Streaming took 0.031 seconds.
+[2017.05.02-10.00.31:172][ 72]LightingResults: New page: Lighting Build - May 2, 2017, 2:00:31 PM
+[2017.05.02-10.00.31:338][ 72]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.02-10.00.31:521][ 72]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.02-10.00.31:535][ 72]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.02-10.00.32:562][ 72]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.02-10.00.32:562][ 72]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7536
+[2017.05.02-10.00.34:930][ 72]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.02-10.00.34:930][ 72]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.02-10.00.34:930][ 72]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.02-10.00.34:930][ 72]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.02-10.00.34:930][ 72]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.02-10.00.35:170][ 72]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.05.02-10.00.35:170][ 72]MapCheck: New page: Minimal_Default - May 2, 2017, 2:00:35 PM
+[2017.05.02-10.00.35:179][ 72]MapCheck:Warning: Warning cajasJuliyo_407 Static mesh actor has NULL StaticMesh property 
+[2017.05.02-10.00.35:179][ 72]MapCheck:Warning: Warning cajasJuliyo_407 Static mesh actor has NULL StaticMesh property 
+[2017.05.02-10.00.35:180][ 72]MapCheck:Warning: Warning SkyDomeFullSphere_399 Collision enabled but StaticMesh (SkyDomeFullSphere) has no simple or complex collision. 
+[2017.05.02-10.00.35:180][ 72]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.05.02-10.00.35:257][ 72]MapCheck: Info Map check complete: 1 Error(s), 3 Warning(s), took 86.72ms to complete.
+[2017.05.02-10.00.35:280][ 72]LogEditorBuildUtils: Build time 0:06
+[2017.05.02-10.01.19:619][828]LightingResults:Warning: Warning Camera1 Object has overlapping UVs.
+[2017.05.02-10.01.19:619][828]LightingResults: Info Camera1 Lightmap UV are overlapping by 48.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.02-10.01.21:948][835]LightingResults:Warning: Warning ventilation Object has overlapping UVs.
+[2017.05.02-10.01.21:948][835]LightingResults: Info ventilation Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.02-10.02.10:309][980]LightingResults:Warning: Warning planet Object has wrapping UVs.
+[2017.05.02-10.02.10:309][980]LightingResults:Warning: Warning planet Object has overlapping UVs.
+[2017.05.02-10.02.10:309][980]LightingResults: Info planet Lightmap UV are overlapping by 66.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.02-10.02.10:636][981]LightingResults:Warning: Warning planet Object has wrapping UVs.
+[2017.05.02-10.02.10:636][981]LightingResults:Warning: Warning planet Object has overlapping UVs.
+[2017.05.02-10.02.10:636][981]LightingResults: Info planet Lightmap UV are overlapping by 66.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.02-10.02.10:976][982]LightingResults:Warning: Warning planet Object has wrapping UVs.
+[2017.05.02-10.02.10:976][982]LightingResults:Warning: Warning planet Object has overlapping UVs.
+[2017.05.02-10.02.10:976][982]LightingResults: Info planet Lightmap UV are overlapping by 66.0%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.02-10.02.11:301][983]Job is a success!
+[2017.05.02-10.02.11:657][984]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 512X256) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 64X32) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64) - 616 MB total VRAM
+[2017.05.02-10.02.13:882][984]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64) - 616 MB total VRAM
+[2017.05.02-10.02.13:942][984]Lightmass on TONIMASTERRACE: 1:37 min total, 1.62 sec importing, 136 ms setup, 4.15 sec photons, 1:31 min processing, 0 ms extra exporting [147/147 mappings]. Threads: 6:06 min total, 4:25 min processing.
+[2017.05.02-10.02.13:968][984]LogStaticLightingSystem: Illumination: 1:42 min (1.83 sec encoding lightmaps, 8 ms encoding shadowmaps)
+[2017.05.02-10.02.13:968][984]LogStaticLightingSystem: Lightmap texture memory:  3.5 MB (3.5 MB streaming, 0.0 MB non-streaming), 8 textures
+[2017.05.02-10.02.13:968][984]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.05.02-10.02.14:940][984]DumpUnbuiltLightIteractions
+[2017.05.02-10.02.14:940][984]Lights with unbuilt interactions: 0
+[2017.05.02-10.02.14:940][984]
+[2017.05.02-10.02.14:940][984]Primitives with unbuilt interactions: 0
+[2017.05.02-10.02.14:958][985]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.02-10.02.14:959][985]MapCheck: New page: Minimal_Default - May 2, 2017, 2:02:14 PM
+[2017.05.02-10.02.15:068][985]MapCheck:Warning: Warning cajasJuliyo_407 Static mesh actor has NULL StaticMesh property 
+[2017.05.02-10.02.15:068][985]MapCheck:Warning: Warning cajasJuliyo_407 Static mesh actor has NULL StaticMesh property 
+[2017.05.02-10.02.15:069][985]MapCheck:Warning: Warning SkyDomeFullSphere_399 Collision enabled but StaticMesh (SkyDomeFullSphere) has no simple or complex collision. 
+[2017.05.02-10.02.15:151][985]MapCheck: Info Map check complete: 0 Error(s), 3 Warning(s), took 192.143ms to complete.
+[2017.05.02-10.08.08:232][338]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.02-10.08.08:252][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.02-10.08.08:252][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.02-10.08.08:252][338]PIE: New page: PIE session: Minimal_Default (May 2, 2017, 2:08:08 PM)
+[2017.05.02-10.08.08:252][338]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.02-10.08.08:292][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039391s)
+[2017.05.02-10.08.08:293][338]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.02-10.08.08:293][338]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2017.05.02-10.08.08:293][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.040314s)
+[2017.05.02-10.08.08:309][338]LogInit: XAudio2 using 'BenQ GL2250H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.02-10.08.08:318][338]LogInit: FAudioDevice initialized.
+[2017.05.02-10.08.08:424][338]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.02-10.08.08:436][338]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.02-12.08.08
+[2017.05.02-10.08.08:450][338]LogWorld: Bringing up level for play took: 0.018085
+[2017.05.02-10.08.08:476][338]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.05.02-10.08.08:492][338]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.261
+[2017.05.02-10.08.08:492][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.02-10.08.10:234][494]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.10:234][494]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.10:793][535]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.02-10.08.10:794][535]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2017.05.02-10.08.11:942][620]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.12:114][633]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.12:237][643]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.12:237][643]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.12:320][649]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.12:404][655]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.12:665][673]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.12:712][676]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.13:016][695]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.13:296][717]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.13:570][741]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.13:677][751]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.13:982][780]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.14:238][806]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.14:238][806]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.14:302][812]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.14:582][840]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.14:781][859]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.14:916][871]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.15:251][902]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.15:427][918]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.15:538][928]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.15:812][952]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.15:912][961]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.16:256][985]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.16:256][985]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.16:327][990]LogBlueprintUserMessages: [AICharacter_C_0] FirstPersonCharacter
+[2017.05.02-10.08.16:327][990]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.16:935][ 34]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.17:553][ 77]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.18:229][121]LogBlueprintUserMessages: [AICharacter_C_1] scene_valla_3
+[2017.05.02-10.08.18:258][123]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.18:258][123]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.20:262][264]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.20:263][264]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/FirstPersonBP/WeaponBP/WeaponBP.WeaponBP_C:ExecuteUbergraph_WeaponBP
+
+[2017.05.02-10.08.20:859][316]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.02-10.08.20:935][316]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.02-10.10.18:943][808]LogSavePackage: Save=407.18ms
+[2017.05.02-10.10.18:943][808]LogSavePackage: Moving '../../../../../../LastBulletVR/LastBullet/Saved/Minimal_Default_Auto1F305F243462A688D7B25BD9A3E93FB11.tmp' to '../../../../../../LastBulletVR/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.05.02-10.10.18:952][808]LogSavePackage:Display: Finished SavePackage ../../../../../../LastBulletVR/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.05.02-10.10.18:965][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.695
+[2017.05.02-10.10.18:965][808]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.695
+[2017.05.02-10.10.18:968][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Maps/Minimal_Default_BuiltData] ([1] browsable assets)...
+[2017.05.02-10.10.18:968][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Maps/Minimal_Default_BuiltData]
+[2017.05.02-10.10.19:053][808]LogSavePackage: Save=13.21ms
+[2017.05.02-10.10.19:053][808]LogSavePackage: Moving '../../../../../../LastBulletVR/LastBullet/Saved/Minimal_Default_BuiltData_Auto191A15BD54F33CFD810FC34BAE99F617A.tmp' to '../../../../../../LastBulletVR/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_BuiltData_Auto1.uasset'
+[2017.05.02-10.10.19:053][808]LogSavePackage:Display: Finished SavePackage ../../../../../../LastBulletVR/LastBullet/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_BuiltData_Auto1.uasset
+[2017.05.02-10.10.19:054][808]LogFileHelpers: Auto-saving content packages took 0.087
+[2017.05.02-10.14.57:955][837]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.02-10.14.58:156][837]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.05.02-10.14.59:385][837]LogSlate: Took 0.015869 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.02-10.14.59:992][838]LogSlate: Took 0.016467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.02-10.19.50:636][427]BlueprintLog: New page: Compile AICharacter
+[2017.05.02-10.19.50:912][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/AICharacter" FILE="../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset" SILENT=true
+[2017.05.02-10.19.50:991][427]LogSavePackage: Save=70.41ms
+[2017.05.02-10.19.50:991][427]LogSavePackage: Moving '../../../../../../LastBulletVR/LastBullet/Saved/AICharacterF1283AD54FF562D18D1F5AA2E3ECACD1.tmp' to '../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset'
+[2017.05.02-10.19.50:993][427]LogSavePackage:Display: Finished SavePackage ../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset
+[2017.05.02-10.19.51:468][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/AICharacter" FILE="../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset" SILENT=true
+[2017.05.02-10.19.51:507][457]LogSavePackage: Save=33.71ms
+[2017.05.02-10.19.51:507][457]LogSavePackage: Moving '../../../../../../LastBulletVR/LastBullet/Saved/AICharacterC6C9AB5940453C921B7F48984B2E6404.tmp' to '../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset'
+[2017.05.02-10.19.51:508][457]LogSavePackage:Display: Finished SavePackage ../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset
+[2017.05.02-10.20.53:777][220]LogRenderer: Reallocating scene render targets to support 1208x672 NumSamples 1 (Frame:15790).
+[2017.05.02-10.21.06:785][ 84]BlueprintLog: New page: Compile AICharacter
+[2017.05.02-10.21.10:005][237]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.02-10.21.10:303][237]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.02-10.21.10:496][237]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.02-10.22.43:572][746]BlueprintLog: New page: Compile AICharacter
+[2017.05.02-10.22.43:922][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/AICharacter" FILE="../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset" SILENT=true
+[2017.05.02-10.22.43:968][746]LogSavePackage: Save=41.05ms
+[2017.05.02-10.22.43:968][746]LogSavePackage: Moving '../../../../../../LastBulletVR/LastBullet/Saved/AICharacter6DA9D4F34FD338D48F49979C71782B77.tmp' to '../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset'
+[2017.05.02-10.22.43:970][746]LogSavePackage:Display: Finished SavePackage ../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset
+[2017.05.02-10.22.58:636][710]BlueprintLog: New page: Compile AICharacter
+[2017.05.02-10.22.58:786][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/IA/AICharacter" FILE="../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset" SILENT=true
+[2017.05.02-10.22.58:834][710]LogSavePackage: Save=43.59ms
+[2017.05.02-10.22.58:834][710]LogSavePackage: Moving '../../../../../../LastBulletVR/LastBullet/Saved/AICharacter46EF068F4AB1272EEFCF7C80EA0D8E15.tmp' to '../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset'
+[2017.05.02-10.22.58:836][710]LogSavePackage:Display: Finished SavePackage ../../../../../../LastBulletVR/LastBullet/Content/FirstPersonBP/IA/AICharacter.uasset
+[2017.05.02-10.23.35:270][235]LogEditorTransaction: Undo Rename Node
+[2017.05.02-10.23.35:323][235]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.02-10.23.36:794][331]LogEditorTransaction: Undo Add Node
+[2017.05.02-10.23.36:809][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.02-10.24.28:374][773]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2017.05.02-10.24.28:390][773]LogBlueprint:Warning: [Compiler ThirdPerson_AnimBP] Warning  Idle/Run to Firing  will never be taken, please connect something to  Can Enter Transition
+[2017.05.02-10.24.28:390][773]LogBlueprint:Warning: [Compiler ThirdPerson_AnimBP] Warning  Firing to Idle/Run  will never be taken, please connect something to  Can Enter Transition
+[2017.05.02-10.24.28:694][773]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.205 s
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: 
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 333]
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UEdGraphPin::BreakLinkTo Pin 'Entry' on node 'Default' not reciprocally linked with pin 'In' on node 'None'
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: Stack: 
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005E4395E6
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005E1E9B82
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005E1FB666
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005F148783
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005F1485C6
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005F1546F9
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005F14767F
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000007FB81BFB
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000007FB0E41F
+[2017.05.02-10.24.28:694][773]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000007FB0CC05
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000005CF96FDC
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000005A7F44FD
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-AnimationBlueprintEditor.dll!0x000000009D75EAC0
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000005A841941
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000005A8463E6
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F28819F
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F37B530
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F2EC7A2
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F2EDBA9
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F35B689
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F40CF25
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F43A4AE
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F26411C
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F2347F5
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F2D7193
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F2C1100
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000007F2B0211
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005E42CDF9
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005E4167C1
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005E42EA1C
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005E4126E9
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: USER32.dll!0x00000000A79B1C24
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: USER32.dll!0x00000000A79B156C
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005E42F326
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor.exe!0x00000000C0A9D790
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor.exe!0x00000000C0A8EB40
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor.exe!0x00000000C0A8EBBA
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor.exe!0x00000000C0AA0A29
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: UE4Editor.exe!0x00000000C0AA22B6
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: KERNEL32.DLL!0x00000000A98C8364
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: ntdll.dll!0x00000000AA4770D1
+[2017.05.02-10.24.28:695][773]LogOutputDevice:Error: 
+[2017.05.02-10.24.28:695][773]LogStats:                SubmitErrorReport -  0.000 s
