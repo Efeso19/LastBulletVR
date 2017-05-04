@@ -1,0 +1,1 @@
+../../../LastBullet/LastBullet.uproject  /Game/StarterContent/Maps/Minimal_Default -Messaging -SessionId=9337970749CB391DB6C34B9F8E228469 -SessionOwner="Toni" -SessionName="Launch On Device"
